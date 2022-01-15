@@ -246,12 +246,12 @@ namespace CoreWCF.Description
             mex.HttpGetBinding = _httpGetBinding;
             mex.HttpsGetBinding = _httpsGetBinding;
 
-            //UseRequestHeadersForMetadataAddressBehavior dynamicUpdateBehavior = description.Behaviors.Find<UseRequestHeadersForMetadataAddressBehavior>();
-            //if (dynamicUpdateBehavior != null)
-            //{
-            //    mex.UpdateAddressDynamically = true;
-            //    mex.UpdatePortsByScheme = new Dictionary<string, int>(dynamicUpdateBehavior.DefaultPortsByScheme);
-            //}
+            UseRequestHeadersForMetadataAddressBehavior dynamicUpdateBehavior = description.Behaviors.Find<UseRequestHeadersForMetadataAddressBehavior>();
+            if (dynamicUpdateBehavior != null)
+            {
+                mex.UpdateAddressDynamically = true;
+                mex.UpdatePortsByScheme = new ReadOnlyDictionary<string, int>(dynamicUpdateBehavior.DefaultPortsByScheme);
+            }
 
             foreach (ChannelDispatcherBase dispatcherBase in host.ChannelDispatchers)
             {

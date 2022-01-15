@@ -2,6 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 
 using System;
+using System.Collections.Generic;
 using CoreWCF.Description;
 
 namespace CoreWCF.Configuration
@@ -11,6 +12,8 @@ namespace CoreWCF.Configuration
         internal ServiceOptions() { }
 
         public ServiceDebugBehavior DebugBehavior { get; } = new ServiceDebugBehavior();
+
+        public ICollection<Uri> BaseAddresses { get; } = new List<Uri>();
     }
 
     internal class ServiceOptions<TService> : ServiceOptions where TService : class
@@ -38,6 +41,14 @@ namespace CoreWCF.Configuration
         {
             _serviceHost.Description.Behaviors.Remove<ServiceDebugBehavior>();
             _serviceHost.Description.Behaviors.Add(DebugBehavior);
+            if (BaseAddresses.Count > 0)
+            {
+                _serviceHost.InternalBaseAddresses.Clear();
+                foreach (Uri baseAddress in BaseAddresses)
+                {
+                    _serviceHost.InternalBaseAddresses.Add(baseAddress);
+                }
+            }
         }
 
         private void SetNoOptionsDelegateDefaults()
