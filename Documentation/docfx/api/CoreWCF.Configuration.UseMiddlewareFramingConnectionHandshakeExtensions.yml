@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions
+  commentId: T:CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions
+  id: UseMiddlewareFramingConnectionHandshakeExtensions
+  parent: CoreWCF.Configuration
+  children:
+  - CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,Type,System.Object[])
+  - CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware``1(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,System.Object[])
+  langs:
+  - csharp
+  - vb
+  name: UseMiddlewareFramingConnectionHandshakeExtensions
+  nameWithType: UseMiddlewareFramingConnectionHandshakeExtensions
+  fullName: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/UseMiddlewareFramingConnectionHandshakeExtensions.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: UseMiddlewareFramingConnectionHandshakeExtensions
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/UseMiddlewareFramingConnectionHandshakeExtensions.cs
+    startLine: 16
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Configuration
+  summary: "\nExtension methods for adding typed middleware to a <xref href=\"CoreWCF.Configuration.IFramingConnectionHandshakeBuilder\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: 'public static class UseMiddlewareFramingConnectionHandshakeExtensions : object'
+    content.vb: >-
+      Public Module UseMiddlewareFramingConnectionHandshakeExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware``1(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,System.Object[])
+  commentId: M:CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware``1(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,System.Object[])
+  id: UseMiddleware``1(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,System.Object[])
+  isExtensionMethod: true
+  parent: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions
+  langs:
+  - csharp
+  - vb
+  name: UseMiddleware<TMiddleware>(IFramingConnectionHandshakeBuilder, Object[])
+  nameWithType: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware<TMiddleware>(IFramingConnectionHandshakeBuilder, Object[])
+  fullName: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware<TMiddleware>(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/UseMiddlewareFramingConnectionHandshakeExtensions.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: UseMiddleware
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/UseMiddlewareFramingConnectionHandshakeExtensions.cs
+    startLine: 29
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Configuration
+  summary: "\nAdds a middleware type to the connection handshake pipeline.\n"
+  example: []
+  syntax:
+    content: public static IFramingConnectionHandshakeBuilder UseMiddleware<TMiddleware>(this IFramingConnectionHandshakeBuilder app, params object[] args)
+    parameters:
+    - id: app
+      type: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+      description: The <xref href="CoreWCF.Configuration.IFramingConnectionHandshakeBuilder" data-throw-if-not-resolved="false"></xref> instance.
+    - id: args
+      type: System.Object[]
+      description: The arguments to pass to the middleware type instance&apos;s constructor.
+    typeParameters:
+    - id: TMiddleware
+      description: The middleware type.
+    return:
+      type: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+      description: The <xref href="CoreWCF.Configuration.IFramingConnectionHandshakeBuilder" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UseMiddleware(Of TMiddleware)(app As IFramingConnectionHandshakeBuilder, ParamArray args As Object()) As IFramingConnectionHandshakeBuilder
+  overload: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware*
+  nameWithType.vb: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(Of TMiddleware)(IFramingConnectionHandshakeBuilder, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(Of TMiddleware)(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder, System.Object())
+  name.vb: UseMiddleware(Of TMiddleware)(IFramingConnectionHandshakeBuilder, Object())
+- uid: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,Type,System.Object[])
+  commentId: M:CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,Type,System.Object[])
+  id: UseMiddleware(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,Type,System.Object[])
+  isExtensionMethod: true
+  parent: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions
+  langs:
+  - csharp
+  - vb
+  name: UseMiddleware(IFramingConnectionHandshakeBuilder, Type, Object[])
+  nameWithType: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(IFramingConnectionHandshakeBuilder, Type, Object[])
+  fullName: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder, Type, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/UseMiddlewareFramingConnectionHandshakeExtensions.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: UseMiddleware
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/UseMiddlewareFramingConnectionHandshakeExtensions.cs
+    startLine: 41
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Configuration
+  summary: "\nAdds a middleware type to the connection handshake pipeline.\n"
+  example: []
+  syntax:
+    content: public static IFramingConnectionHandshakeBuilder UseMiddleware(this IFramingConnectionHandshakeBuilder app, Type middleware, params object[] args)
+    parameters:
+    - id: app
+      type: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+      description: The <xref href="CoreWCF.Configuration.IFramingConnectionHandshakeBuilder" data-throw-if-not-resolved="false"></xref> instance.
+    - id: middleware
+      type: Type
+      description: The middleware type.
+    - id: args
+      type: System.Object[]
+      description: The arguments to pass to the middleware type instance&apos;s constructor.
+    return:
+      type: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+      description: The <xref href="CoreWCF.Configuration.IFramingConnectionHandshakeBuilder" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UseMiddleware(app As IFramingConnectionHandshakeBuilder, middleware As Type, ParamArray args As Object()) As IFramingConnectionHandshakeBuilder
+  overload: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware*
+  nameWithType.vb: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(IFramingConnectionHandshakeBuilder, Type, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder, Type, System.Object())
+  name.vb: UseMiddleware(IFramingConnectionHandshakeBuilder, Type, Object())
+references:
+- uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  commentId: T:CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  parent: CoreWCF.Configuration
+  name: IFramingConnectionHandshakeBuilder
+  nameWithType: IFramingConnectionHandshakeBuilder
+  fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware*
+  commentId: Overload:CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware
+  name: UseMiddleware
+  nameWithType: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware
+  fullName: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Type
+  commentId: '!:Type'
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: Type

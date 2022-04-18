@@ -1,0 +1,484 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  id: CoreWCF.Configuration
+  children:
+  - CoreWCF.Configuration.BasicHttpBindingCollectionElement
+  - CoreWCF.Configuration.BasicHttpBindingElement
+  - CoreWCF.Configuration.BasicHttpMessageSecurityElement
+  - CoreWCF.Configuration.BasicHttpSecurityElement
+  - CoreWCF.Configuration.BindingCollectionElement
+  - CoreWCF.Configuration.BindingNotFoundException
+  - CoreWCF.Configuration.BindingsSection
+  - CoreWCF.Configuration.ConfigurationManagerExtensions
+  - CoreWCF.Configuration.FramingConnectionHandshakeBuilder
+  - CoreWCF.Configuration.HandshakeDelegate
+  - CoreWCF.Configuration.HttpBindingBaseElement
+  - CoreWCF.Configuration.HttpTransportSecurityElement
+  - CoreWCF.Configuration.IBindingFactory
+  - CoreWCF.Configuration.IConfigurationHolder
+  - CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  - CoreWCF.Configuration.MapExtensions
+  - CoreWCF.Configuration.MapMiddleware
+  - CoreWCF.Configuration.MapOptions
+  - CoreWCF.Configuration.MessageSecurityOverHttpElement
+  - CoreWCF.Configuration.MessageSecurityOverTcpElement
+  - CoreWCF.Configuration.NetHttpBindingCollectionElement
+  - CoreWCF.Configuration.NetHttpBindingElement
+  - CoreWCF.Configuration.NetHttpWebSocketTransportSettingsElement
+  - CoreWCF.Configuration.NetTcpBindingCollectionElement
+  - CoreWCF.Configuration.NetTcpBindingElement
+  - CoreWCF.Configuration.NetTcpSecurityElement
+  - CoreWCF.Configuration.NonDualMessageSecurityOverHttpElement
+  - CoreWCF.Configuration.ServiceElement
+  - CoreWCF.Configuration.ServiceElementCollection
+  - CoreWCF.Configuration.ServiceEndpoint
+  - CoreWCF.Configuration.ServiceEndpointElement
+  - CoreWCF.Configuration.ServiceEndpointElementCollection
+  - CoreWCF.Configuration.ServiceModelConfigurationElement
+  - CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1
+  - CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection`1
+  - CoreWCF.Configuration.ServiceModelSectionGroup
+  - CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions
+  - CoreWCF.Configuration.ServicesSection
+  - CoreWCF.Configuration.StandardBindingCollectionElement`2
+  - CoreWCF.Configuration.StandardBindingElement
+  - CoreWCF.Configuration.StandardBindingElementCollection`1
+  - CoreWCF.Configuration.TcpTransportSecurityElement
+  - CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions
+  - CoreWCF.Configuration.WSHttpBindingBaseElement
+  - CoreWCF.Configuration.WSHttpBindingCollectionElement
+  - CoreWCF.Configuration.WSHttpBindingElement
+  - CoreWCF.Configuration.WSHttpSecurityElement
+  - CoreWCF.Configuration.WSHttpTransportSecurityElement
+  - CoreWCF.Configuration.XmlDictionaryReaderQuotasElement
+  langs:
+  - csharp
+  - vb
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+  type: Namespace
+  assemblies:
+  - CoreWCF.NetTcp
+references:
+- uid: CoreWCF.Configuration.FramingConnectionHandshakeBuilder
+  commentId: T:CoreWCF.Configuration.FramingConnectionHandshakeBuilder
+  parent: CoreWCF.Configuration
+  name: FramingConnectionHandshakeBuilder
+  nameWithType: FramingConnectionHandshakeBuilder
+  fullName: CoreWCF.Configuration.FramingConnectionHandshakeBuilder
+- uid: CoreWCF.Configuration.HandshakeDelegate
+  commentId: T:CoreWCF.Configuration.HandshakeDelegate
+  parent: CoreWCF.Configuration
+  name: HandshakeDelegate
+  nameWithType: HandshakeDelegate
+  fullName: CoreWCF.Configuration.HandshakeDelegate
+- uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  commentId: T:CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  parent: CoreWCF.Configuration
+  name: IFramingConnectionHandshakeBuilder
+  nameWithType: IFramingConnectionHandshakeBuilder
+  fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+- uid: CoreWCF.Configuration.MapExtensions
+  commentId: T:CoreWCF.Configuration.MapExtensions
+  parent: CoreWCF.Configuration
+  name: MapExtensions
+  nameWithType: MapExtensions
+  fullName: CoreWCF.Configuration.MapExtensions
+- uid: CoreWCF.Configuration.MapMiddleware
+  commentId: T:CoreWCF.Configuration.MapMiddleware
+  name: MapMiddleware
+  nameWithType: MapMiddleware
+  fullName: CoreWCF.Configuration.MapMiddleware
+- uid: CoreWCF.Configuration.MapOptions
+  commentId: T:CoreWCF.Configuration.MapOptions
+  parent: CoreWCF.Configuration
+  name: MapOptions
+  nameWithType: MapOptions
+  fullName: CoreWCF.Configuration.MapOptions
+- uid: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions
+  commentId: T:CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions
+  name: ServiceModelWebHostBuilderExtensions
+  nameWithType: ServiceModelWebHostBuilderExtensions
+  fullName: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions
+- uid: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions
+  commentId: T:CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions
+  parent: CoreWCF.Configuration
+  name: UseMiddlewareFramingConnectionHandshakeExtensions
+  nameWithType: UseMiddlewareFramingConnectionHandshakeExtensions
+  fullName: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions
+- uid: CoreWCF.Configuration.BasicHttpBindingCollectionElement
+  commentId: T:CoreWCF.Configuration.BasicHttpBindingCollectionElement
+  parent: CoreWCF.Configuration
+  name: BasicHttpBindingCollectionElement
+  nameWithType: BasicHttpBindingCollectionElement
+  fullName: CoreWCF.Configuration.BasicHttpBindingCollectionElement
+- uid: CoreWCF.Configuration.BasicHttpBindingElement
+  commentId: T:CoreWCF.Configuration.BasicHttpBindingElement
+  name: BasicHttpBindingElement
+  nameWithType: BasicHttpBindingElement
+  fullName: CoreWCF.Configuration.BasicHttpBindingElement
+- uid: CoreWCF.Configuration.BasicHttpMessageSecurityElement
+  commentId: T:CoreWCF.Configuration.BasicHttpMessageSecurityElement
+  parent: CoreWCF.Configuration
+  name: BasicHttpMessageSecurityElement
+  nameWithType: BasicHttpMessageSecurityElement
+  fullName: CoreWCF.Configuration.BasicHttpMessageSecurityElement
+- uid: CoreWCF.Configuration.BasicHttpSecurityElement
+  commentId: T:CoreWCF.Configuration.BasicHttpSecurityElement
+  parent: CoreWCF.Configuration
+  name: BasicHttpSecurityElement
+  nameWithType: BasicHttpSecurityElement
+  fullName: CoreWCF.Configuration.BasicHttpSecurityElement
+- uid: CoreWCF.Configuration.BindingCollectionElement
+  commentId: T:CoreWCF.Configuration.BindingCollectionElement
+  parent: CoreWCF.Configuration
+  name: BindingCollectionElement
+  nameWithType: BindingCollectionElement
+  fullName: CoreWCF.Configuration.BindingCollectionElement
+- uid: CoreWCF.Configuration.BindingNotFoundException
+  commentId: T:CoreWCF.Configuration.BindingNotFoundException
+  name: BindingNotFoundException
+  nameWithType: BindingNotFoundException
+  fullName: CoreWCF.Configuration.BindingNotFoundException
+- uid: CoreWCF.Configuration.BindingsSection
+  commentId: T:CoreWCF.Configuration.BindingsSection
+  parent: CoreWCF.Configuration
+  name: BindingsSection
+  nameWithType: BindingsSection
+  fullName: CoreWCF.Configuration.BindingsSection
+- uid: CoreWCF.Configuration.ConfigurationManagerExtensions
+  commentId: T:CoreWCF.Configuration.ConfigurationManagerExtensions
+  name: ConfigurationManagerExtensions
+  nameWithType: ConfigurationManagerExtensions
+  fullName: CoreWCF.Configuration.ConfigurationManagerExtensions
+- uid: CoreWCF.Configuration.HttpBindingBaseElement
+  commentId: T:CoreWCF.Configuration.HttpBindingBaseElement
+  parent: CoreWCF.Configuration
+  name: HttpBindingBaseElement
+  nameWithType: HttpBindingBaseElement
+  fullName: CoreWCF.Configuration.HttpBindingBaseElement
+- uid: CoreWCF.Configuration.HttpTransportSecurityElement
+  commentId: T:CoreWCF.Configuration.HttpTransportSecurityElement
+  parent: CoreWCF.Configuration
+  name: HttpTransportSecurityElement
+  nameWithType: HttpTransportSecurityElement
+  fullName: CoreWCF.Configuration.HttpTransportSecurityElement
+- uid: CoreWCF.Configuration.IBindingFactory
+  commentId: T:CoreWCF.Configuration.IBindingFactory
+  name: IBindingFactory
+  nameWithType: IBindingFactory
+  fullName: CoreWCF.Configuration.IBindingFactory
+- uid: CoreWCF.Configuration.IConfigurationHolder
+  commentId: T:CoreWCF.Configuration.IConfigurationHolder
+  name: IConfigurationHolder
+  nameWithType: IConfigurationHolder
+  fullName: CoreWCF.Configuration.IConfigurationHolder
+- uid: CoreWCF.Configuration.MessageSecurityOverHttpElement
+  commentId: T:CoreWCF.Configuration.MessageSecurityOverHttpElement
+  parent: CoreWCF.Configuration
+  name: MessageSecurityOverHttpElement
+  nameWithType: MessageSecurityOverHttpElement
+  fullName: CoreWCF.Configuration.MessageSecurityOverHttpElement
+- uid: CoreWCF.Configuration.MessageSecurityOverTcpElement
+  commentId: T:CoreWCF.Configuration.MessageSecurityOverTcpElement
+  parent: CoreWCF.Configuration
+  name: MessageSecurityOverTcpElement
+  nameWithType: MessageSecurityOverTcpElement
+  fullName: CoreWCF.Configuration.MessageSecurityOverTcpElement
+- uid: CoreWCF.Configuration.NetHttpBindingCollectionElement
+  commentId: T:CoreWCF.Configuration.NetHttpBindingCollectionElement
+  parent: CoreWCF.Configuration
+  name: NetHttpBindingCollectionElement
+  nameWithType: NetHttpBindingCollectionElement
+  fullName: CoreWCF.Configuration.NetHttpBindingCollectionElement
+- uid: CoreWCF.Configuration.NetHttpBindingElement
+  commentId: T:CoreWCF.Configuration.NetHttpBindingElement
+  name: NetHttpBindingElement
+  nameWithType: NetHttpBindingElement
+  fullName: CoreWCF.Configuration.NetHttpBindingElement
+- uid: CoreWCF.Configuration.NetHttpWebSocketTransportSettingsElement
+  commentId: T:CoreWCF.Configuration.NetHttpWebSocketTransportSettingsElement
+  parent: CoreWCF.Configuration
+  name: NetHttpWebSocketTransportSettingsElement
+  nameWithType: NetHttpWebSocketTransportSettingsElement
+  fullName: CoreWCF.Configuration.NetHttpWebSocketTransportSettingsElement
+- uid: CoreWCF.Configuration.NetTcpBindingCollectionElement
+  commentId: T:CoreWCF.Configuration.NetTcpBindingCollectionElement
+  parent: CoreWCF.Configuration
+  name: NetTcpBindingCollectionElement
+  nameWithType: NetTcpBindingCollectionElement
+  fullName: CoreWCF.Configuration.NetTcpBindingCollectionElement
+- uid: CoreWCF.Configuration.NetTcpBindingElement
+  commentId: T:CoreWCF.Configuration.NetTcpBindingElement
+  name: NetTcpBindingElement
+  nameWithType: NetTcpBindingElement
+  fullName: CoreWCF.Configuration.NetTcpBindingElement
+- uid: CoreWCF.Configuration.NetTcpSecurityElement
+  commentId: T:CoreWCF.Configuration.NetTcpSecurityElement
+  parent: CoreWCF.Configuration
+  name: NetTcpSecurityElement
+  nameWithType: NetTcpSecurityElement
+  fullName: CoreWCF.Configuration.NetTcpSecurityElement
+- uid: CoreWCF.Configuration.NonDualMessageSecurityOverHttpElement
+  commentId: T:CoreWCF.Configuration.NonDualMessageSecurityOverHttpElement
+  parent: CoreWCF.Configuration
+  name: NonDualMessageSecurityOverHttpElement
+  nameWithType: NonDualMessageSecurityOverHttpElement
+  fullName: CoreWCF.Configuration.NonDualMessageSecurityOverHttpElement
+- uid: CoreWCF.Configuration.ServiceElement
+  commentId: T:CoreWCF.Configuration.ServiceElement
+  name: ServiceElement
+  nameWithType: ServiceElement
+  fullName: CoreWCF.Configuration.ServiceElement
+- uid: CoreWCF.Configuration.ServiceElementCollection
+  commentId: T:CoreWCF.Configuration.ServiceElementCollection
+  parent: CoreWCF.Configuration
+  name: ServiceElementCollection
+  nameWithType: ServiceElementCollection
+  fullName: CoreWCF.Configuration.ServiceElementCollection
+- uid: CoreWCF.Configuration.ServiceEndpoint
+  commentId: T:CoreWCF.Configuration.ServiceEndpoint
+  parent: CoreWCF.Configuration
+  name: ServiceEndpoint
+  nameWithType: ServiceEndpoint
+  fullName: CoreWCF.Configuration.ServiceEndpoint
+- uid: CoreWCF.Configuration.ServiceEndpointElement
+  commentId: T:CoreWCF.Configuration.ServiceEndpointElement
+  name: ServiceEndpointElement
+  nameWithType: ServiceEndpointElement
+  fullName: CoreWCF.Configuration.ServiceEndpointElement
+- uid: CoreWCF.Configuration.ServiceEndpointElementCollection
+  commentId: T:CoreWCF.Configuration.ServiceEndpointElementCollection
+  parent: CoreWCF.Configuration
+  name: ServiceEndpointElementCollection
+  nameWithType: ServiceEndpointElementCollection
+  fullName: CoreWCF.Configuration.ServiceEndpointElementCollection
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElement
+  commentId: T:CoreWCF.Configuration.ServiceModelConfigurationElement
+  parent: CoreWCF.Configuration
+  name: ServiceModelConfigurationElement
+  nameWithType: ServiceModelConfigurationElement
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElement
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1
+  commentId: T:CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1
+  name: ServiceModelConfigurationElementCollection<ConfigurationElementType>
+  nameWithType: ServiceModelConfigurationElementCollection<ConfigurationElementType>
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElementCollection<ConfigurationElementType>
+  nameWithType.vb: ServiceModelConfigurationElementCollection(Of ConfigurationElementType)
+  fullName.vb: CoreWCF.Configuration.ServiceModelConfigurationElementCollection(Of ConfigurationElementType)
+  name.vb: ServiceModelConfigurationElementCollection(Of ConfigurationElementType)
+  spec.csharp:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1
+    name: ServiceModelConfigurationElementCollection
+    nameWithType: ServiceModelConfigurationElementCollection
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElementCollection
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ConfigurationElementType
+    nameWithType: ConfigurationElementType
+    fullName: ConfigurationElementType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1
+    name: ServiceModelConfigurationElementCollection
+    nameWithType: ServiceModelConfigurationElementCollection
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElementCollection
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ConfigurationElementType
+    nameWithType: ConfigurationElementType
+    fullName: ConfigurationElementType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection`1
+  commentId: T:CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection`1
+  name: ServiceModelEnhancedConfigurationElementCollection<TConfigurationElement>
+  nameWithType: ServiceModelEnhancedConfigurationElementCollection<TConfigurationElement>
+  fullName: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection<TConfigurationElement>
+  nameWithType.vb: ServiceModelEnhancedConfigurationElementCollection(Of TConfigurationElement)
+  fullName.vb: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection(Of TConfigurationElement)
+  name.vb: ServiceModelEnhancedConfigurationElementCollection(Of TConfigurationElement)
+  spec.csharp:
+  - uid: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection`1
+    name: ServiceModelEnhancedConfigurationElementCollection
+    nameWithType: ServiceModelEnhancedConfigurationElementCollection
+    fullName: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TConfigurationElement
+    nameWithType: TConfigurationElement
+    fullName: TConfigurationElement
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection`1
+    name: ServiceModelEnhancedConfigurationElementCollection
+    nameWithType: ServiceModelEnhancedConfigurationElementCollection
+    fullName: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TConfigurationElement
+    nameWithType: TConfigurationElement
+    fullName: TConfigurationElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.ServiceModelSectionGroup
+  commentId: T:CoreWCF.Configuration.ServiceModelSectionGroup
+  parent: CoreWCF.Configuration
+  name: ServiceModelSectionGroup
+  nameWithType: ServiceModelSectionGroup
+  fullName: CoreWCF.Configuration.ServiceModelSectionGroup
+- uid: CoreWCF.Configuration.ServicesSection
+  commentId: T:CoreWCF.Configuration.ServicesSection
+  parent: CoreWCF.Configuration
+  name: ServicesSection
+  nameWithType: ServicesSection
+  fullName: CoreWCF.Configuration.ServicesSection
+- uid: CoreWCF.Configuration.StandardBindingCollectionElement`2
+  commentId: T:CoreWCF.Configuration.StandardBindingCollectionElement`2
+  name: StandardBindingCollectionElement<TStandardBinding, TBindingConfiguration>
+  nameWithType: StandardBindingCollectionElement<TStandardBinding, TBindingConfiguration>
+  fullName: CoreWCF.Configuration.StandardBindingCollectionElement<TStandardBinding, TBindingConfiguration>
+  nameWithType.vb: StandardBindingCollectionElement(Of TStandardBinding, TBindingConfiguration)
+  fullName.vb: CoreWCF.Configuration.StandardBindingCollectionElement(Of TStandardBinding, TBindingConfiguration)
+  name.vb: StandardBindingCollectionElement(Of TStandardBinding, TBindingConfiguration)
+  spec.csharp:
+  - uid: CoreWCF.Configuration.StandardBindingCollectionElement`2
+    name: StandardBindingCollectionElement
+    nameWithType: StandardBindingCollectionElement
+    fullName: CoreWCF.Configuration.StandardBindingCollectionElement
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TStandardBinding
+    nameWithType: TStandardBinding
+    fullName: TStandardBinding
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TBindingConfiguration
+    nameWithType: TBindingConfiguration
+    fullName: TBindingConfiguration
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CoreWCF.Configuration.StandardBindingCollectionElement`2
+    name: StandardBindingCollectionElement
+    nameWithType: StandardBindingCollectionElement
+    fullName: CoreWCF.Configuration.StandardBindingCollectionElement
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TStandardBinding
+    nameWithType: TStandardBinding
+    fullName: TStandardBinding
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TBindingConfiguration
+    nameWithType: TBindingConfiguration
+    fullName: TBindingConfiguration
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.StandardBindingElement
+  commentId: T:CoreWCF.Configuration.StandardBindingElement
+  parent: CoreWCF.Configuration
+  name: StandardBindingElement
+  nameWithType: StandardBindingElement
+  fullName: CoreWCF.Configuration.StandardBindingElement
+- uid: CoreWCF.Configuration.StandardBindingElementCollection`1
+  commentId: T:CoreWCF.Configuration.StandardBindingElementCollection`1
+  name: StandardBindingElementCollection<TBindingConfiguration>
+  nameWithType: StandardBindingElementCollection<TBindingConfiguration>
+  fullName: CoreWCF.Configuration.StandardBindingElementCollection<TBindingConfiguration>
+  nameWithType.vb: StandardBindingElementCollection(Of TBindingConfiguration)
+  fullName.vb: CoreWCF.Configuration.StandardBindingElementCollection(Of TBindingConfiguration)
+  name.vb: StandardBindingElementCollection(Of TBindingConfiguration)
+  spec.csharp:
+  - uid: CoreWCF.Configuration.StandardBindingElementCollection`1
+    name: StandardBindingElementCollection
+    nameWithType: StandardBindingElementCollection
+    fullName: CoreWCF.Configuration.StandardBindingElementCollection
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBindingConfiguration
+    nameWithType: TBindingConfiguration
+    fullName: TBindingConfiguration
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CoreWCF.Configuration.StandardBindingElementCollection`1
+    name: StandardBindingElementCollection
+    nameWithType: StandardBindingElementCollection
+    fullName: CoreWCF.Configuration.StandardBindingElementCollection
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBindingConfiguration
+    nameWithType: TBindingConfiguration
+    fullName: TBindingConfiguration
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.TcpTransportSecurityElement
+  commentId: T:CoreWCF.Configuration.TcpTransportSecurityElement
+  parent: CoreWCF.Configuration
+  name: TcpTransportSecurityElement
+  nameWithType: TcpTransportSecurityElement
+  fullName: CoreWCF.Configuration.TcpTransportSecurityElement
+- uid: CoreWCF.Configuration.WSHttpBindingBaseElement
+  commentId: T:CoreWCF.Configuration.WSHttpBindingBaseElement
+  parent: CoreWCF.Configuration
+  name: WSHttpBindingBaseElement
+  nameWithType: WSHttpBindingBaseElement
+  fullName: CoreWCF.Configuration.WSHttpBindingBaseElement
+- uid: CoreWCF.Configuration.WSHttpBindingCollectionElement
+  commentId: T:CoreWCF.Configuration.WSHttpBindingCollectionElement
+  parent: CoreWCF.Configuration
+  name: WSHttpBindingCollectionElement
+  nameWithType: WSHttpBindingCollectionElement
+  fullName: CoreWCF.Configuration.WSHttpBindingCollectionElement
+- uid: CoreWCF.Configuration.WSHttpBindingElement
+  commentId: T:CoreWCF.Configuration.WSHttpBindingElement
+  name: WSHttpBindingElement
+  nameWithType: WSHttpBindingElement
+  fullName: CoreWCF.Configuration.WSHttpBindingElement
+- uid: CoreWCF.Configuration.WSHttpSecurityElement
+  commentId: T:CoreWCF.Configuration.WSHttpSecurityElement
+  parent: CoreWCF.Configuration
+  name: WSHttpSecurityElement
+  nameWithType: WSHttpSecurityElement
+  fullName: CoreWCF.Configuration.WSHttpSecurityElement
+- uid: CoreWCF.Configuration.WSHttpTransportSecurityElement
+  commentId: T:CoreWCF.Configuration.WSHttpTransportSecurityElement
+  parent: CoreWCF.Configuration
+  name: WSHttpTransportSecurityElement
+  nameWithType: WSHttpTransportSecurityElement
+  fullName: CoreWCF.Configuration.WSHttpTransportSecurityElement
+- uid: CoreWCF.Configuration.XmlDictionaryReaderQuotasElement
+  commentId: T:CoreWCF.Configuration.XmlDictionaryReaderQuotasElement
+  parent: CoreWCF.Configuration
+  name: XmlDictionaryReaderQuotasElement
+  nameWithType: XmlDictionaryReaderQuotasElement
+  fullName: CoreWCF.Configuration.XmlDictionaryReaderQuotasElement
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration

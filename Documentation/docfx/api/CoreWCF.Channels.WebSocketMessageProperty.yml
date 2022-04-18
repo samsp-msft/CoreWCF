@@ -1,0 +1,422 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Channels.WebSocketMessageProperty
+  commentId: T:CoreWCF.Channels.WebSocketMessageProperty
+  id: WebSocketMessageProperty
+  parent: CoreWCF.Channels
+  children:
+  - CoreWCF.Channels.WebSocketMessageProperty.#ctor
+  - CoreWCF.Channels.WebSocketMessageProperty.MessageType
+  - CoreWCF.Channels.WebSocketMessageProperty.Name
+  - CoreWCF.Channels.WebSocketMessageProperty.OpeningHandshakeProperties
+  - CoreWCF.Channels.WebSocketMessageProperty.SubProtocol
+  - CoreWCF.Channels.WebSocketMessageProperty.WebSocketContext
+  langs:
+  - csharp
+  - vb
+  name: WebSocketMessageProperty
+  nameWithType: WebSocketMessageProperty
+  fullName: CoreWCF.Channels.WebSocketMessageProperty
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketMessageProperty.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: WebSocketMessageProperty
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketMessageProperty.cs
+    startLine: 11
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: 'public sealed class WebSocketMessageProperty : object'
+    content.vb: >-
+      Public NotInheritable Class WebSocketMessageProperty
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: CoreWCF.Channels.WebSocketMessageProperty.Name
+  commentId: F:CoreWCF.Channels.WebSocketMessageProperty.Name
+  id: Name
+  parent: CoreWCF.Channels.WebSocketMessageProperty
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: WebSocketMessageProperty.Name
+  fullName: CoreWCF.Channels.WebSocketMessageProperty.Name
+  type: Field
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketMessageProperty.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Name
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketMessageProperty.cs
+    startLine: 13
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public const string Name = null
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CoreWCF.Channels.WebSocketMessageProperty.#ctor
+  commentId: M:CoreWCF.Channels.WebSocketMessageProperty.#ctor
+  id: '#ctor'
+  parent: CoreWCF.Channels.WebSocketMessageProperty
+  langs:
+  - csharp
+  - vb
+  name: WebSocketMessageProperty()
+  nameWithType: WebSocketMessageProperty.WebSocketMessageProperty()
+  fullName: CoreWCF.Channels.WebSocketMessageProperty.WebSocketMessageProperty()
+  type: Constructor
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketMessageProperty.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: .ctor
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketMessageProperty.cs
+    startLine: 20
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nInitializes a new instance of the WebSocketMessageProperty class.\n"
+  remarks: 'Defaults: WebSocketMessageType.Binary'
+  example: []
+  syntax:
+    content: public WebSocketMessageProperty()
+    content.vb: Public Sub New
+  overload: CoreWCF.Channels.WebSocketMessageProperty.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.WebSocketMessageProperty.WebSocketContext
+  commentId: P:CoreWCF.Channels.WebSocketMessageProperty.WebSocketContext
+  id: WebSocketContext
+  parent: CoreWCF.Channels.WebSocketMessageProperty
+  langs:
+  - csharp
+  - vb
+  name: WebSocketContext
+  nameWithType: WebSocketMessageProperty.WebSocketContext
+  fullName: CoreWCF.Channels.WebSocketMessageProperty.WebSocketContext
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketMessageProperty.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: WebSocketContext
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketMessageProperty.cs
+    startLine: 36
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nGets the web socket context.\n"
+  example: []
+  syntax:
+    content: public WebSocketContext WebSocketContext { get; }
+    parameters: []
+    return:
+      type: WebSocketContext
+    content.vb: Public ReadOnly Property WebSocketContext As WebSocketContext
+  overload: CoreWCF.Channels.WebSocketMessageProperty.WebSocketContext*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CoreWCF.Channels.WebSocketMessageProperty.SubProtocol
+  commentId: P:CoreWCF.Channels.WebSocketMessageProperty.SubProtocol
+  id: SubProtocol
+  parent: CoreWCF.Channels.WebSocketMessageProperty
+  langs:
+  - csharp
+  - vb
+  name: SubProtocol
+  nameWithType: WebSocketMessageProperty.SubProtocol
+  fullName: CoreWCF.Channels.WebSocketMessageProperty.SubProtocol
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketMessageProperty.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: SubProtocol
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketMessageProperty.cs
+    startLine: 41
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nGets the sub-protocol.\n"
+  example: []
+  syntax:
+    content: public string SubProtocol { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property SubProtocol As String
+  overload: CoreWCF.Channels.WebSocketMessageProperty.SubProtocol*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CoreWCF.Channels.WebSocketMessageProperty.MessageType
+  commentId: P:CoreWCF.Channels.WebSocketMessageProperty.MessageType
+  id: MessageType
+  parent: CoreWCF.Channels.WebSocketMessageProperty
+  langs:
+  - csharp
+  - vb
+  name: MessageType
+  nameWithType: WebSocketMessageProperty.MessageType
+  fullName: CoreWCF.Channels.WebSocketMessageProperty.MessageType
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketMessageProperty.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: MessageType
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketMessageProperty.cs
+    startLine: 46
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nGets or sets the type of the message. The default is WebSocketMessageType.Binary.\n"
+  example: []
+  syntax:
+    content: public WebSocketMessageType MessageType { get; set; }
+    parameters: []
+    return:
+      type: WebSocketMessageType
+    content.vb: Public Property MessageType As WebSocketMessageType
+  overload: CoreWCF.Channels.WebSocketMessageProperty.MessageType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.WebSocketMessageProperty.OpeningHandshakeProperties
+  commentId: P:CoreWCF.Channels.WebSocketMessageProperty.OpeningHandshakeProperties
+  id: OpeningHandshakeProperties
+  parent: CoreWCF.Channels.WebSocketMessageProperty
+  langs:
+  - csharp
+  - vb
+  name: OpeningHandshakeProperties
+  nameWithType: WebSocketMessageProperty.OpeningHandshakeProperties
+  fullName: CoreWCF.Channels.WebSocketMessageProperty.OpeningHandshakeProperties
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketMessageProperty.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: OpeningHandshakeProperties
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketMessageProperty.cs
+    startLine: 48
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public ReadOnlyDictionary<string, object> OpeningHandshakeProperties { get; }
+    parameters: []
+    return:
+      type: ReadOnlyDictionary{System.String,System.Object}
+    content.vb: Public ReadOnly Property OpeningHandshakeProperties As ReadOnlyDictionary(Of String, Object)
+  overload: CoreWCF.Channels.WebSocketMessageProperty.OpeningHandshakeProperties*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: CoreWCF.Channels
+  commentId: N:CoreWCF.Channels
+  name: CoreWCF.Channels
+  nameWithType: CoreWCF.Channels
+  fullName: CoreWCF.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CoreWCF.Channels.WebSocketMessageProperty.#ctor*
+  commentId: Overload:CoreWCF.Channels.WebSocketMessageProperty.#ctor
+  name: WebSocketMessageProperty
+  nameWithType: WebSocketMessageProperty.WebSocketMessageProperty
+  fullName: CoreWCF.Channels.WebSocketMessageProperty.WebSocketMessageProperty
+- uid: CoreWCF.Channels.WebSocketMessageProperty.WebSocketContext*
+  commentId: Overload:CoreWCF.Channels.WebSocketMessageProperty.WebSocketContext
+  name: WebSocketContext
+  nameWithType: WebSocketMessageProperty.WebSocketContext
+  fullName: CoreWCF.Channels.WebSocketMessageProperty.WebSocketContext
+- uid: WebSocketContext
+  commentId: '!:WebSocketContext'
+  isExternal: true
+  name: WebSocketContext
+  nameWithType: WebSocketContext
+  fullName: WebSocketContext
+- uid: CoreWCF.Channels.WebSocketMessageProperty.SubProtocol*
+  commentId: Overload:CoreWCF.Channels.WebSocketMessageProperty.SubProtocol
+  name: SubProtocol
+  nameWithType: WebSocketMessageProperty.SubProtocol
+  fullName: CoreWCF.Channels.WebSocketMessageProperty.SubProtocol
+- uid: CoreWCF.Channels.WebSocketMessageProperty.MessageType*
+  commentId: Overload:CoreWCF.Channels.WebSocketMessageProperty.MessageType
+  name: MessageType
+  nameWithType: WebSocketMessageProperty.MessageType
+  fullName: CoreWCF.Channels.WebSocketMessageProperty.MessageType
+- uid: WebSocketMessageType
+  commentId: '!:WebSocketMessageType'
+  isExternal: true
+  name: WebSocketMessageType
+  nameWithType: WebSocketMessageType
+  fullName: WebSocketMessageType
+- uid: CoreWCF.Channels.WebSocketMessageProperty.OpeningHandshakeProperties*
+  commentId: Overload:CoreWCF.Channels.WebSocketMessageProperty.OpeningHandshakeProperties
+  name: OpeningHandshakeProperties
+  nameWithType: WebSocketMessageProperty.OpeningHandshakeProperties
+  fullName: CoreWCF.Channels.WebSocketMessageProperty.OpeningHandshakeProperties
+- uid: ReadOnlyDictionary{System.String,System.Object}
+  commentId: '!:ReadOnlyDictionary{System.String,System.Object}'
+  definition: ReadOnlyDictionary`2
+  name: ReadOnlyDictionary<String, Object>
+  nameWithType: ReadOnlyDictionary<String, Object>
+  fullName: ReadOnlyDictionary<System.String, System.Object>
+  nameWithType.vb: ReadOnlyDictionary(Of String, Object)
+  fullName.vb: ReadOnlyDictionary(Of System.String, System.Object)
+  name.vb: ReadOnlyDictionary(Of String, Object)
+  spec.csharp:
+  - uid: ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    nameWithType: ReadOnlyDictionary
+    fullName: ReadOnlyDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    nameWithType: ReadOnlyDictionary
+    fullName: ReadOnlyDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ReadOnlyDictionary`2
+  commentId: '!:ReadOnlyDictionary`2'
+  isExternal: true
+  name: ReadOnlyDictionary<, >
+  nameWithType: ReadOnlyDictionary<, >
+  fullName: ReadOnlyDictionary<, >
+  nameWithType.vb: ReadOnlyDictionary(Of , )
+  fullName.vb: ReadOnlyDictionary(Of , )
+  name.vb: ReadOnlyDictionary(Of , )
+  spec.csharp:
+  - uid: ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    nameWithType: ReadOnlyDictionary
+    fullName: ReadOnlyDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    nameWithType: ReadOnlyDictionary
+    fullName: ReadOnlyDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

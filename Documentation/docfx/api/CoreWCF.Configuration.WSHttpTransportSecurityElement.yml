@@ -1,0 +1,264 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.WSHttpTransportSecurityElement
+  commentId: T:CoreWCF.Configuration.WSHttpTransportSecurityElement
+  id: WSHttpTransportSecurityElement
+  parent: CoreWCF.Configuration
+  children:
+  - CoreWCF.Configuration.WSHttpTransportSecurityElement.ClientCredentialType
+  - CoreWCF.Configuration.WSHttpTransportSecurityElement.Realm
+  langs:
+  - csharp
+  - vb
+  name: WSHttpTransportSecurityElement
+  nameWithType: WSHttpTransportSecurityElement
+  fullName: CoreWCF.Configuration.WSHttpTransportSecurityElement
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/WSHttpTransportSecurityElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: WSHttpTransportSecurityElement
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/WSHttpTransportSecurityElement.cs
+    startLine: 7
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: 'public class WSHttpTransportSecurityElement : ServiceModelConfigurationElement'
+    content.vb: >-
+      Public Class WSHttpTransportSecurityElement
+
+          Inherits ServiceModelConfigurationElement
+  inheritance:
+  - System.Object
+  - CoreWCF.Configuration.ServiceModelConfigurationElement
+  inheritedMembers:
+  - CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,{T})
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CoreWCF.Configuration.WSHttpTransportSecurityElement.ClientCredentialType
+  commentId: P:CoreWCF.Configuration.WSHttpTransportSecurityElement.ClientCredentialType
+  id: ClientCredentialType
+  parent: CoreWCF.Configuration.WSHttpTransportSecurityElement
+  langs:
+  - csharp
+  - vb
+  name: ClientCredentialType
+  nameWithType: WSHttpTransportSecurityElement.ClientCredentialType
+  fullName: CoreWCF.Configuration.WSHttpTransportSecurityElement.ClientCredentialType
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/WSHttpTransportSecurityElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ClientCredentialType
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/WSHttpTransportSecurityElement.cs
+    startLine: 9
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public HttpClientCredentialType ClientCredentialType { get; set; }
+    parameters: []
+    return:
+      type: CoreWCF.HttpClientCredentialType
+    content.vb: Public Property ClientCredentialType As HttpClientCredentialType
+  overload: CoreWCF.Configuration.WSHttpTransportSecurityElement.ClientCredentialType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Configuration.WSHttpTransportSecurityElement.Realm
+  commentId: P:CoreWCF.Configuration.WSHttpTransportSecurityElement.Realm
+  id: Realm
+  parent: CoreWCF.Configuration.WSHttpTransportSecurityElement
+  langs:
+  - csharp
+  - vb
+  name: Realm
+  nameWithType: WSHttpTransportSecurityElement.Realm
+  fullName: CoreWCF.Configuration.WSHttpTransportSecurityElement.Realm
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/WSHttpTransportSecurityElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Realm
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/WSHttpTransportSecurityElement.cs
+    startLine: 23
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public string Realm { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Realm As String
+  overload: CoreWCF.Configuration.WSHttpTransportSecurityElement.Realm*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElement
+  commentId: T:CoreWCF.Configuration.ServiceModelConfigurationElement
+  parent: CoreWCF.Configuration
+  name: ServiceModelConfigurationElement
+  nameWithType: ServiceModelConfigurationElement
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElement
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,{T})
+  commentId: M:CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  parent: CoreWCF.Configuration.ServiceModelConfigurationElement
+  definition: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  name: SetPropertyValueIfNotDefaultValue<T>(String, T)
+  nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>(String, T)
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>(System.String, T)
+  nameWithType.vb: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)(String, T)
+  fullName.vb: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)(System.String, T)
+  name.vb: SetPropertyValueIfNotDefaultValue(Of T)(String, T)
+  spec.csharp:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+    name: SetPropertyValueIfNotDefaultValue<T>
+    nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+    name: SetPropertyValueIfNotDefaultValue(Of T)
+    nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  commentId: M:CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  isExternal: true
+  name: SetPropertyValueIfNotDefaultValue<T>(String, T)
+  nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>(String, T)
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>(System.String, T)
+  nameWithType.vb: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)(String, T)
+  fullName.vb: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)(System.String, T)
+  name.vb: SetPropertyValueIfNotDefaultValue(Of T)(String, T)
+  spec.csharp:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+    name: SetPropertyValueIfNotDefaultValue<T>
+    nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+    name: SetPropertyValueIfNotDefaultValue(Of T)
+    nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.WSHttpTransportSecurityElement.ClientCredentialType*
+  commentId: Overload:CoreWCF.Configuration.WSHttpTransportSecurityElement.ClientCredentialType
+  name: ClientCredentialType
+  nameWithType: WSHttpTransportSecurityElement.ClientCredentialType
+  fullName: CoreWCF.Configuration.WSHttpTransportSecurityElement.ClientCredentialType
+- uid: CoreWCF.HttpClientCredentialType
+  commentId: T:CoreWCF.HttpClientCredentialType
+  parent: CoreWCF
+  name: HttpClientCredentialType
+  nameWithType: HttpClientCredentialType
+  fullName: CoreWCF.HttpClientCredentialType
+- uid: CoreWCF
+  commentId: N:CoreWCF
+  name: CoreWCF
+  nameWithType: CoreWCF
+  fullName: CoreWCF
+- uid: CoreWCF.Configuration.WSHttpTransportSecurityElement.Realm*
+  commentId: Overload:CoreWCF.Configuration.WSHttpTransportSecurityElement.Realm
+  name: Realm
+  nameWithType: WSHttpTransportSecurityElement.Realm
+  fullName: CoreWCF.Configuration.WSHttpTransportSecurityElement.Realm
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

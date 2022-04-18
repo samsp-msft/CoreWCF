@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.BindingNotFoundException
+  commentId: T:CoreWCF.Configuration.BindingNotFoundException
+  id: BindingNotFoundException
+  parent: CoreWCF.Configuration
+  children:
+  - CoreWCF.Configuration.BindingNotFoundException.#ctor
+  - CoreWCF.Configuration.BindingNotFoundException.#ctor(System.String)
+  - CoreWCF.Configuration.BindingNotFoundException.#ctor(System.String,Exception)
+  langs:
+  - csharp
+  - vb
+  name: BindingNotFoundException
+  nameWithType: BindingNotFoundException
+  fullName: CoreWCF.Configuration.BindingNotFoundException
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingNotFoundException.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: BindingNotFoundException
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingNotFoundException.cs
+    startLine: 7
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: 'public class BindingNotFoundException : Exception'
+    content.vb: >-
+      Public Class BindingNotFoundException
+
+          Inherits Exception
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CoreWCF.Configuration.BindingNotFoundException.#ctor
+  commentId: M:CoreWCF.Configuration.BindingNotFoundException.#ctor
+  id: '#ctor'
+  parent: CoreWCF.Configuration.BindingNotFoundException
+  langs:
+  - csharp
+  - vb
+  name: BindingNotFoundException()
+  nameWithType: BindingNotFoundException.BindingNotFoundException()
+  fullName: CoreWCF.Configuration.BindingNotFoundException.BindingNotFoundException()
+  type: Constructor
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingNotFoundException.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: .ctor
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingNotFoundException.cs
+    startLine: 9
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public BindingNotFoundException()
+    content.vb: Public Sub New
+  overload: CoreWCF.Configuration.BindingNotFoundException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Configuration.BindingNotFoundException.#ctor(System.String)
+  commentId: M:CoreWCF.Configuration.BindingNotFoundException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: CoreWCF.Configuration.BindingNotFoundException
+  langs:
+  - csharp
+  - vb
+  name: BindingNotFoundException(String)
+  nameWithType: BindingNotFoundException.BindingNotFoundException(String)
+  fullName: CoreWCF.Configuration.BindingNotFoundException.BindingNotFoundException(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingNotFoundException.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: .ctor
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingNotFoundException.cs
+    startLine: 13
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public BindingNotFoundException(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub New(message As String)
+  overload: CoreWCF.Configuration.BindingNotFoundException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Configuration.BindingNotFoundException.#ctor(System.String,Exception)
+  commentId: M:CoreWCF.Configuration.BindingNotFoundException.#ctor(System.String,Exception)
+  id: '#ctor(System.String,Exception)'
+  parent: CoreWCF.Configuration.BindingNotFoundException
+  langs:
+  - csharp
+  - vb
+  name: BindingNotFoundException(String, Exception)
+  nameWithType: BindingNotFoundException.BindingNotFoundException(String, Exception)
+  fullName: CoreWCF.Configuration.BindingNotFoundException.BindingNotFoundException(System.String, Exception)
+  type: Constructor
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingNotFoundException.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: .ctor
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingNotFoundException.cs
+    startLine: 18
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public BindingNotFoundException(string message, Exception innerException)
+    parameters:
+    - id: message
+      type: System.String
+    - id: innerException
+      type: Exception
+    content.vb: Public Sub New(message As String, innerException As Exception)
+  overload: CoreWCF.Configuration.BindingNotFoundException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Configuration.BindingNotFoundException.#ctor*
+  commentId: Overload:CoreWCF.Configuration.BindingNotFoundException.#ctor
+  name: BindingNotFoundException
+  nameWithType: BindingNotFoundException.BindingNotFoundException
+  fullName: CoreWCF.Configuration.BindingNotFoundException.BindingNotFoundException
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception

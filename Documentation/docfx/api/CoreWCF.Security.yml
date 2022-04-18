@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Security
+  commentId: N:CoreWCF.Security
+  id: CoreWCF.Security
+  children:
+  - CoreWCF.Security.MessageSecurityOverTcp
+  langs:
+  - csharp
+  - vb
+  name: CoreWCF.Security
+  nameWithType: CoreWCF.Security
+  fullName: CoreWCF.Security
+  type: Namespace
+  assemblies:
+  - CoreWCF.NetTcp
+references:
+- uid: CoreWCF.Security.MessageSecurityOverTcp
+  commentId: T:CoreWCF.Security.MessageSecurityOverTcp
+  parent: CoreWCF.Security
+  name: MessageSecurityOverTcp
+  nameWithType: MessageSecurityOverTcp
+  fullName: CoreWCF.Security.MessageSecurityOverTcp
+- uid: CoreWCF.Security
+  commentId: N:CoreWCF.Security
+  name: CoreWCF.Security
+  nameWithType: CoreWCF.Security
+  fullName: CoreWCF.Security

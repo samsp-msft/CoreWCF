@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Channels.TcpConnectionPoolSettings
+  commentId: T:CoreWCF.Channels.TcpConnectionPoolSettings
+  id: TcpConnectionPoolSettings
+  parent: CoreWCF.Channels
+  children:
+  - CoreWCF.Channels.TcpConnectionPoolSettings.IdleTimeout
+  - CoreWCF.Channels.TcpConnectionPoolSettings.MaxOutboundConnectionsPerEndpoint
+  langs:
+  - csharp
+  - vb
+  name: TcpConnectionPoolSettings
+  nameWithType: TcpConnectionPoolSettings
+  fullName: CoreWCF.Channels.TcpConnectionPoolSettings
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/TcpConnectionPoolSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: TcpConnectionPoolSettings
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/TcpConnectionPoolSettings.cs
+    startLine: 8
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels
+  syntax:
+    content: 'public sealed class TcpConnectionPoolSettings : object'
+    content.vb: >-
+      Public NotInheritable Class TcpConnectionPoolSettings
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: CoreWCF.Channels.TcpConnectionPoolSettings.IdleTimeout
+  commentId: P:CoreWCF.Channels.TcpConnectionPoolSettings.IdleTimeout
+  id: IdleTimeout
+  parent: CoreWCF.Channels.TcpConnectionPoolSettings
+  langs:
+  - csharp
+  - vb
+  name: IdleTimeout
+  nameWithType: TcpConnectionPoolSettings.IdleTimeout
+  fullName: CoreWCF.Channels.TcpConnectionPoolSettings.IdleTimeout
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/TcpConnectionPoolSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: IdleTimeout
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/TcpConnectionPoolSettings.cs
+    startLine: 44
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public TimeSpan IdleTimeout { get; set; }
+    parameters: []
+    return:
+      type: TimeSpan
+    content.vb: Public Property IdleTimeout As TimeSpan
+  overload: CoreWCF.Channels.TcpConnectionPoolSettings.IdleTimeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.TcpConnectionPoolSettings.MaxOutboundConnectionsPerEndpoint
+  commentId: P:CoreWCF.Channels.TcpConnectionPoolSettings.MaxOutboundConnectionsPerEndpoint
+  id: MaxOutboundConnectionsPerEndpoint
+  parent: CoreWCF.Channels.TcpConnectionPoolSettings
+  langs:
+  - csharp
+  - vb
+  name: MaxOutboundConnectionsPerEndpoint
+  nameWithType: TcpConnectionPoolSettings.MaxOutboundConnectionsPerEndpoint
+  fullName: CoreWCF.Channels.TcpConnectionPoolSettings.MaxOutboundConnectionsPerEndpoint
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/TcpConnectionPoolSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: MaxOutboundConnectionsPerEndpoint
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/TcpConnectionPoolSettings.cs
+    startLine: 86
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public int MaxOutboundConnectionsPerEndpoint { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxOutboundConnectionsPerEndpoint As Integer
+  overload: CoreWCF.Channels.TcpConnectionPoolSettings.MaxOutboundConnectionsPerEndpoint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CoreWCF.Channels
+  commentId: N:CoreWCF.Channels
+  name: CoreWCF.Channels
+  nameWithType: CoreWCF.Channels
+  fullName: CoreWCF.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Channels.TcpConnectionPoolSettings.IdleTimeout*
+  commentId: Overload:CoreWCF.Channels.TcpConnectionPoolSettings.IdleTimeout
+  name: IdleTimeout
+  nameWithType: TcpConnectionPoolSettings.IdleTimeout
+  fullName: CoreWCF.Channels.TcpConnectionPoolSettings.IdleTimeout
+- uid: TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: CoreWCF.Channels.TcpConnectionPoolSettings.MaxOutboundConnectionsPerEndpoint*
+  commentId: Overload:CoreWCF.Channels.TcpConnectionPoolSettings.MaxOutboundConnectionsPerEndpoint
+  name: MaxOutboundConnectionsPerEndpoint
+  nameWithType: TcpConnectionPoolSettings.MaxOutboundConnectionsPerEndpoint
+  fullName: CoreWCF.Channels.TcpConnectionPoolSettings.MaxOutboundConnectionsPerEndpoint
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

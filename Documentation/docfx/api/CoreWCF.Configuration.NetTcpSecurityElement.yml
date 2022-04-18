@@ -1,0 +1,312 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.NetTcpSecurityElement
+  commentId: T:CoreWCF.Configuration.NetTcpSecurityElement
+  id: NetTcpSecurityElement
+  parent: CoreWCF.Configuration
+  children:
+  - CoreWCF.Configuration.NetTcpSecurityElement.Message
+  - CoreWCF.Configuration.NetTcpSecurityElement.Mode
+  - CoreWCF.Configuration.NetTcpSecurityElement.Transport
+  langs:
+  - csharp
+  - vb
+  name: NetTcpSecurityElement
+  nameWithType: NetTcpSecurityElement
+  fullName: CoreWCF.Configuration.NetTcpSecurityElement
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/NetTcpSecurityElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: NetTcpSecurityElement
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/NetTcpSecurityElement.cs
+    startLine: 7
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: 'public class NetTcpSecurityElement : ServiceModelConfigurationElement'
+    content.vb: >-
+      Public Class NetTcpSecurityElement
+
+          Inherits ServiceModelConfigurationElement
+  inheritance:
+  - System.Object
+  - CoreWCF.Configuration.ServiceModelConfigurationElement
+  inheritedMembers:
+  - CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,{T})
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CoreWCF.Configuration.NetTcpSecurityElement.Mode
+  commentId: P:CoreWCF.Configuration.NetTcpSecurityElement.Mode
+  id: Mode
+  parent: CoreWCF.Configuration.NetTcpSecurityElement
+  langs:
+  - csharp
+  - vb
+  name: Mode
+  nameWithType: NetTcpSecurityElement.Mode
+  fullName: CoreWCF.Configuration.NetTcpSecurityElement.Mode
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/NetTcpSecurityElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Mode
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/NetTcpSecurityElement.cs
+    startLine: 9
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public SecurityMode Mode { get; set; }
+    parameters: []
+    return:
+      type: CoreWCF.SecurityMode
+    content.vb: Public Property Mode As SecurityMode
+  overload: CoreWCF.Configuration.NetTcpSecurityElement.Mode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Configuration.NetTcpSecurityElement.Transport
+  commentId: P:CoreWCF.Configuration.NetTcpSecurityElement.Transport
+  id: Transport
+  parent: CoreWCF.Configuration.NetTcpSecurityElement
+  langs:
+  - csharp
+  - vb
+  name: Transport
+  nameWithType: NetTcpSecurityElement.Transport
+  fullName: CoreWCF.Configuration.NetTcpSecurityElement.Transport
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/NetTcpSecurityElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Transport
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/NetTcpSecurityElement.cs
+    startLine: 16
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public TcpTransportSecurityElement Transport { get; }
+    parameters: []
+    return:
+      type: CoreWCF.Configuration.TcpTransportSecurityElement
+    content.vb: Public ReadOnly Property Transport As TcpTransportSecurityElement
+  overload: CoreWCF.Configuration.NetTcpSecurityElement.Transport*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CoreWCF.Configuration.NetTcpSecurityElement.Message
+  commentId: P:CoreWCF.Configuration.NetTcpSecurityElement.Message
+  id: Message
+  parent: CoreWCF.Configuration.NetTcpSecurityElement
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: NetTcpSecurityElement.Message
+  fullName: CoreWCF.Configuration.NetTcpSecurityElement.Message
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/NetTcpSecurityElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Message
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/NetTcpSecurityElement.cs
+    startLine: 22
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public MessageSecurityOverTcpElement Message { get; }
+    parameters: []
+    return:
+      type: CoreWCF.Configuration.MessageSecurityOverTcpElement
+    content.vb: Public ReadOnly Property Message As MessageSecurityOverTcpElement
+  overload: CoreWCF.Configuration.NetTcpSecurityElement.Message*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElement
+  commentId: T:CoreWCF.Configuration.ServiceModelConfigurationElement
+  parent: CoreWCF.Configuration
+  name: ServiceModelConfigurationElement
+  nameWithType: ServiceModelConfigurationElement
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElement
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,{T})
+  commentId: M:CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  parent: CoreWCF.Configuration.ServiceModelConfigurationElement
+  definition: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  name: SetPropertyValueIfNotDefaultValue<T>(String, T)
+  nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>(String, T)
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>(System.String, T)
+  nameWithType.vb: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)(String, T)
+  fullName.vb: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)(System.String, T)
+  name.vb: SetPropertyValueIfNotDefaultValue(Of T)(String, T)
+  spec.csharp:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+    name: SetPropertyValueIfNotDefaultValue<T>
+    nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+    name: SetPropertyValueIfNotDefaultValue(Of T)
+    nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  commentId: M:CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  isExternal: true
+  name: SetPropertyValueIfNotDefaultValue<T>(String, T)
+  nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>(String, T)
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>(System.String, T)
+  nameWithType.vb: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)(String, T)
+  fullName.vb: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)(System.String, T)
+  name.vb: SetPropertyValueIfNotDefaultValue(Of T)(String, T)
+  spec.csharp:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+    name: SetPropertyValueIfNotDefaultValue<T>
+    nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+    name: SetPropertyValueIfNotDefaultValue(Of T)
+    nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.NetTcpSecurityElement.Mode*
+  commentId: Overload:CoreWCF.Configuration.NetTcpSecurityElement.Mode
+  name: Mode
+  nameWithType: NetTcpSecurityElement.Mode
+  fullName: CoreWCF.Configuration.NetTcpSecurityElement.Mode
+- uid: CoreWCF.SecurityMode
+  commentId: T:CoreWCF.SecurityMode
+  parent: CoreWCF
+  name: SecurityMode
+  nameWithType: SecurityMode
+  fullName: CoreWCF.SecurityMode
+- uid: CoreWCF
+  commentId: N:CoreWCF
+  name: CoreWCF
+  nameWithType: CoreWCF
+  fullName: CoreWCF
+- uid: CoreWCF.Configuration.NetTcpSecurityElement.Transport*
+  commentId: Overload:CoreWCF.Configuration.NetTcpSecurityElement.Transport
+  name: Transport
+  nameWithType: NetTcpSecurityElement.Transport
+  fullName: CoreWCF.Configuration.NetTcpSecurityElement.Transport
+- uid: CoreWCF.Configuration.TcpTransportSecurityElement
+  commentId: T:CoreWCF.Configuration.TcpTransportSecurityElement
+  parent: CoreWCF.Configuration
+  name: TcpTransportSecurityElement
+  nameWithType: TcpTransportSecurityElement
+  fullName: CoreWCF.Configuration.TcpTransportSecurityElement
+- uid: CoreWCF.Configuration.NetTcpSecurityElement.Message*
+  commentId: Overload:CoreWCF.Configuration.NetTcpSecurityElement.Message
+  name: Message
+  nameWithType: NetTcpSecurityElement.Message
+  fullName: CoreWCF.Configuration.NetTcpSecurityElement.Message
+- uid: CoreWCF.Configuration.MessageSecurityOverTcpElement
+  commentId: T:CoreWCF.Configuration.MessageSecurityOverTcpElement
+  parent: CoreWCF.Configuration
+  name: MessageSecurityOverTcpElement
+  nameWithType: MessageSecurityOverTcpElement
+  fullName: CoreWCF.Configuration.MessageSecurityOverTcpElement

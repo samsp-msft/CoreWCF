@@ -1,0 +1,517 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Channels.HttpResponseMessageProperty
+  commentId: T:CoreWCF.Channels.HttpResponseMessageProperty
+  id: HttpResponseMessageProperty
+  parent: CoreWCF.Channels
+  children:
+  - CoreWCF.Channels.HttpResponseMessageProperty.#ctor
+  - CoreWCF.Channels.HttpResponseMessageProperty.CoreWCF#Channels#IMessageProperty#CreateCopy
+  - CoreWCF.Channels.HttpResponseMessageProperty.DefaultStatusCode
+  - CoreWCF.Channels.HttpResponseMessageProperty.DefaultStatusDescription
+  - CoreWCF.Channels.HttpResponseMessageProperty.Headers
+  - CoreWCF.Channels.HttpResponseMessageProperty.Name
+  - CoreWCF.Channels.HttpResponseMessageProperty.StatusCode
+  - CoreWCF.Channels.HttpResponseMessageProperty.StatusDescription
+  - CoreWCF.Channels.HttpResponseMessageProperty.SuppressEntityBody
+  - CoreWCF.Channels.HttpResponseMessageProperty.SuppressPreamble
+  langs:
+  - csharp
+  - vb
+  name: HttpResponseMessageProperty
+  nameWithType: HttpResponseMessageProperty
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: HttpResponseMessageProperty
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+    startLine: 8
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: 'public sealed class HttpResponseMessageProperty : object, IMessageProperty'
+    content.vb: >-
+      Public NotInheritable Class HttpResponseMessageProperty
+
+          Inherits Object
+
+          Implements IMessageProperty
+  inheritance:
+  - System.Object
+  implements:
+  - CoreWCF.Channels.IMessageProperty
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: CoreWCF.Channels.HttpResponseMessageProperty.DefaultStatusCode
+  commentId: F:CoreWCF.Channels.HttpResponseMessageProperty.DefaultStatusCode
+  id: DefaultStatusCode
+  parent: CoreWCF.Channels.HttpResponseMessageProperty
+  langs:
+  - csharp
+  - vb
+  name: DefaultStatusCode
+  nameWithType: HttpResponseMessageProperty.DefaultStatusCode
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty.DefaultStatusCode
+  type: Field
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: DefaultStatusCode
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+    startLine: 10
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public const HttpStatusCode DefaultStatusCode = null
+    return:
+      type: HttpStatusCode
+    content.vb: Public Const DefaultStatusCode As HttpStatusCode = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CoreWCF.Channels.HttpResponseMessageProperty.DefaultStatusDescription
+  commentId: F:CoreWCF.Channels.HttpResponseMessageProperty.DefaultStatusDescription
+  id: DefaultStatusDescription
+  parent: CoreWCF.Channels.HttpResponseMessageProperty
+  langs:
+  - csharp
+  - vb
+  name: DefaultStatusDescription
+  nameWithType: HttpResponseMessageProperty.DefaultStatusDescription
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty.DefaultStatusDescription
+  type: Field
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: DefaultStatusDescription
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+    startLine: 11
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public const string DefaultStatusDescription = null
+    return:
+      type: System.String
+    content.vb: Public Const DefaultStatusDescription As String = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CoreWCF.Channels.HttpResponseMessageProperty.#ctor
+  commentId: M:CoreWCF.Channels.HttpResponseMessageProperty.#ctor
+  id: '#ctor'
+  parent: CoreWCF.Channels.HttpResponseMessageProperty
+  langs:
+  - csharp
+  - vb
+  name: HttpResponseMessageProperty()
+  nameWithType: HttpResponseMessageProperty.HttpResponseMessageProperty()
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty.HttpResponseMessageProperty()
+  type: Constructor
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: .ctor
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+    startLine: 20
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nInitializes a new instance of the HttpResponseMessageProperty class with no headers and the default status code.\n"
+  example: []
+  syntax:
+    content: public HttpResponseMessageProperty()
+    content.vb: Public Sub New
+  overload: CoreWCF.Channels.HttpResponseMessageProperty.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.HttpResponseMessageProperty.Name
+  commentId: P:CoreWCF.Channels.HttpResponseMessageProperty.Name
+  id: Name
+  parent: CoreWCF.Channels.HttpResponseMessageProperty
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: HttpResponseMessageProperty.Name
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty.Name
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Name
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+    startLine: 36
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public static string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Name As String
+  overload: CoreWCF.Channels.HttpResponseMessageProperty.Name*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: CoreWCF.Channels.HttpResponseMessageProperty.Headers
+  commentId: P:CoreWCF.Channels.HttpResponseMessageProperty.Headers
+  id: Headers
+  parent: CoreWCF.Channels.HttpResponseMessageProperty
+  langs:
+  - csharp
+  - vb
+  name: Headers
+  nameWithType: HttpResponseMessageProperty.Headers
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty.Headers
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Headers
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+    startLine: 44
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nGets a mutable list of headers.\n"
+  example: []
+  syntax:
+    content: public WebHeaderCollection Headers { get; }
+    parameters: []
+    return:
+      type: WebHeaderCollection
+    content.vb: Public ReadOnly Property Headers As WebHeaderCollection
+  overload: CoreWCF.Channels.HttpResponseMessageProperty.Headers*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CoreWCF.Channels.HttpResponseMessageProperty.StatusCode
+  commentId: P:CoreWCF.Channels.HttpResponseMessageProperty.StatusCode
+  id: StatusCode
+  parent: CoreWCF.Channels.HttpResponseMessageProperty
+  langs:
+  - csharp
+  - vb
+  name: StatusCode
+  nameWithType: HttpResponseMessageProperty.StatusCode
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty.StatusCode
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: StatusCode
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+    startLine: 67
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nGets or sets the HTTP status code.\n"
+  example: []
+  syntax:
+    content: public HttpStatusCode StatusCode { get; set; }
+    parameters: []
+    return:
+      type: HttpStatusCode
+      description: The HTTP status code.
+    content.vb: Public Property StatusCode As HttpStatusCode
+  overload: CoreWCF.Channels.HttpResponseMessageProperty.StatusCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.HttpResponseMessageProperty.StatusDescription
+  commentId: P:CoreWCF.Channels.HttpResponseMessageProperty.StatusDescription
+  id: StatusDescription
+  parent: CoreWCF.Channels.HttpResponseMessageProperty
+  langs:
+  - csharp
+  - vb
+  name: StatusDescription
+  nameWithType: HttpResponseMessageProperty.StatusDescription
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty.StatusDescription
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: StatusDescription
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+    startLine: 94
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nGets or sets the HTTP status description.\n"
+  remarks: If this returns null, use the default description for the current HttpStatusCode.
+  example: []
+  syntax:
+    content: public string StatusDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: The HTTP status description.
+    content.vb: Public Property StatusDescription As String
+  overload: CoreWCF.Channels.HttpResponseMessageProperty.StatusDescription*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.HttpResponseMessageProperty.SuppressEntityBody
+  commentId: P:CoreWCF.Channels.HttpResponseMessageProperty.SuppressEntityBody
+  id: SuppressEntityBody
+  parent: CoreWCF.Channels.HttpResponseMessageProperty
+  langs:
+  - csharp
+  - vb
+  name: SuppressEntityBody
+  nameWithType: HttpResponseMessageProperty.SuppressEntityBody
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty.SuppressEntityBody
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: SuppressEntityBody
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+    startLine: 100
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nGets or sets a value indicating whether to suppress entity body.\n"
+  remarks: If this is true, then the content-type will not be set.
+  example: []
+  syntax:
+    content: public bool SuppressEntityBody { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SuppressEntityBody As Boolean
+  overload: CoreWCF.Channels.HttpResponseMessageProperty.SuppressEntityBody*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.HttpResponseMessageProperty.SuppressPreamble
+  commentId: P:CoreWCF.Channels.HttpResponseMessageProperty.SuppressPreamble
+  id: SuppressPreamble
+  parent: CoreWCF.Channels.HttpResponseMessageProperty
+  langs:
+  - csharp
+  - vb
+  name: SuppressPreamble
+  nameWithType: HttpResponseMessageProperty.SuppressPreamble
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty.SuppressPreamble
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: SuppressPreamble
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+    startLine: 103
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public bool SuppressPreamble { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SuppressPreamble As Boolean
+  overload: CoreWCF.Channels.HttpResponseMessageProperty.SuppressPreamble*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.HttpResponseMessageProperty.CoreWCF#Channels#IMessageProperty#CreateCopy
+  commentId: M:CoreWCF.Channels.HttpResponseMessageProperty.CoreWCF#Channels#IMessageProperty#CreateCopy
+  id: CoreWCF#Channels#IMessageProperty#CreateCopy
+  isEii: true
+  parent: CoreWCF.Channels.HttpResponseMessageProperty
+  langs:
+  - csharp
+  - vb
+  name: IMessageProperty.CreateCopy()
+  nameWithType: HttpResponseMessageProperty.IMessageProperty.CreateCopy()
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty.CoreWCF.Channels.IMessageProperty.CreateCopy()
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: CoreWCF.Channels.IMessageProperty.CreateCopy
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpResponseMessageProperty.cs
+    startLine: 105
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: IMessageProperty IMessageProperty.CreateCopy()
+    return:
+      type: CoreWCF.Channels.IMessageProperty
+    content.vb: Function CoreWCF.Channels.IMessageProperty.CreateCopy As IMessageProperty Implements IMessageProperty.CreateCopy
+  overload: CoreWCF.Channels.HttpResponseMessageProperty.CoreWCF#Channels#IMessageProperty#CreateCopy*
+  implements:
+  - CoreWCF.Channels.IMessageProperty.CreateCopy
+  nameWithType.vb: HttpResponseMessageProperty.CoreWCF.Channels.IMessageProperty.CreateCopy()
+  name.vb: CoreWCF.Channels.IMessageProperty.CreateCopy()
+references:
+- uid: CoreWCF.Channels
+  commentId: N:CoreWCF.Channels
+  name: CoreWCF.Channels
+  nameWithType: CoreWCF.Channels
+  fullName: CoreWCF.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Channels.IMessageProperty
+  commentId: T:CoreWCF.Channels.IMessageProperty
+  parent: CoreWCF.Channels
+  name: IMessageProperty
+  nameWithType: IMessageProperty
+  fullName: CoreWCF.Channels.IMessageProperty
+- uid: HttpStatusCode
+  isExternal: true
+  name: HttpStatusCode
+  nameWithType: HttpStatusCode
+  fullName: HttpStatusCode
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CoreWCF.Channels.HttpResponseMessageProperty.#ctor*
+  commentId: Overload:CoreWCF.Channels.HttpResponseMessageProperty.#ctor
+  name: HttpResponseMessageProperty
+  nameWithType: HttpResponseMessageProperty.HttpResponseMessageProperty
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty.HttpResponseMessageProperty
+- uid: CoreWCF.Channels.HttpResponseMessageProperty.Name*
+  commentId: Overload:CoreWCF.Channels.HttpResponseMessageProperty.Name
+  name: Name
+  nameWithType: HttpResponseMessageProperty.Name
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty.Name
+- uid: CoreWCF.Channels.HttpResponseMessageProperty.Headers*
+  commentId: Overload:CoreWCF.Channels.HttpResponseMessageProperty.Headers
+  name: Headers
+  nameWithType: HttpResponseMessageProperty.Headers
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty.Headers
+- uid: WebHeaderCollection
+  isExternal: true
+  name: WebHeaderCollection
+  nameWithType: WebHeaderCollection
+  fullName: WebHeaderCollection
+- uid: CoreWCF.Channels.HttpResponseMessageProperty.StatusCode*
+  commentId: Overload:CoreWCF.Channels.HttpResponseMessageProperty.StatusCode
+  name: StatusCode
+  nameWithType: HttpResponseMessageProperty.StatusCode
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty.StatusCode
+- uid: CoreWCF.Channels.HttpResponseMessageProperty.StatusDescription*
+  commentId: Overload:CoreWCF.Channels.HttpResponseMessageProperty.StatusDescription
+  name: StatusDescription
+  nameWithType: HttpResponseMessageProperty.StatusDescription
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty.StatusDescription
+- uid: CoreWCF.Channels.HttpResponseMessageProperty.SuppressEntityBody*
+  commentId: Overload:CoreWCF.Channels.HttpResponseMessageProperty.SuppressEntityBody
+  name: SuppressEntityBody
+  nameWithType: HttpResponseMessageProperty.SuppressEntityBody
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty.SuppressEntityBody
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CoreWCF.Channels.HttpResponseMessageProperty.SuppressPreamble*
+  commentId: Overload:CoreWCF.Channels.HttpResponseMessageProperty.SuppressPreamble
+  name: SuppressPreamble
+  nameWithType: HttpResponseMessageProperty.SuppressPreamble
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty.SuppressPreamble
+- uid: CoreWCF.Channels.HttpResponseMessageProperty.CoreWCF#Channels#IMessageProperty#CreateCopy*
+  commentId: Overload:CoreWCF.Channels.HttpResponseMessageProperty.CoreWCF#Channels#IMessageProperty#CreateCopy
+  name: IMessageProperty.CreateCopy
+  nameWithType: HttpResponseMessageProperty.IMessageProperty.CreateCopy
+  fullName: CoreWCF.Channels.HttpResponseMessageProperty.CoreWCF.Channels.IMessageProperty.CreateCopy
+  nameWithType.vb: HttpResponseMessageProperty.CoreWCF.Channels.IMessageProperty.CreateCopy
+  name.vb: CoreWCF.Channels.IMessageProperty.CreateCopy
+- uid: CoreWCF.Channels.IMessageProperty.CreateCopy
+  commentId: M:CoreWCF.Channels.IMessageProperty.CreateCopy
+  parent: CoreWCF.Channels.IMessageProperty
+  name: CreateCopy()
+  nameWithType: IMessageProperty.CreateCopy()
+  fullName: CoreWCF.Channels.IMessageProperty.CreateCopy()
+  spec.csharp:
+  - uid: CoreWCF.Channels.IMessageProperty.CreateCopy
+    name: CreateCopy
+    nameWithType: IMessageProperty.CreateCopy
+    fullName: CoreWCF.Channels.IMessageProperty.CreateCopy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Channels.IMessageProperty.CreateCopy
+    name: CreateCopy
+    nameWithType: IMessageProperty.CreateCopy
+    fullName: CoreWCF.Channels.IMessageProperty.CreateCopy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

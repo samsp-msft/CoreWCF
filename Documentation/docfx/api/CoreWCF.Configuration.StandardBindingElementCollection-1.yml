@@ -1,0 +1,359 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.StandardBindingElementCollection`1
+  commentId: T:CoreWCF.Configuration.StandardBindingElementCollection`1
+  id: StandardBindingElementCollection`1
+  parent: CoreWCF.Configuration
+  children:
+  - CoreWCF.Configuration.StandardBindingElementCollection`1.#ctor
+  - CoreWCF.Configuration.StandardBindingElementCollection`1.GetElementKey(ConfigurationElement)
+  langs:
+  - csharp
+  - vb
+  name: StandardBindingElementCollection<TBindingConfiguration>
+  nameWithType: StandardBindingElementCollection<TBindingConfiguration>
+  fullName: CoreWCF.Configuration.StandardBindingElementCollection<TBindingConfiguration>
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElementCollection.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: StandardBindingElementCollection
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElementCollection.cs
+    startLine: 7
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: 'public class StandardBindingElementCollection<TBindingConfiguration> : ServiceModelEnhancedConfigurationElementCollection<TBindingConfiguration> where TBindingConfiguration : StandardBindingElement, new()'
+    typeParameters:
+    - id: TBindingConfiguration
+    content.vb: >-
+      Public Class StandardBindingElementCollection(Of TBindingConfiguration As {StandardBindingElement, New})
+
+          Inherits ServiceModelEnhancedConfigurationElementCollection(Of TBindingConfiguration)
+  inheritance:
+  - System.Object
+  - CoreWCF.Configuration.ServiceModelConfigurationElementCollection{{TBindingConfiguration}}
+  - CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection{{TBindingConfiguration}}
+  inheritedMembers:
+  - CoreWCF.Configuration.ServiceModelConfigurationElementCollection{{TBindingConfiguration}}.CreateNewElement
+  nameWithType.vb: StandardBindingElementCollection(Of TBindingConfiguration)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: CoreWCF.Configuration.StandardBindingElementCollection(Of TBindingConfiguration)
+  name.vb: StandardBindingElementCollection(Of TBindingConfiguration)
+- uid: CoreWCF.Configuration.StandardBindingElementCollection`1.#ctor
+  commentId: M:CoreWCF.Configuration.StandardBindingElementCollection`1.#ctor
+  id: '#ctor'
+  parent: CoreWCF.Configuration.StandardBindingElementCollection`1
+  langs:
+  - csharp
+  - vb
+  name: StandardBindingElementCollection()
+  nameWithType: StandardBindingElementCollection<TBindingConfiguration>.StandardBindingElementCollection()
+  fullName: CoreWCF.Configuration.StandardBindingElementCollection<TBindingConfiguration>.StandardBindingElementCollection()
+  type: Constructor
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElementCollection.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: .ctor
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElementCollection.cs
+    startLine: 10
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public StandardBindingElementCollection()
+    content.vb: Public Sub New
+  overload: CoreWCF.Configuration.StandardBindingElementCollection`1.#ctor*
+  nameWithType.vb: StandardBindingElementCollection(Of TBindingConfiguration).StandardBindingElementCollection()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CoreWCF.Configuration.StandardBindingElementCollection(Of TBindingConfiguration).StandardBindingElementCollection()
+- uid: CoreWCF.Configuration.StandardBindingElementCollection`1.GetElementKey(ConfigurationElement)
+  commentId: M:CoreWCF.Configuration.StandardBindingElementCollection`1.GetElementKey(ConfigurationElement)
+  id: GetElementKey(ConfigurationElement)
+  parent: CoreWCF.Configuration.StandardBindingElementCollection`1
+  langs:
+  - csharp
+  - vb
+  name: GetElementKey(ConfigurationElement)
+  nameWithType: StandardBindingElementCollection<TBindingConfiguration>.GetElementKey(ConfigurationElement)
+  fullName: CoreWCF.Configuration.StandardBindingElementCollection<TBindingConfiguration>.GetElementKey(ConfigurationElement)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElementCollection.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: GetElementKey
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElementCollection.cs
+    startLine: 15
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: protected override object GetElementKey(ConfigurationElement element)
+    parameters:
+    - id: element
+      type: ConfigurationElement
+    return:
+      type: System.Object
+    content.vb: Protected Overrides Function GetElementKey(element As ConfigurationElement) As Object
+  overload: CoreWCF.Configuration.StandardBindingElementCollection`1.GetElementKey*
+  nameWithType.vb: StandardBindingElementCollection(Of TBindingConfiguration).GetElementKey(ConfigurationElement)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+  fullName.vb: CoreWCF.Configuration.StandardBindingElementCollection(Of TBindingConfiguration).GetElementKey(ConfigurationElement)
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection{{TBindingConfiguration}}
+  commentId: T:CoreWCF.Configuration.ServiceModelConfigurationElementCollection{`0}
+  parent: CoreWCF.Configuration
+  definition: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1
+  name: ServiceModelConfigurationElementCollection<TBindingConfiguration>
+  nameWithType: ServiceModelConfigurationElementCollection<TBindingConfiguration>
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElementCollection<TBindingConfiguration>
+  nameWithType.vb: ServiceModelConfigurationElementCollection(Of TBindingConfiguration)
+  fullName.vb: CoreWCF.Configuration.ServiceModelConfigurationElementCollection(Of TBindingConfiguration)
+  name.vb: ServiceModelConfigurationElementCollection(Of TBindingConfiguration)
+  spec.csharp:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1
+    name: ServiceModelConfigurationElementCollection
+    nameWithType: ServiceModelConfigurationElementCollection
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElementCollection
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBindingConfiguration
+    nameWithType: TBindingConfiguration
+    fullName: TBindingConfiguration
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1
+    name: ServiceModelConfigurationElementCollection
+    nameWithType: ServiceModelConfigurationElementCollection
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElementCollection
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBindingConfiguration
+    nameWithType: TBindingConfiguration
+    fullName: TBindingConfiguration
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection{{TBindingConfiguration}}
+  commentId: T:CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection{`0}
+  parent: CoreWCF.Configuration
+  definition: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection`1
+  name: ServiceModelEnhancedConfigurationElementCollection<TBindingConfiguration>
+  nameWithType: ServiceModelEnhancedConfigurationElementCollection<TBindingConfiguration>
+  fullName: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection<TBindingConfiguration>
+  nameWithType.vb: ServiceModelEnhancedConfigurationElementCollection(Of TBindingConfiguration)
+  fullName.vb: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection(Of TBindingConfiguration)
+  name.vb: ServiceModelEnhancedConfigurationElementCollection(Of TBindingConfiguration)
+  spec.csharp:
+  - uid: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection`1
+    name: ServiceModelEnhancedConfigurationElementCollection
+    nameWithType: ServiceModelEnhancedConfigurationElementCollection
+    fullName: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TBindingConfiguration
+    nameWithType: TBindingConfiguration
+    fullName: TBindingConfiguration
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection`1
+    name: ServiceModelEnhancedConfigurationElementCollection
+    nameWithType: ServiceModelEnhancedConfigurationElementCollection
+    fullName: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TBindingConfiguration
+    nameWithType: TBindingConfiguration
+    fullName: TBindingConfiguration
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection{{TBindingConfiguration}}.CreateNewElement
+  commentId: M:CoreWCF.Configuration.ServiceModelConfigurationElementCollection{`0}.CreateNewElement
+  parent: CoreWCF.Configuration.ServiceModelConfigurationElementCollection{{TBindingConfiguration}}
+  definition: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1.CreateNewElement
+  name: CreateNewElement()
+  nameWithType: ServiceModelConfigurationElementCollection<TBindingConfiguration>.CreateNewElement()
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElementCollection<TBindingConfiguration>.CreateNewElement()
+  nameWithType.vb: ServiceModelConfigurationElementCollection(Of TBindingConfiguration).CreateNewElement()
+  fullName.vb: CoreWCF.Configuration.ServiceModelConfigurationElementCollection(Of TBindingConfiguration).CreateNewElement()
+  spec.csharp:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1.CreateNewElement
+    name: CreateNewElement
+    nameWithType: ServiceModelConfigurationElementCollection<TBindingConfiguration>.CreateNewElement
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElementCollection<TBindingConfiguration>.CreateNewElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1.CreateNewElement
+    name: CreateNewElement
+    nameWithType: ServiceModelConfigurationElementCollection(Of TBindingConfiguration).CreateNewElement
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElementCollection(Of TBindingConfiguration).CreateNewElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1
+  commentId: T:CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1
+  name: ServiceModelConfigurationElementCollection<ConfigurationElementType>
+  nameWithType: ServiceModelConfigurationElementCollection<ConfigurationElementType>
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElementCollection<ConfigurationElementType>
+  nameWithType.vb: ServiceModelConfigurationElementCollection(Of ConfigurationElementType)
+  fullName.vb: CoreWCF.Configuration.ServiceModelConfigurationElementCollection(Of ConfigurationElementType)
+  name.vb: ServiceModelConfigurationElementCollection(Of ConfigurationElementType)
+  spec.csharp:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1
+    name: ServiceModelConfigurationElementCollection
+    nameWithType: ServiceModelConfigurationElementCollection
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElementCollection
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ConfigurationElementType
+    nameWithType: ConfigurationElementType
+    fullName: ConfigurationElementType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1
+    name: ServiceModelConfigurationElementCollection
+    nameWithType: ServiceModelConfigurationElementCollection
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElementCollection
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ConfigurationElementType
+    nameWithType: ConfigurationElementType
+    fullName: ConfigurationElementType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection`1
+  commentId: T:CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection`1
+  name: ServiceModelEnhancedConfigurationElementCollection<TConfigurationElement>
+  nameWithType: ServiceModelEnhancedConfigurationElementCollection<TConfigurationElement>
+  fullName: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection<TConfigurationElement>
+  nameWithType.vb: ServiceModelEnhancedConfigurationElementCollection(Of TConfigurationElement)
+  fullName.vb: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection(Of TConfigurationElement)
+  name.vb: ServiceModelEnhancedConfigurationElementCollection(Of TConfigurationElement)
+  spec.csharp:
+  - uid: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection`1
+    name: ServiceModelEnhancedConfigurationElementCollection
+    nameWithType: ServiceModelEnhancedConfigurationElementCollection
+    fullName: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TConfigurationElement
+    nameWithType: TConfigurationElement
+    fullName: TConfigurationElement
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection`1
+    name: ServiceModelEnhancedConfigurationElementCollection
+    nameWithType: ServiceModelEnhancedConfigurationElementCollection
+    fullName: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TConfigurationElement
+    nameWithType: TConfigurationElement
+    fullName: TConfigurationElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1.CreateNewElement
+  commentId: M:CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1.CreateNewElement
+  name: CreateNewElement()
+  nameWithType: ServiceModelConfigurationElementCollection<ConfigurationElementType>.CreateNewElement()
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElementCollection<ConfigurationElementType>.CreateNewElement()
+  nameWithType.vb: ServiceModelConfigurationElementCollection(Of ConfigurationElementType).CreateNewElement()
+  fullName.vb: CoreWCF.Configuration.ServiceModelConfigurationElementCollection(Of ConfigurationElementType).CreateNewElement()
+  spec.csharp:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1.CreateNewElement
+    name: CreateNewElement
+    nameWithType: ServiceModelConfigurationElementCollection<ConfigurationElementType>.CreateNewElement
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElementCollection<ConfigurationElementType>.CreateNewElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1.CreateNewElement
+    name: CreateNewElement
+    nameWithType: ServiceModelConfigurationElementCollection(Of ConfigurationElementType).CreateNewElement
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElementCollection(Of ConfigurationElementType).CreateNewElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.StandardBindingElementCollection`1.#ctor*
+  commentId: Overload:CoreWCF.Configuration.StandardBindingElementCollection`1.#ctor
+  name: StandardBindingElementCollection
+  nameWithType: StandardBindingElementCollection<TBindingConfiguration>.StandardBindingElementCollection
+  fullName: CoreWCF.Configuration.StandardBindingElementCollection<TBindingConfiguration>.StandardBindingElementCollection
+  nameWithType.vb: StandardBindingElementCollection(Of TBindingConfiguration).StandardBindingElementCollection
+  fullName.vb: CoreWCF.Configuration.StandardBindingElementCollection(Of TBindingConfiguration).StandardBindingElementCollection
+- uid: CoreWCF.Configuration.StandardBindingElementCollection`1.GetElementKey*
+  commentId: Overload:CoreWCF.Configuration.StandardBindingElementCollection`1.GetElementKey
+  name: GetElementKey
+  nameWithType: StandardBindingElementCollection<TBindingConfiguration>.GetElementKey
+  fullName: CoreWCF.Configuration.StandardBindingElementCollection<TBindingConfiguration>.GetElementKey
+  nameWithType.vb: StandardBindingElementCollection(Of TBindingConfiguration).GetElementKey
+  fullName.vb: CoreWCF.Configuration.StandardBindingElementCollection(Of TBindingConfiguration).GetElementKey
+- uid: ConfigurationElement
+  isExternal: true
+  name: ConfigurationElement
+  nameWithType: ConfigurationElement
+  fullName: ConfigurationElement

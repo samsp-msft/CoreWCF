@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Channels.WebSocketTransportUsage
+  commentId: T:CoreWCF.Channels.WebSocketTransportUsage
+  id: WebSocketTransportUsage
+  parent: CoreWCF.Channels
+  children:
+  - CoreWCF.Channels.WebSocketTransportUsage.Always
+  - CoreWCF.Channels.WebSocketTransportUsage.Never
+  - CoreWCF.Channels.WebSocketTransportUsage.WhenDuplex
+  langs:
+  - csharp
+  - vb
+  name: WebSocketTransportUsage
+  nameWithType: WebSocketTransportUsage
+  fullName: CoreWCF.Channels.WebSocketTransportUsage
+  type: Enum
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportUsage.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: WebSocketTransportUsage
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportUsage.cs
+    startLine: 5
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: 'public enum WebSocketTransportUsage : int'
+    content.vb: Public Enum WebSocketTransportUsage As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CoreWCF.Channels.WebSocketTransportUsage.WhenDuplex
+  commentId: F:CoreWCF.Channels.WebSocketTransportUsage.WhenDuplex
+  id: WhenDuplex
+  parent: CoreWCF.Channels.WebSocketTransportUsage
+  langs:
+  - csharp
+  - vb
+  name: WhenDuplex
+  nameWithType: WebSocketTransportUsage.WhenDuplex
+  fullName: CoreWCF.Channels.WebSocketTransportUsage.WhenDuplex
+  type: Field
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportUsage.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: WhenDuplex
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportUsage.cs
+    startLine: 10
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nIndicates WebSocket transport will be used for duplex service contracts only.\n"
+  example: []
+  syntax:
+    content: WhenDuplex = null
+    return:
+      type: CoreWCF.Channels.WebSocketTransportUsage
+    content.vb: WhenDuplex = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CoreWCF.Channels.WebSocketTransportUsage.Always
+  commentId: F:CoreWCF.Channels.WebSocketTransportUsage.Always
+  id: Always
+  parent: CoreWCF.Channels.WebSocketTransportUsage
+  langs:
+  - csharp
+  - vb
+  name: Always
+  nameWithType: WebSocketTransportUsage.Always
+  fullName: CoreWCF.Channels.WebSocketTransportUsage.Always
+  type: Field
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportUsage.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Always
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportUsage.cs
+    startLine: 15
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nIndicates WebSocket transport will always be used.\n"
+  example: []
+  syntax:
+    content: Always = null
+    return:
+      type: CoreWCF.Channels.WebSocketTransportUsage
+    content.vb: Always = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CoreWCF.Channels.WebSocketTransportUsage.Never
+  commentId: F:CoreWCF.Channels.WebSocketTransportUsage.Never
+  id: Never
+  parent: CoreWCF.Channels.WebSocketTransportUsage
+  langs:
+  - csharp
+  - vb
+  name: Never
+  nameWithType: WebSocketTransportUsage.Never
+  fullName: CoreWCF.Channels.WebSocketTransportUsage.Never
+  type: Field
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportUsage.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Never
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportUsage.cs
+    startLine: 20
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nIndicates WebSocket transport will never be used.\n"
+  example: []
+  syntax:
+    content: Never = null
+    return:
+      type: CoreWCF.Channels.WebSocketTransportUsage
+    content.vb: Never = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CoreWCF.Channels
+  commentId: N:CoreWCF.Channels
+  name: CoreWCF.Channels
+  nameWithType: CoreWCF.Channels
+  fullName: CoreWCF.Channels
+- uid: CoreWCF.Channels.WebSocketTransportUsage
+  commentId: T:CoreWCF.Channels.WebSocketTransportUsage
+  parent: CoreWCF.Channels
+  name: WebSocketTransportUsage
+  nameWithType: WebSocketTransportUsage
+  fullName: CoreWCF.Channels.WebSocketTransportUsage

@@ -1,0 +1,655 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Channels.WebSocketTransportSettings
+  commentId: T:CoreWCF.Channels.WebSocketTransportSettings
+  id: WebSocketTransportSettings
+  parent: CoreWCF.Channels
+  children:
+  - CoreWCF.Channels.WebSocketTransportSettings.#ctor
+  - CoreWCF.Channels.WebSocketTransportSettings.BinaryEncoderTransferModeHeader
+  - CoreWCF.Channels.WebSocketTransportSettings.BinaryMessageReceivedAction
+  - CoreWCF.Channels.WebSocketTransportSettings.ConnectionOpenedAction
+  - CoreWCF.Channels.WebSocketTransportSettings.CreateNotificationOnConnection
+  - CoreWCF.Channels.WebSocketTransportSettings.DisablePayloadMasking
+  - CoreWCF.Channels.WebSocketTransportSettings.Equals(CoreWCF.Channels.WebSocketTransportSettings)
+  - CoreWCF.Channels.WebSocketTransportSettings.Equals(System.Object)
+  - CoreWCF.Channels.WebSocketTransportSettings.GetHashCode
+  - CoreWCF.Channels.WebSocketTransportSettings.KeepAliveInterval
+  - CoreWCF.Channels.WebSocketTransportSettings.MaxPendingConnections
+  - CoreWCF.Channels.WebSocketTransportSettings.SoapContentTypeHeader
+  - CoreWCF.Channels.WebSocketTransportSettings.SubProtocol
+  - CoreWCF.Channels.WebSocketTransportSettings.TextMessageReceivedAction
+  - CoreWCF.Channels.WebSocketTransportSettings.TransportUsage
+  langs:
+  - csharp
+  - vb
+  name: WebSocketTransportSettings
+  nameWithType: WebSocketTransportSettings
+  fullName: CoreWCF.Channels.WebSocketTransportSettings
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: WebSocketTransportSettings
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+    startLine: 10
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: 'public sealed class WebSocketTransportSettings : IEquatable<WebSocketTransportSettings>'
+    content.vb: >-
+      Public NotInheritable Class WebSocketTransportSettings
+
+          Inherits IEquatable(Of WebSocketTransportSettings)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: CoreWCF.Channels.WebSocketTransportSettings.ConnectionOpenedAction
+  commentId: F:CoreWCF.Channels.WebSocketTransportSettings.ConnectionOpenedAction
+  id: ConnectionOpenedAction
+  parent: CoreWCF.Channels.WebSocketTransportSettings
+  langs:
+  - csharp
+  - vb
+  name: ConnectionOpenedAction
+  nameWithType: WebSocketTransportSettings.ConnectionOpenedAction
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.ConnectionOpenedAction
+  type: Field
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ConnectionOpenedAction
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+    startLine: 12
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public const string ConnectionOpenedAction = null
+    return:
+      type: System.String
+    content.vb: Public Const ConnectionOpenedAction As String = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CoreWCF.Channels.WebSocketTransportSettings.BinaryMessageReceivedAction
+  commentId: F:CoreWCF.Channels.WebSocketTransportSettings.BinaryMessageReceivedAction
+  id: BinaryMessageReceivedAction
+  parent: CoreWCF.Channels.WebSocketTransportSettings
+  langs:
+  - csharp
+  - vb
+  name: BinaryMessageReceivedAction
+  nameWithType: WebSocketTransportSettings.BinaryMessageReceivedAction
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.BinaryMessageReceivedAction
+  type: Field
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: BinaryMessageReceivedAction
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+    startLine: 13
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public const string BinaryMessageReceivedAction = null
+    return:
+      type: System.String
+    content.vb: Public Const BinaryMessageReceivedAction As String = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CoreWCF.Channels.WebSocketTransportSettings.TextMessageReceivedAction
+  commentId: F:CoreWCF.Channels.WebSocketTransportSettings.TextMessageReceivedAction
+  id: TextMessageReceivedAction
+  parent: CoreWCF.Channels.WebSocketTransportSettings
+  langs:
+  - csharp
+  - vb
+  name: TextMessageReceivedAction
+  nameWithType: WebSocketTransportSettings.TextMessageReceivedAction
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.TextMessageReceivedAction
+  type: Field
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: TextMessageReceivedAction
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+    startLine: 14
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public const string TextMessageReceivedAction = null
+    return:
+      type: System.String
+    content.vb: Public Const TextMessageReceivedAction As String = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CoreWCF.Channels.WebSocketTransportSettings.SoapContentTypeHeader
+  commentId: F:CoreWCF.Channels.WebSocketTransportSettings.SoapContentTypeHeader
+  id: SoapContentTypeHeader
+  parent: CoreWCF.Channels.WebSocketTransportSettings
+  langs:
+  - csharp
+  - vb
+  name: SoapContentTypeHeader
+  nameWithType: WebSocketTransportSettings.SoapContentTypeHeader
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.SoapContentTypeHeader
+  type: Field
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: SoapContentTypeHeader
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+    startLine: 15
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public const string SoapContentTypeHeader = null
+    return:
+      type: System.String
+    content.vb: Public Const SoapContentTypeHeader As String = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CoreWCF.Channels.WebSocketTransportSettings.BinaryEncoderTransferModeHeader
+  commentId: F:CoreWCF.Channels.WebSocketTransportSettings.BinaryEncoderTransferModeHeader
+  id: BinaryEncoderTransferModeHeader
+  parent: CoreWCF.Channels.WebSocketTransportSettings
+  langs:
+  - csharp
+  - vb
+  name: BinaryEncoderTransferModeHeader
+  nameWithType: WebSocketTransportSettings.BinaryEncoderTransferModeHeader
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.BinaryEncoderTransferModeHeader
+  type: Field
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: BinaryEncoderTransferModeHeader
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+    startLine: 16
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public const string BinaryEncoderTransferModeHeader = null
+    return:
+      type: System.String
+    content.vb: Public Const BinaryEncoderTransferModeHeader As String = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CoreWCF.Channels.WebSocketTransportSettings.#ctor
+  commentId: M:CoreWCF.Channels.WebSocketTransportSettings.#ctor
+  id: '#ctor'
+  parent: CoreWCF.Channels.WebSocketTransportSettings
+  langs:
+  - csharp
+  - vb
+  name: WebSocketTransportSettings()
+  nameWithType: WebSocketTransportSettings.WebSocketTransportSettings()
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.WebSocketTransportSettings()
+  type: Constructor
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: .ctor
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+    startLine: 25
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public WebSocketTransportSettings()
+    content.vb: Public Sub New
+  overload: CoreWCF.Channels.WebSocketTransportSettings.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.WebSocketTransportSettings.TransportUsage
+  commentId: P:CoreWCF.Channels.WebSocketTransportSettings.TransportUsage
+  id: TransportUsage
+  parent: CoreWCF.Channels.WebSocketTransportSettings
+  langs:
+  - csharp
+  - vb
+  name: TransportUsage
+  nameWithType: WebSocketTransportSettings.TransportUsage
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.TransportUsage
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: TransportUsage
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+    startLine: 46
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public WebSocketTransportUsage TransportUsage { get; set; }
+    parameters: []
+    return:
+      type: CoreWCF.Channels.WebSocketTransportUsage
+    content.vb: Public Property TransportUsage As WebSocketTransportUsage
+  overload: CoreWCF.Channels.WebSocketTransportSettings.TransportUsage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.WebSocketTransportSettings.CreateNotificationOnConnection
+  commentId: P:CoreWCF.Channels.WebSocketTransportSettings.CreateNotificationOnConnection
+  id: CreateNotificationOnConnection
+  parent: CoreWCF.Channels.WebSocketTransportSettings
+  langs:
+  - csharp
+  - vb
+  name: CreateNotificationOnConnection
+  nameWithType: WebSocketTransportSettings.CreateNotificationOnConnection
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.CreateNotificationOnConnection
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: CreateNotificationOnConnection
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+    startLine: 60
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public bool CreateNotificationOnConnection { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CreateNotificationOnConnection As Boolean
+  overload: CoreWCF.Channels.WebSocketTransportSettings.CreateNotificationOnConnection*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.WebSocketTransportSettings.KeepAliveInterval
+  commentId: P:CoreWCF.Channels.WebSocketTransportSettings.KeepAliveInterval
+  id: KeepAliveInterval
+  parent: CoreWCF.Channels.WebSocketTransportSettings
+  langs:
+  - csharp
+  - vb
+  name: KeepAliveInterval
+  nameWithType: WebSocketTransportSettings.KeepAliveInterval
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.KeepAliveInterval
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: KeepAliveInterval
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+    startLine: 62
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public TimeSpan KeepAliveInterval { get; set; }
+    parameters: []
+    return:
+      type: TimeSpan
+    content.vb: Public Property KeepAliveInterval As TimeSpan
+  overload: CoreWCF.Channels.WebSocketTransportSettings.KeepAliveInterval*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.WebSocketTransportSettings.SubProtocol
+  commentId: P:CoreWCF.Channels.WebSocketTransportSettings.SubProtocol
+  id: SubProtocol
+  parent: CoreWCF.Channels.WebSocketTransportSettings
+  langs:
+  - csharp
+  - vb
+  name: SubProtocol
+  nameWithType: WebSocketTransportSettings.SubProtocol
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.SubProtocol
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: SubProtocol
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+    startLine: 91
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public string SubProtocol { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SubProtocol As String
+  overload: CoreWCF.Channels.WebSocketTransportSettings.SubProtocol*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.WebSocketTransportSettings.DisablePayloadMasking
+  commentId: P:CoreWCF.Channels.WebSocketTransportSettings.DisablePayloadMasking
+  id: DisablePayloadMasking
+  parent: CoreWCF.Channels.WebSocketTransportSettings
+  langs:
+  - csharp
+  - vb
+  name: DisablePayloadMasking
+  nameWithType: WebSocketTransportSettings.DisablePayloadMasking
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.DisablePayloadMasking
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: DisablePayloadMasking
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+    startLine: 122
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public bool DisablePayloadMasking { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DisablePayloadMasking As Boolean
+  overload: CoreWCF.Channels.WebSocketTransportSettings.DisablePayloadMasking*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.WebSocketTransportSettings.MaxPendingConnections
+  commentId: P:CoreWCF.Channels.WebSocketTransportSettings.MaxPendingConnections
+  id: MaxPendingConnections
+  parent: CoreWCF.Channels.WebSocketTransportSettings
+  langs:
+  - csharp
+  - vb
+  name: MaxPendingConnections
+  nameWithType: WebSocketTransportSettings.MaxPendingConnections
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.MaxPendingConnections
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: MaxPendingConnections
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+    startLine: 124
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public int MaxPendingConnections { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxPendingConnections As Integer
+  overload: CoreWCF.Channels.WebSocketTransportSettings.MaxPendingConnections*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.WebSocketTransportSettings.Equals(CoreWCF.Channels.WebSocketTransportSettings)
+  commentId: M:CoreWCF.Channels.WebSocketTransportSettings.Equals(CoreWCF.Channels.WebSocketTransportSettings)
+  id: Equals(CoreWCF.Channels.WebSocketTransportSettings)
+  parent: CoreWCF.Channels.WebSocketTransportSettings
+  langs:
+  - csharp
+  - vb
+  name: Equals(WebSocketTransportSettings)
+  nameWithType: WebSocketTransportSettings.Equals(WebSocketTransportSettings)
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.Equals(CoreWCF.Channels.WebSocketTransportSettings)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Equals
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+    startLine: 145
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public bool Equals(WebSocketTransportSettings other)
+    parameters:
+    - id: other
+      type: CoreWCF.Channels.WebSocketTransportSettings
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As WebSocketTransportSettings) As Boolean
+  overload: CoreWCF.Channels.WebSocketTransportSettings.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.WebSocketTransportSettings.Equals(System.Object)
+  commentId: M:CoreWCF.Channels.WebSocketTransportSettings.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: CoreWCF.Channels.WebSocketTransportSettings
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: WebSocketTransportSettings.Equals(Object)
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.Equals(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Equals
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+    startLine: 160
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overload: CoreWCF.Channels.WebSocketTransportSettings.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CoreWCF.Channels.WebSocketTransportSettings.GetHashCode
+  commentId: M:CoreWCF.Channels.WebSocketTransportSettings.GetHashCode
+  id: GetHashCode
+  parent: CoreWCF.Channels.WebSocketTransportSettings
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: WebSocketTransportSettings.GetHashCode()
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: GetHashCode
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/WebSocketTransportSettings.cs
+    startLine: 171
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: CoreWCF.Channels.WebSocketTransportSettings.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: CoreWCF.Channels
+  commentId: N:CoreWCF.Channels
+  name: CoreWCF.Channels
+  nameWithType: CoreWCF.Channels
+  fullName: CoreWCF.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CoreWCF.Channels.WebSocketTransportSettings.#ctor*
+  commentId: Overload:CoreWCF.Channels.WebSocketTransportSettings.#ctor
+  name: WebSocketTransportSettings
+  nameWithType: WebSocketTransportSettings.WebSocketTransportSettings
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.WebSocketTransportSettings
+- uid: CoreWCF.Channels.WebSocketTransportSettings.TransportUsage*
+  commentId: Overload:CoreWCF.Channels.WebSocketTransportSettings.TransportUsage
+  name: TransportUsage
+  nameWithType: WebSocketTransportSettings.TransportUsage
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.TransportUsage
+- uid: CoreWCF.Channels.WebSocketTransportUsage
+  commentId: T:CoreWCF.Channels.WebSocketTransportUsage
+  parent: CoreWCF.Channels
+  name: WebSocketTransportUsage
+  nameWithType: WebSocketTransportUsage
+  fullName: CoreWCF.Channels.WebSocketTransportUsage
+- uid: CoreWCF.Channels.WebSocketTransportSettings.CreateNotificationOnConnection*
+  commentId: Overload:CoreWCF.Channels.WebSocketTransportSettings.CreateNotificationOnConnection
+  name: CreateNotificationOnConnection
+  nameWithType: WebSocketTransportSettings.CreateNotificationOnConnection
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.CreateNotificationOnConnection
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CoreWCF.Channels.WebSocketTransportSettings.KeepAliveInterval*
+  commentId: Overload:CoreWCF.Channels.WebSocketTransportSettings.KeepAliveInterval
+  name: KeepAliveInterval
+  nameWithType: WebSocketTransportSettings.KeepAliveInterval
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.KeepAliveInterval
+- uid: TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: CoreWCF.Channels.WebSocketTransportSettings.SubProtocol*
+  commentId: Overload:CoreWCF.Channels.WebSocketTransportSettings.SubProtocol
+  name: SubProtocol
+  nameWithType: WebSocketTransportSettings.SubProtocol
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.SubProtocol
+- uid: CoreWCF.Channels.WebSocketTransportSettings.DisablePayloadMasking*
+  commentId: Overload:CoreWCF.Channels.WebSocketTransportSettings.DisablePayloadMasking
+  name: DisablePayloadMasking
+  nameWithType: WebSocketTransportSettings.DisablePayloadMasking
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.DisablePayloadMasking
+- uid: CoreWCF.Channels.WebSocketTransportSettings.MaxPendingConnections*
+  commentId: Overload:CoreWCF.Channels.WebSocketTransportSettings.MaxPendingConnections
+  name: MaxPendingConnections
+  nameWithType: WebSocketTransportSettings.MaxPendingConnections
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.MaxPendingConnections
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CoreWCF.Channels.WebSocketTransportSettings.Equals*
+  commentId: Overload:CoreWCF.Channels.WebSocketTransportSettings.Equals
+  name: Equals
+  nameWithType: WebSocketTransportSettings.Equals
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.Equals
+- uid: CoreWCF.Channels.WebSocketTransportSettings
+  commentId: T:CoreWCF.Channels.WebSocketTransportSettings
+  parent: CoreWCF.Channels
+  name: WebSocketTransportSettings
+  nameWithType: WebSocketTransportSettings
+  fullName: CoreWCF.Channels.WebSocketTransportSettings
+- uid: CoreWCF.Channels.WebSocketTransportSettings.GetHashCode*
+  commentId: Overload:CoreWCF.Channels.WebSocketTransportSettings.GetHashCode
+  name: GetHashCode
+  nameWithType: WebSocketTransportSettings.GetHashCode
+  fullName: CoreWCF.Channels.WebSocketTransportSettings.GetHashCode

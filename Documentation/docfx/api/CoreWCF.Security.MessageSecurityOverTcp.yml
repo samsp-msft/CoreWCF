@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Security.MessageSecurityOverTcp
+  commentId: T:CoreWCF.Security.MessageSecurityOverTcp
+  id: MessageSecurityOverTcp
+  parent: CoreWCF.Security
+  children:
+  - CoreWCF.Security.MessageSecurityOverTcp.#ctor
+  - CoreWCF.Security.MessageSecurityOverTcp.AlgorithmSuite
+  - CoreWCF.Security.MessageSecurityOverTcp.ClientCredentialType
+  - CoreWCF.Security.MessageSecurityOverTcp.CreateSecurityBindingElement(System.Boolean,System.Boolean,CoreWCF.Channels.BindingElement)
+  langs:
+  - csharp
+  - vb
+  name: MessageSecurityOverTcp
+  nameWithType: MessageSecurityOverTcp
+  fullName: CoreWCF.Security.MessageSecurityOverTcp
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Security/MessageSecurityOverTcp.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: MessageSecurityOverTcp
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Security/MessageSecurityOverTcp.cs
+    startLine: 13
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Security
+  syntax:
+    content: 'public sealed class MessageSecurityOverTcp : object'
+    content.vb: >-
+      Public NotInheritable Class MessageSecurityOverTcp
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: CoreWCF.Security.MessageSecurityOverTcp.#ctor
+  commentId: M:CoreWCF.Security.MessageSecurityOverTcp.#ctor
+  id: '#ctor'
+  parent: CoreWCF.Security.MessageSecurityOverTcp
+  langs:
+  - csharp
+  - vb
+  name: MessageSecurityOverTcp()
+  nameWithType: MessageSecurityOverTcp.MessageSecurityOverTcp()
+  fullName: CoreWCF.Security.MessageSecurityOverTcp.MessageSecurityOverTcp()
+  type: Constructor
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Security/MessageSecurityOverTcp.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: .ctor
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Security/MessageSecurityOverTcp.cs
+    startLine: 22
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Security
+  syntax:
+    content: public MessageSecurityOverTcp()
+    content.vb: Public Sub New
+  overload: CoreWCF.Security.MessageSecurityOverTcp.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Security.MessageSecurityOverTcp.ClientCredentialType
+  commentId: P:CoreWCF.Security.MessageSecurityOverTcp.ClientCredentialType
+  id: ClientCredentialType
+  parent: CoreWCF.Security.MessageSecurityOverTcp
+  langs:
+  - csharp
+  - vb
+  name: ClientCredentialType
+  nameWithType: MessageSecurityOverTcp.ClientCredentialType
+  fullName: CoreWCF.Security.MessageSecurityOverTcp.ClientCredentialType
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Security/MessageSecurityOverTcp.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ClientCredentialType
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Security/MessageSecurityOverTcp.cs
+    startLine: 28
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Security
+  syntax:
+    content: public MessageCredentialType ClientCredentialType { get; set; }
+    parameters: []
+    return:
+      type: CoreWCF.MessageCredentialType
+    content.vb: Public Property ClientCredentialType As MessageCredentialType
+  overload: CoreWCF.Security.MessageSecurityOverTcp.ClientCredentialType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Security.MessageSecurityOverTcp.AlgorithmSuite
+  commentId: P:CoreWCF.Security.MessageSecurityOverTcp.AlgorithmSuite
+  id: AlgorithmSuite
+  parent: CoreWCF.Security.MessageSecurityOverTcp
+  langs:
+  - csharp
+  - vb
+  name: AlgorithmSuite
+  nameWithType: MessageSecurityOverTcp.AlgorithmSuite
+  fullName: CoreWCF.Security.MessageSecurityOverTcp.AlgorithmSuite
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Security/MessageSecurityOverTcp.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: AlgorithmSuite
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Security/MessageSecurityOverTcp.cs
+    startLine: 41
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Security
+  syntax:
+    content: public SecurityAlgorithmSuite AlgorithmSuite { get; set; }
+    parameters: []
+    return:
+      type: CoreWCF.Security.SecurityAlgorithmSuite
+    content.vb: Public Property AlgorithmSuite As SecurityAlgorithmSuite
+  overload: CoreWCF.Security.MessageSecurityOverTcp.AlgorithmSuite*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Security.MessageSecurityOverTcp.CreateSecurityBindingElement(System.Boolean,System.Boolean,CoreWCF.Channels.BindingElement)
+  commentId: M:CoreWCF.Security.MessageSecurityOverTcp.CreateSecurityBindingElement(System.Boolean,System.Boolean,CoreWCF.Channels.BindingElement)
+  id: CreateSecurityBindingElement(System.Boolean,System.Boolean,CoreWCF.Channels.BindingElement)
+  parent: CoreWCF.Security.MessageSecurityOverTcp
+  langs:
+  - csharp
+  - vb
+  name: CreateSecurityBindingElement(Boolean, Boolean, BindingElement)
+  nameWithType: MessageSecurityOverTcp.CreateSecurityBindingElement(Boolean, Boolean, BindingElement)
+  fullName: CoreWCF.Security.MessageSecurityOverTcp.CreateSecurityBindingElement(System.Boolean, System.Boolean, CoreWCF.Channels.BindingElement)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Security/MessageSecurityOverTcp.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: CreateSecurityBindingElement
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Security/MessageSecurityOverTcp.cs
+    startLine: 57
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Security
+  syntax:
+    content: public SecurityBindingElement CreateSecurityBindingElement(bool isSecureTransportMode, bool isReliableSession, BindingElement transportBindingElement)
+    parameters:
+    - id: isSecureTransportMode
+      type: System.Boolean
+    - id: isReliableSession
+      type: System.Boolean
+    - id: transportBindingElement
+      type: CoreWCF.Channels.BindingElement
+    return:
+      type: CoreWCF.Channels.SecurityBindingElement
+    content.vb: Public Function CreateSecurityBindingElement(isSecureTransportMode As Boolean, isReliableSession As Boolean, transportBindingElement As BindingElement) As SecurityBindingElement
+  overload: CoreWCF.Security.MessageSecurityOverTcp.CreateSecurityBindingElement*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CoreWCF.Security
+  commentId: N:CoreWCF.Security
+  name: CoreWCF.Security
+  nameWithType: CoreWCF.Security
+  fullName: CoreWCF.Security
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Security.MessageSecurityOverTcp.#ctor*
+  commentId: Overload:CoreWCF.Security.MessageSecurityOverTcp.#ctor
+  name: MessageSecurityOverTcp
+  nameWithType: MessageSecurityOverTcp.MessageSecurityOverTcp
+  fullName: CoreWCF.Security.MessageSecurityOverTcp.MessageSecurityOverTcp
+- uid: CoreWCF.Security.MessageSecurityOverTcp.ClientCredentialType*
+  commentId: Overload:CoreWCF.Security.MessageSecurityOverTcp.ClientCredentialType
+  name: ClientCredentialType
+  nameWithType: MessageSecurityOverTcp.ClientCredentialType
+  fullName: CoreWCF.Security.MessageSecurityOverTcp.ClientCredentialType
+- uid: CoreWCF.MessageCredentialType
+  commentId: T:CoreWCF.MessageCredentialType
+  parent: CoreWCF
+  name: MessageCredentialType
+  nameWithType: MessageCredentialType
+  fullName: CoreWCF.MessageCredentialType
+- uid: CoreWCF
+  commentId: N:CoreWCF
+  name: CoreWCF
+  nameWithType: CoreWCF
+  fullName: CoreWCF
+- uid: CoreWCF.Security.MessageSecurityOverTcp.AlgorithmSuite*
+  commentId: Overload:CoreWCF.Security.MessageSecurityOverTcp.AlgorithmSuite
+  name: AlgorithmSuite
+  nameWithType: MessageSecurityOverTcp.AlgorithmSuite
+  fullName: CoreWCF.Security.MessageSecurityOverTcp.AlgorithmSuite
+- uid: CoreWCF.Security.SecurityAlgorithmSuite
+  commentId: T:CoreWCF.Security.SecurityAlgorithmSuite
+  parent: CoreWCF.Security
+  name: SecurityAlgorithmSuite
+  nameWithType: SecurityAlgorithmSuite
+  fullName: CoreWCF.Security.SecurityAlgorithmSuite
+- uid: CoreWCF.Security.MessageSecurityOverTcp.CreateSecurityBindingElement*
+  commentId: Overload:CoreWCF.Security.MessageSecurityOverTcp.CreateSecurityBindingElement
+  name: CreateSecurityBindingElement
+  nameWithType: MessageSecurityOverTcp.CreateSecurityBindingElement
+  fullName: CoreWCF.Security.MessageSecurityOverTcp.CreateSecurityBindingElement
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CoreWCF.Channels.BindingElement
+  commentId: T:CoreWCF.Channels.BindingElement
+  parent: CoreWCF.Channels
+  name: BindingElement
+  nameWithType: BindingElement
+  fullName: CoreWCF.Channels.BindingElement
+- uid: CoreWCF.Channels.SecurityBindingElement
+  commentId: T:CoreWCF.Channels.SecurityBindingElement
+  parent: CoreWCF.Channels
+  name: SecurityBindingElement
+  nameWithType: SecurityBindingElement
+  fullName: CoreWCF.Channels.SecurityBindingElement
+- uid: CoreWCF.Channels
+  commentId: N:CoreWCF.Channels
+  name: CoreWCF.Channels
+  nameWithType: CoreWCF.Channels
+  fullName: CoreWCF.Channels

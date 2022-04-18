@@ -1,0 +1,818 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement
+  commentId: T:CoreWCF.Channels.ConnectionOrientedTransportBindingElement
+  id: ConnectionOrientedTransportBindingElement
+  parent: CoreWCF.Channels
+  children:
+  - CoreWCF.Channels.ConnectionOrientedTransportBindingElement.CanBuildServiceDispatcher``1(CoreWCF.Channels.BindingContext)
+  - CoreWCF.Channels.ConnectionOrientedTransportBindingElement.ChannelInitializationTimeout
+  - CoreWCF.Channels.ConnectionOrientedTransportBindingElement.ConnectionBufferSize
+  - CoreWCF.Channels.ConnectionOrientedTransportBindingElement.GetProperty``1(CoreWCF.Channels.BindingContext)
+  - CoreWCF.Channels.ConnectionOrientedTransportBindingElement.HostNameComparisonMode
+  - CoreWCF.Channels.ConnectionOrientedTransportBindingElement.IsMatch(CoreWCF.Channels.BindingElement)
+  - CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxBufferSize
+  - CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxOutputDelay
+  - CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxPendingAccepts
+  - CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxPendingConnections
+  - CoreWCF.Channels.ConnectionOrientedTransportBindingElement.TransferMode
+  langs:
+  - csharp
+  - vb
+  name: ConnectionOrientedTransportBindingElement
+  nameWithType: ConnectionOrientedTransportBindingElement
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ConnectionOrientedTransportBindingElement
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+    startLine: 10
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels
+  syntax:
+    content: 'public abstract class ConnectionOrientedTransportBindingElement : TransportBindingElement'
+    content.vb: >-
+      Public MustInherit Class ConnectionOrientedTransportBindingElement
+
+          Inherits TransportBindingElement
+  inheritance:
+  - System.Object
+  - CoreWCF.Channels.BindingElement
+  - CoreWCF.Channels.TransportBindingElement
+  derivedClasses:
+  - CoreWCF.Channels.TcpTransportBindingElement
+  inheritedMembers:
+  - CoreWCF.Channels.TransportBindingElement.ManualAddressing
+  - CoreWCF.Channels.TransportBindingElement.MaxBufferPoolSize
+  - CoreWCF.Channels.TransportBindingElement.MaxReceivedMessageSize
+  - CoreWCF.Channels.TransportBindingElement.Scheme
+  - CoreWCF.Channels.BindingElement.Clone
+  - CoreWCF.Channels.BindingElement.BuildServiceDispatcher``1(CoreWCF.Channels.BindingContext,CoreWCF.Configuration.IServiceDispatcher)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.ConnectionBufferSize
+  commentId: P:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.ConnectionBufferSize
+  id: ConnectionBufferSize
+  parent: CoreWCF.Channels.ConnectionOrientedTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: ConnectionBufferSize
+  nameWithType: ConnectionOrientedTransportBindingElement.ConnectionBufferSize
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.ConnectionBufferSize
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ConnectionBufferSize
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+    startLine: 54
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public int ConnectionBufferSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ConnectionBufferSize As Integer
+  overload: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.ConnectionBufferSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.HostNameComparisonMode
+  commentId: P:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.HostNameComparisonMode
+  id: HostNameComparisonMode
+  parent: CoreWCF.Channels.ConnectionOrientedTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: HostNameComparisonMode
+  nameWithType: ConnectionOrientedTransportBindingElement.HostNameComparisonMode
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.HostNameComparisonMode
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: HostNameComparisonMode
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+    startLine: 73
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public HostNameComparisonMode HostNameComparisonMode { get; set; }
+    parameters: []
+    return:
+      type: CoreWCF.HostNameComparisonMode
+    content.vb: Public Property HostNameComparisonMode As HostNameComparisonMode
+  overload: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.HostNameComparisonMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxBufferSize
+  commentId: P:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxBufferSize
+  id: MaxBufferSize
+  parent: CoreWCF.Channels.ConnectionOrientedTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: MaxBufferSize
+  nameWithType: ConnectionOrientedTransportBindingElement.MaxBufferSize
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxBufferSize
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: MaxBufferSize
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+    startLine: 88
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public int MaxBufferSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxBufferSize As Integer
+  overload: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxBufferSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxPendingConnections
+  commentId: P:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxPendingConnections
+  id: MaxPendingConnections
+  parent: CoreWCF.Channels.ConnectionOrientedTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: MaxPendingConnections
+  nameWithType: ConnectionOrientedTransportBindingElement.MaxPendingConnections
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxPendingConnections
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: MaxPendingConnections
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+    startLine: 121
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public int MaxPendingConnections { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxPendingConnections As Integer
+  overload: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxPendingConnections*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.ChannelInitializationTimeout
+  commentId: P:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.ChannelInitializationTimeout
+  id: ChannelInitializationTimeout
+  parent: CoreWCF.Channels.ConnectionOrientedTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: ChannelInitializationTimeout
+  nameWithType: ConnectionOrientedTransportBindingElement.ChannelInitializationTimeout
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.ChannelInitializationTimeout
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ChannelInitializationTimeout
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+    startLine: 145
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public TimeSpan ChannelInitializationTimeout { get; set; }
+    parameters: []
+    return:
+      type: TimeSpan
+    content.vb: Public Property ChannelInitializationTimeout As TimeSpan
+  overload: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.ChannelInitializationTimeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxOutputDelay
+  commentId: P:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxOutputDelay
+  id: MaxOutputDelay
+  parent: CoreWCF.Channels.ConnectionOrientedTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: MaxOutputDelay
+  nameWithType: ConnectionOrientedTransportBindingElement.MaxOutputDelay
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxOutputDelay
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: MaxOutputDelay
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+    startLine: 170
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public TimeSpan MaxOutputDelay { get; set; }
+    parameters: []
+    return:
+      type: TimeSpan
+    content.vb: Public Property MaxOutputDelay As TimeSpan
+  overload: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxOutputDelay*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxPendingAccepts
+  commentId: P:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxPendingAccepts
+  id: MaxPendingAccepts
+  parent: CoreWCF.Channels.ConnectionOrientedTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: MaxPendingAccepts
+  nameWithType: ConnectionOrientedTransportBindingElement.MaxPendingAccepts
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxPendingAccepts
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: MaxPendingAccepts
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+    startLine: 195
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public int MaxPendingAccepts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxPendingAccepts As Integer
+  overload: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxPendingAccepts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.CanBuildServiceDispatcher``1(CoreWCF.Channels.BindingContext)
+  commentId: M:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.CanBuildServiceDispatcher``1(CoreWCF.Channels.BindingContext)
+  id: CanBuildServiceDispatcher``1(CoreWCF.Channels.BindingContext)
+  parent: CoreWCF.Channels.ConnectionOrientedTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: CanBuildServiceDispatcher<TChannel>(BindingContext)
+  nameWithType: ConnectionOrientedTransportBindingElement.CanBuildServiceDispatcher<TChannel>(BindingContext)
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.CanBuildServiceDispatcher<TChannel>(CoreWCF.Channels.BindingContext)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: CanBuildServiceDispatcher
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+    startLine: 215
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels
+  syntax:
+    content: >-
+      public override bool CanBuildServiceDispatcher<TChannel>(BindingContext context)
+
+          where TChannel : class, IChannel
+    parameters:
+    - id: context
+      type: CoreWCF.Channels.BindingContext
+    typeParameters:
+    - id: TChannel
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function CanBuildServiceDispatcher(Of TChannel As {Class, IChannel})(context As BindingContext) As Boolean
+  overridden: CoreWCF.Channels.BindingElement.CanBuildServiceDispatcher``1(CoreWCF.Channels.BindingContext)
+  overload: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.CanBuildServiceDispatcher*
+  nameWithType.vb: ConnectionOrientedTransportBindingElement.CanBuildServiceDispatcher(Of TChannel)(BindingContext)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.CanBuildServiceDispatcher(Of TChannel)(CoreWCF.Channels.BindingContext)
+  name.vb: CanBuildServiceDispatcher(Of TChannel)(BindingContext)
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.TransferMode
+  commentId: P:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.TransferMode
+  id: TransferMode
+  parent: CoreWCF.Channels.ConnectionOrientedTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: TransferMode
+  nameWithType: ConnectionOrientedTransportBindingElement.TransferMode
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.TransferMode
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: TransferMode
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+    startLine: 227
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public TransferMode TransferMode { get; set; }
+    parameters: []
+    return:
+      type: CoreWCF.TransferMode
+    content.vb: Public Property TransferMode As TransferMode
+  overload: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.TransferMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.GetProperty``1(CoreWCF.Channels.BindingContext)
+  commentId: M:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.GetProperty``1(CoreWCF.Channels.BindingContext)
+  id: GetProperty``1(CoreWCF.Channels.BindingContext)
+  parent: CoreWCF.Channels.ConnectionOrientedTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: GetProperty<T>(BindingContext)
+  nameWithType: ConnectionOrientedTransportBindingElement.GetProperty<T>(BindingContext)
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.GetProperty<T>(CoreWCF.Channels.BindingContext)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: GetProperty
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+    startLine: 241
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels
+  syntax:
+    content: >-
+      public override T GetProperty<T>(BindingContext context)
+
+          where T : class
+    parameters:
+    - id: context
+      type: CoreWCF.Channels.BindingContext
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Overrides Function GetProperty(Of T As Class)(context As BindingContext) As T
+  overridden: CoreWCF.Channels.TransportBindingElement.GetProperty``1(CoreWCF.Channels.BindingContext)
+  overload: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.GetProperty*
+  nameWithType.vb: ConnectionOrientedTransportBindingElement.GetProperty(Of T)(BindingContext)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.GetProperty(Of T)(CoreWCF.Channels.BindingContext)
+  name.vb: GetProperty(Of T)(BindingContext)
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.IsMatch(CoreWCF.Channels.BindingElement)
+  commentId: M:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.IsMatch(CoreWCF.Channels.BindingElement)
+  id: IsMatch(CoreWCF.Channels.BindingElement)
+  parent: CoreWCF.Channels.ConnectionOrientedTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: IsMatch(BindingElement)
+  nameWithType: ConnectionOrientedTransportBindingElement.IsMatch(BindingElement)
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.IsMatch(CoreWCF.Channels.BindingElement)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: IsMatch
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/ConnectionOrientedTransportBindingElement.cs
+    startLine: 258
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels
+  syntax:
+    content: protected override bool IsMatch(BindingElement b)
+    parameters:
+    - id: b
+      type: CoreWCF.Channels.BindingElement
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides Function IsMatch(b As BindingElement) As Boolean
+  overridden: CoreWCF.Channels.TransportBindingElement.IsMatch(CoreWCF.Channels.BindingElement)
+  overload: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.IsMatch*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: CoreWCF.Channels
+  commentId: N:CoreWCF.Channels
+  name: CoreWCF.Channels
+  nameWithType: CoreWCF.Channels
+  fullName: CoreWCF.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Channels.BindingElement
+  commentId: T:CoreWCF.Channels.BindingElement
+  parent: CoreWCF.Channels
+  name: BindingElement
+  nameWithType: BindingElement
+  fullName: CoreWCF.Channels.BindingElement
+- uid: CoreWCF.Channels.TransportBindingElement
+  commentId: T:CoreWCF.Channels.TransportBindingElement
+  parent: CoreWCF.Channels
+  name: TransportBindingElement
+  nameWithType: TransportBindingElement
+  fullName: CoreWCF.Channels.TransportBindingElement
+- uid: CoreWCF.Channels.TransportBindingElement.ManualAddressing
+  commentId: P:CoreWCF.Channels.TransportBindingElement.ManualAddressing
+  parent: CoreWCF.Channels.TransportBindingElement
+  name: ManualAddressing
+  nameWithType: TransportBindingElement.ManualAddressing
+  fullName: CoreWCF.Channels.TransportBindingElement.ManualAddressing
+- uid: CoreWCF.Channels.TransportBindingElement.MaxBufferPoolSize
+  commentId: P:CoreWCF.Channels.TransportBindingElement.MaxBufferPoolSize
+  parent: CoreWCF.Channels.TransportBindingElement
+  name: MaxBufferPoolSize
+  nameWithType: TransportBindingElement.MaxBufferPoolSize
+  fullName: CoreWCF.Channels.TransportBindingElement.MaxBufferPoolSize
+- uid: CoreWCF.Channels.TransportBindingElement.MaxReceivedMessageSize
+  commentId: P:CoreWCF.Channels.TransportBindingElement.MaxReceivedMessageSize
+  parent: CoreWCF.Channels.TransportBindingElement
+  name: MaxReceivedMessageSize
+  nameWithType: TransportBindingElement.MaxReceivedMessageSize
+  fullName: CoreWCF.Channels.TransportBindingElement.MaxReceivedMessageSize
+- uid: CoreWCF.Channels.TransportBindingElement.Scheme
+  commentId: P:CoreWCF.Channels.TransportBindingElement.Scheme
+  parent: CoreWCF.Channels.TransportBindingElement
+  name: Scheme
+  nameWithType: TransportBindingElement.Scheme
+  fullName: CoreWCF.Channels.TransportBindingElement.Scheme
+- uid: CoreWCF.Channels.BindingElement.Clone
+  commentId: M:CoreWCF.Channels.BindingElement.Clone
+  parent: CoreWCF.Channels.BindingElement
+  name: Clone()
+  nameWithType: BindingElement.Clone()
+  fullName: CoreWCF.Channels.BindingElement.Clone()
+  spec.csharp:
+  - uid: CoreWCF.Channels.BindingElement.Clone
+    name: Clone
+    nameWithType: BindingElement.Clone
+    fullName: CoreWCF.Channels.BindingElement.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Channels.BindingElement.Clone
+    name: Clone
+    nameWithType: BindingElement.Clone
+    fullName: CoreWCF.Channels.BindingElement.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Channels.BindingElement.BuildServiceDispatcher``1(CoreWCF.Channels.BindingContext,CoreWCF.Configuration.IServiceDispatcher)
+  commentId: M:CoreWCF.Channels.BindingElement.BuildServiceDispatcher``1(CoreWCF.Channels.BindingContext,CoreWCF.Configuration.IServiceDispatcher)
+  parent: CoreWCF.Channels.BindingElement
+  name: BuildServiceDispatcher<TChannel>(BindingContext, IServiceDispatcher)
+  nameWithType: BindingElement.BuildServiceDispatcher<TChannel>(BindingContext, IServiceDispatcher)
+  fullName: CoreWCF.Channels.BindingElement.BuildServiceDispatcher<TChannel>(CoreWCF.Channels.BindingContext, CoreWCF.Configuration.IServiceDispatcher)
+  nameWithType.vb: BindingElement.BuildServiceDispatcher(Of TChannel)(BindingContext, IServiceDispatcher)
+  fullName.vb: CoreWCF.Channels.BindingElement.BuildServiceDispatcher(Of TChannel)(CoreWCF.Channels.BindingContext, CoreWCF.Configuration.IServiceDispatcher)
+  name.vb: BuildServiceDispatcher(Of TChannel)(BindingContext, IServiceDispatcher)
+  spec.csharp:
+  - uid: CoreWCF.Channels.BindingElement.BuildServiceDispatcher``1(CoreWCF.Channels.BindingContext,CoreWCF.Configuration.IServiceDispatcher)
+    name: BuildServiceDispatcher<TChannel>
+    nameWithType: BindingElement.BuildServiceDispatcher<TChannel>
+    fullName: CoreWCF.Channels.BindingElement.BuildServiceDispatcher<TChannel>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Channels.BindingContext
+    name: BindingContext
+    nameWithType: BindingContext
+    fullName: CoreWCF.Channels.BindingContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CoreWCF.Configuration.IServiceDispatcher
+    name: IServiceDispatcher
+    nameWithType: IServiceDispatcher
+    fullName: CoreWCF.Configuration.IServiceDispatcher
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Channels.BindingElement.BuildServiceDispatcher``1(CoreWCF.Channels.BindingContext,CoreWCF.Configuration.IServiceDispatcher)
+    name: BuildServiceDispatcher(Of TChannel)
+    nameWithType: BindingElement.BuildServiceDispatcher(Of TChannel)
+    fullName: CoreWCF.Channels.BindingElement.BuildServiceDispatcher(Of TChannel)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Channels.BindingContext
+    name: BindingContext
+    nameWithType: BindingContext
+    fullName: CoreWCF.Channels.BindingContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CoreWCF.Configuration.IServiceDispatcher
+    name: IServiceDispatcher
+    nameWithType: IServiceDispatcher
+    fullName: CoreWCF.Configuration.IServiceDispatcher
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.ConnectionBufferSize*
+  commentId: Overload:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.ConnectionBufferSize
+  name: ConnectionBufferSize
+  nameWithType: ConnectionOrientedTransportBindingElement.ConnectionBufferSize
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.ConnectionBufferSize
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.HostNameComparisonMode*
+  commentId: Overload:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.HostNameComparisonMode
+  name: HostNameComparisonMode
+  nameWithType: ConnectionOrientedTransportBindingElement.HostNameComparisonMode
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.HostNameComparisonMode
+- uid: CoreWCF.HostNameComparisonMode
+  commentId: T:CoreWCF.HostNameComparisonMode
+  parent: CoreWCF
+  name: HostNameComparisonMode
+  nameWithType: HostNameComparisonMode
+  fullName: CoreWCF.HostNameComparisonMode
+- uid: CoreWCF
+  commentId: N:CoreWCF
+  name: CoreWCF
+  nameWithType: CoreWCF
+  fullName: CoreWCF
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxBufferSize*
+  commentId: Overload:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxBufferSize
+  name: MaxBufferSize
+  nameWithType: ConnectionOrientedTransportBindingElement.MaxBufferSize
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxBufferSize
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxPendingConnections*
+  commentId: Overload:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxPendingConnections
+  name: MaxPendingConnections
+  nameWithType: ConnectionOrientedTransportBindingElement.MaxPendingConnections
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxPendingConnections
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.ChannelInitializationTimeout*
+  commentId: Overload:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.ChannelInitializationTimeout
+  name: ChannelInitializationTimeout
+  nameWithType: ConnectionOrientedTransportBindingElement.ChannelInitializationTimeout
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.ChannelInitializationTimeout
+- uid: TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxOutputDelay*
+  commentId: Overload:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxOutputDelay
+  name: MaxOutputDelay
+  nameWithType: ConnectionOrientedTransportBindingElement.MaxOutputDelay
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxOutputDelay
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxPendingAccepts*
+  commentId: Overload:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxPendingAccepts
+  name: MaxPendingAccepts
+  nameWithType: ConnectionOrientedTransportBindingElement.MaxPendingAccepts
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.MaxPendingAccepts
+- uid: CoreWCF.Channels.BindingElement.CanBuildServiceDispatcher``1(CoreWCF.Channels.BindingContext)
+  commentId: M:CoreWCF.Channels.BindingElement.CanBuildServiceDispatcher``1(CoreWCF.Channels.BindingContext)
+  parent: CoreWCF.Channels.BindingElement
+  name: CanBuildServiceDispatcher<TChannel>(BindingContext)
+  nameWithType: BindingElement.CanBuildServiceDispatcher<TChannel>(BindingContext)
+  fullName: CoreWCF.Channels.BindingElement.CanBuildServiceDispatcher<TChannel>(CoreWCF.Channels.BindingContext)
+  nameWithType.vb: BindingElement.CanBuildServiceDispatcher(Of TChannel)(BindingContext)
+  fullName.vb: CoreWCF.Channels.BindingElement.CanBuildServiceDispatcher(Of TChannel)(CoreWCF.Channels.BindingContext)
+  name.vb: CanBuildServiceDispatcher(Of TChannel)(BindingContext)
+  spec.csharp:
+  - uid: CoreWCF.Channels.BindingElement.CanBuildServiceDispatcher``1(CoreWCF.Channels.BindingContext)
+    name: CanBuildServiceDispatcher<TChannel>
+    nameWithType: BindingElement.CanBuildServiceDispatcher<TChannel>
+    fullName: CoreWCF.Channels.BindingElement.CanBuildServiceDispatcher<TChannel>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Channels.BindingContext
+    name: BindingContext
+    nameWithType: BindingContext
+    fullName: CoreWCF.Channels.BindingContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Channels.BindingElement.CanBuildServiceDispatcher``1(CoreWCF.Channels.BindingContext)
+    name: CanBuildServiceDispatcher(Of TChannel)
+    nameWithType: BindingElement.CanBuildServiceDispatcher(Of TChannel)
+    fullName: CoreWCF.Channels.BindingElement.CanBuildServiceDispatcher(Of TChannel)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Channels.BindingContext
+    name: BindingContext
+    nameWithType: BindingContext
+    fullName: CoreWCF.Channels.BindingContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.CanBuildServiceDispatcher*
+  commentId: Overload:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.CanBuildServiceDispatcher
+  name: CanBuildServiceDispatcher
+  nameWithType: ConnectionOrientedTransportBindingElement.CanBuildServiceDispatcher
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.CanBuildServiceDispatcher
+- uid: CoreWCF.Channels.BindingContext
+  commentId: T:CoreWCF.Channels.BindingContext
+  parent: CoreWCF.Channels
+  name: BindingContext
+  nameWithType: BindingContext
+  fullName: CoreWCF.Channels.BindingContext
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.TransferMode*
+  commentId: Overload:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.TransferMode
+  name: TransferMode
+  nameWithType: ConnectionOrientedTransportBindingElement.TransferMode
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.TransferMode
+- uid: CoreWCF.TransferMode
+  commentId: T:CoreWCF.TransferMode
+  parent: CoreWCF
+  name: TransferMode
+  nameWithType: TransferMode
+  fullName: CoreWCF.TransferMode
+- uid: CoreWCF.Channels.TransportBindingElement.GetProperty``1(CoreWCF.Channels.BindingContext)
+  commentId: M:CoreWCF.Channels.TransportBindingElement.GetProperty``1(CoreWCF.Channels.BindingContext)
+  parent: CoreWCF.Channels.TransportBindingElement
+  name: GetProperty<T>(BindingContext)
+  nameWithType: TransportBindingElement.GetProperty<T>(BindingContext)
+  fullName: CoreWCF.Channels.TransportBindingElement.GetProperty<T>(CoreWCF.Channels.BindingContext)
+  nameWithType.vb: TransportBindingElement.GetProperty(Of T)(BindingContext)
+  fullName.vb: CoreWCF.Channels.TransportBindingElement.GetProperty(Of T)(CoreWCF.Channels.BindingContext)
+  name.vb: GetProperty(Of T)(BindingContext)
+  spec.csharp:
+  - uid: CoreWCF.Channels.TransportBindingElement.GetProperty``1(CoreWCF.Channels.BindingContext)
+    name: GetProperty<T>
+    nameWithType: TransportBindingElement.GetProperty<T>
+    fullName: CoreWCF.Channels.TransportBindingElement.GetProperty<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Channels.BindingContext
+    name: BindingContext
+    nameWithType: BindingContext
+    fullName: CoreWCF.Channels.BindingContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Channels.TransportBindingElement.GetProperty``1(CoreWCF.Channels.BindingContext)
+    name: GetProperty(Of T)
+    nameWithType: TransportBindingElement.GetProperty(Of T)
+    fullName: CoreWCF.Channels.TransportBindingElement.GetProperty(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Channels.BindingContext
+    name: BindingContext
+    nameWithType: BindingContext
+    fullName: CoreWCF.Channels.BindingContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.GetProperty*
+  commentId: Overload:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.GetProperty
+  name: GetProperty
+  nameWithType: ConnectionOrientedTransportBindingElement.GetProperty
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.GetProperty
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: CoreWCF.Channels.TransportBindingElement.IsMatch(CoreWCF.Channels.BindingElement)
+  commentId: M:CoreWCF.Channels.TransportBindingElement.IsMatch(CoreWCF.Channels.BindingElement)
+  parent: CoreWCF.Channels.TransportBindingElement
+  name: IsMatch(BindingElement)
+  nameWithType: TransportBindingElement.IsMatch(BindingElement)
+  fullName: CoreWCF.Channels.TransportBindingElement.IsMatch(CoreWCF.Channels.BindingElement)
+  spec.csharp:
+  - uid: CoreWCF.Channels.TransportBindingElement.IsMatch(CoreWCF.Channels.BindingElement)
+    name: IsMatch
+    nameWithType: TransportBindingElement.IsMatch
+    fullName: CoreWCF.Channels.TransportBindingElement.IsMatch
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Channels.BindingElement
+    name: BindingElement
+    nameWithType: BindingElement
+    fullName: CoreWCF.Channels.BindingElement
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Channels.TransportBindingElement.IsMatch(CoreWCF.Channels.BindingElement)
+    name: IsMatch
+    nameWithType: TransportBindingElement.IsMatch
+    fullName: CoreWCF.Channels.TransportBindingElement.IsMatch
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Channels.BindingElement
+    name: BindingElement
+    nameWithType: BindingElement
+    fullName: CoreWCF.Channels.BindingElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.IsMatch*
+  commentId: Overload:CoreWCF.Channels.ConnectionOrientedTransportBindingElement.IsMatch
+  name: IsMatch
+  nameWithType: ConnectionOrientedTransportBindingElement.IsMatch
+  fullName: CoreWCF.Channels.ConnectionOrientedTransportBindingElement.IsMatch

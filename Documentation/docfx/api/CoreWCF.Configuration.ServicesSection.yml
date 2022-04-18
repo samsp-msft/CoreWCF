@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.ServicesSection
+  commentId: T:CoreWCF.Configuration.ServicesSection
+  id: ServicesSection
+  parent: CoreWCF.Configuration
+  children:
+  - CoreWCF.Configuration.ServicesSection.Services
+  langs:
+  - csharp
+  - vb
+  name: ServicesSection
+  nameWithType: ServicesSection
+  fullName: CoreWCF.Configuration.ServicesSection
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServicesSection.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ServicesSection
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServicesSection.cs
+    startLine: 8
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: 'public class ServicesSection : ConfigurationSection'
+    content.vb: >-
+      Public Class ServicesSection
+
+          Inherits ConfigurationSection
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CoreWCF.Configuration.ServicesSection.Services
+  commentId: P:CoreWCF.Configuration.ServicesSection.Services
+  id: Services
+  parent: CoreWCF.Configuration.ServicesSection
+  langs:
+  - csharp
+  - vb
+  name: Services
+  nameWithType: ServicesSection.Services
+  fullName: CoreWCF.Configuration.ServicesSection.Services
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServicesSection.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Services
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServicesSection.cs
+    startLine: 10
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public ServiceElementCollection Services { get; }
+    parameters: []
+    return:
+      type: CoreWCF.Configuration.ServiceElementCollection
+    content.vb: Public ReadOnly Property Services As ServiceElementCollection
+  overload: CoreWCF.Configuration.ServicesSection.Services*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Configuration.ServicesSection.Services*
+  commentId: Overload:CoreWCF.Configuration.ServicesSection.Services
+  name: Services
+  nameWithType: ServicesSection.Services
+  fullName: CoreWCF.Configuration.ServicesSection.Services
+- uid: CoreWCF.Configuration.ServiceElementCollection
+  commentId: T:CoreWCF.Configuration.ServiceElementCollection
+  parent: CoreWCF.Configuration
+  name: ServiceElementCollection
+  nameWithType: ServiceElementCollection
+  fullName: CoreWCF.Configuration.ServiceElementCollection

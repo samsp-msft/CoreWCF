@@ -1,0 +1,1096 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Channels.Framing.RawStream
+  commentId: T:CoreWCF.Channels.Framing.RawStream
+  id: RawStream
+  parent: CoreWCF.Channels.Framing
+  children:
+  - CoreWCF.Channels.Framing.RawStream.#ctor(CoreWCF.Channels.Framing.FramingConnection)
+  - CoreWCF.Channels.Framing.RawStream.BeginRead(System.Byte[],System.Int32,System.Int32,AsyncCallback,System.Object)
+  - CoreWCF.Channels.Framing.RawStream.BeginWrite(System.Byte[],System.Int32,System.Int32,AsyncCallback,System.Object)
+  - CoreWCF.Channels.Framing.RawStream.CanRead
+  - CoreWCF.Channels.Framing.RawStream.CanSeek
+  - CoreWCF.Channels.Framing.RawStream.CanWrite
+  - CoreWCF.Channels.Framing.RawStream.EndRead(IAsyncResult)
+  - CoreWCF.Channels.Framing.RawStream.EndWrite(IAsyncResult)
+  - CoreWCF.Channels.Framing.RawStream.FinishUnwrapReadAsync
+  - CoreWCF.Channels.Framing.RawStream.Flush
+  - CoreWCF.Channels.Framing.RawStream.FlushAsync(CancellationToken)
+  - CoreWCF.Channels.Framing.RawStream.Length
+  - CoreWCF.Channels.Framing.RawStream.Position
+  - CoreWCF.Channels.Framing.RawStream.Read(System.Byte[],System.Int32,System.Int32)
+  - CoreWCF.Channels.Framing.RawStream.ReadAsync(System.Byte[],System.Int32,System.Int32,CancellationToken)
+  - CoreWCF.Channels.Framing.RawStream.Seek(System.Int64,SeekOrigin)
+  - CoreWCF.Channels.Framing.RawStream.SetLength(System.Int64)
+  - CoreWCF.Channels.Framing.RawStream.StartUnwrapRead
+  - CoreWCF.Channels.Framing.RawStream.Write(System.Byte[],System.Int32,System.Int32)
+  - CoreWCF.Channels.Framing.RawStream.WriteAsync(System.Byte[],System.Int32,System.Int32,CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: RawStream
+  nameWithType: RawStream
+  fullName: CoreWCF.Channels.Framing.RawStream
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: RawStream
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 13
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: 'public class RawStream : Stream'
+    content.vb: >-
+      Public Class RawStream
+
+          Inherits Stream
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CoreWCF.Channels.Framing.RawStream.#ctor(CoreWCF.Channels.Framing.FramingConnection)
+  commentId: M:CoreWCF.Channels.Framing.RawStream.#ctor(CoreWCF.Channels.Framing.FramingConnection)
+  id: '#ctor(CoreWCF.Channels.Framing.FramingConnection)'
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: RawStream(FramingConnection)
+  nameWithType: RawStream.RawStream(FramingConnection)
+  fullName: CoreWCF.Channels.Framing.RawStream.RawStream(CoreWCF.Channels.Framing.FramingConnection)
+  type: Constructor
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: .ctor
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 27
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public RawStream(FramingConnection connection)
+    parameters:
+    - id: connection
+      type: CoreWCF.Channels.Framing.FramingConnection
+    content.vb: Public Sub New(connection As FramingConnection)
+  overload: CoreWCF.Channels.Framing.RawStream.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.Framing.RawStream.CanRead
+  commentId: P:CoreWCF.Channels.Framing.RawStream.CanRead
+  id: CanRead
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: CanRead
+  nameWithType: RawStream.CanRead
+  fullName: CoreWCF.Channels.Framing.RawStream.CanRead
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: CanRead
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 38
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public override bool CanRead { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property CanRead As Boolean
+  overload: CoreWCF.Channels.Framing.RawStream.CanRead*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: CoreWCF.Channels.Framing.RawStream.CanSeek
+  commentId: P:CoreWCF.Channels.Framing.RawStream.CanSeek
+  id: CanSeek
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: CanSeek
+  nameWithType: RawStream.CanSeek
+  fullName: CoreWCF.Channels.Framing.RawStream.CanSeek
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: CanSeek
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 49
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public override bool CanSeek { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property CanSeek As Boolean
+  overload: CoreWCF.Channels.Framing.RawStream.CanSeek*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: CoreWCF.Channels.Framing.RawStream.CanWrite
+  commentId: P:CoreWCF.Channels.Framing.RawStream.CanWrite
+  id: CanWrite
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: CanWrite
+  nameWithType: RawStream.CanWrite
+  fullName: CoreWCF.Channels.Framing.RawStream.CanWrite
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: CanWrite
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 51
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public override bool CanWrite { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property CanWrite As Boolean
+  overload: CoreWCF.Channels.Framing.RawStream.CanWrite*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: CoreWCF.Channels.Framing.RawStream.Length
+  commentId: P:CoreWCF.Channels.Framing.RawStream.Length
+  id: Length
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: RawStream.Length
+  fullName: CoreWCF.Channels.Framing.RawStream.Length
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Length
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 53
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public override long Length { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Overrides ReadOnly Property Length As Long
+  overload: CoreWCF.Channels.Framing.RawStream.Length*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: CoreWCF.Channels.Framing.RawStream.Position
+  commentId: P:CoreWCF.Channels.Framing.RawStream.Position
+  id: Position
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: RawStream.Position
+  fullName: CoreWCF.Channels.Framing.RawStream.Position
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Position
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 61
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public override long Position { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Overrides Property Position As Long
+  overload: CoreWCF.Channels.Framing.RawStream.Position*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CoreWCF.Channels.Framing.RawStream.Seek(System.Int64,SeekOrigin)
+  commentId: M:CoreWCF.Channels.Framing.RawStream.Seek(System.Int64,SeekOrigin)
+  id: Seek(System.Int64,SeekOrigin)
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: Seek(Int64, SeekOrigin)
+  nameWithType: RawStream.Seek(Int64, SeekOrigin)
+  fullName: CoreWCF.Channels.Framing.RawStream.Seek(System.Int64, SeekOrigin)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Seek
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 73
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public override long Seek(long offset, SeekOrigin origin)
+    parameters:
+    - id: offset
+      type: System.Int64
+    - id: origin
+      type: SeekOrigin
+    return:
+      type: System.Int64
+    content.vb: Public Overrides Function Seek(offset As Long, origin As SeekOrigin) As Long
+  overload: CoreWCF.Channels.Framing.RawStream.Seek*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CoreWCF.Channels.Framing.RawStream.SetLength(System.Int64)
+  commentId: M:CoreWCF.Channels.Framing.RawStream.SetLength(System.Int64)
+  id: SetLength(System.Int64)
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: SetLength(Int64)
+  nameWithType: RawStream.SetLength(Int64)
+  fullName: CoreWCF.Channels.Framing.RawStream.SetLength(System.Int64)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: SetLength
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 78
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public override void SetLength(long value)
+    parameters:
+    - id: value
+      type: System.Int64
+    content.vb: Public Overrides Sub SetLength(value As Long)
+  overload: CoreWCF.Channels.Framing.RawStream.SetLength*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CoreWCF.Channels.Framing.RawStream.Read(System.Byte[],System.Int32,System.Int32)
+  commentId: M:CoreWCF.Channels.Framing.RawStream.Read(System.Byte[],System.Int32,System.Int32)
+  id: Read(System.Byte[],System.Int32,System.Int32)
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: Read(Byte[], Int32, Int32)
+  nameWithType: RawStream.Read(Byte[], Int32, Int32)
+  fullName: CoreWCF.Channels.Framing.RawStream.Read(System.Byte[], System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Read
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 83
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public override int Read(byte[] buffer, int offset, int count)
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+    - id: offset
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function Read(buffer As Byte(), offset As Integer, count As Integer) As Integer
+  overload: CoreWCF.Channels.Framing.RawStream.Read*
+  nameWithType.vb: RawStream.Read(Byte(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: CoreWCF.Channels.Framing.RawStream.Read(System.Byte(), System.Int32, System.Int32)
+  name.vb: Read(Byte(), Int32, Int32)
+- uid: CoreWCF.Channels.Framing.RawStream.ReadAsync(System.Byte[],System.Int32,System.Int32,CancellationToken)
+  commentId: M:CoreWCF.Channels.Framing.RawStream.ReadAsync(System.Byte[],System.Int32,System.Int32,CancellationToken)
+  id: ReadAsync(System.Byte[],System.Int32,System.Int32,CancellationToken)
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: ReadAsync(Byte[], Int32, Int32, CancellationToken)
+  nameWithType: RawStream.ReadAsync(Byte[], Int32, Int32, CancellationToken)
+  fullName: CoreWCF.Channels.Framing.RawStream.ReadAsync(System.Byte[], System.Int32, System.Int32, CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ReadAsync
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 90
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public override Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+    - id: offset
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    - id: cancellationToken
+      type: CancellationToken
+    return:
+      type: Task{System.Int32}
+    content.vb: Public Overrides Function ReadAsync(buffer As Byte(), offset As Integer, count As Integer, cancellationToken As CancellationToken) As Task(Of Integer)
+  overload: CoreWCF.Channels.Framing.RawStream.ReadAsync*
+  nameWithType.vb: RawStream.ReadAsync(Byte(), Int32, Int32, CancellationToken)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: CoreWCF.Channels.Framing.RawStream.ReadAsync(System.Byte(), System.Int32, System.Int32, CancellationToken)
+  name.vb: ReadAsync(Byte(), Int32, Int32, CancellationToken)
+- uid: CoreWCF.Channels.Framing.RawStream.Write(System.Byte[],System.Int32,System.Int32)
+  commentId: M:CoreWCF.Channels.Framing.RawStream.Write(System.Byte[],System.Int32,System.Int32)
+  id: Write(System.Byte[],System.Int32,System.Int32)
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: Write(Byte[], Int32, Int32)
+  nameWithType: RawStream.Write(Byte[], Int32, Int32)
+  fullName: CoreWCF.Channels.Framing.RawStream.Write(System.Byte[], System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Write
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 101
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public override void Write(byte[] buffer, int offset, int count)
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+    - id: offset
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    content.vb: Public Overrides Sub Write(buffer As Byte(), offset As Integer, count As Integer)
+  overload: CoreWCF.Channels.Framing.RawStream.Write*
+  nameWithType.vb: RawStream.Write(Byte(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: CoreWCF.Channels.Framing.RawStream.Write(System.Byte(), System.Int32, System.Int32)
+  name.vb: Write(Byte(), Int32, Int32)
+- uid: CoreWCF.Channels.Framing.RawStream.WriteAsync(System.Byte[],System.Int32,System.Int32,CancellationToken)
+  commentId: M:CoreWCF.Channels.Framing.RawStream.WriteAsync(System.Byte[],System.Int32,System.Int32,CancellationToken)
+  id: WriteAsync(System.Byte[],System.Int32,System.Int32,CancellationToken)
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: WriteAsync(Byte[], Int32, Int32, CancellationToken)
+  nameWithType: RawStream.WriteAsync(Byte[], Int32, Int32, CancellationToken)
+  fullName: CoreWCF.Channels.Framing.RawStream.WriteAsync(System.Byte[], System.Int32, System.Int32, CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: WriteAsync
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 106
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public override async Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+    - id: offset
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    - id: cancellationToken
+      type: CancellationToken
+    return:
+      type: Task
+    content.vb: Public Overrides Function WriteAsync(buffer As Byte(), offset As Integer, count As Integer, cancellationToken As CancellationToken) As Task
+  overload: CoreWCF.Channels.Framing.RawStream.WriteAsync*
+  nameWithType.vb: RawStream.WriteAsync(Byte(), Int32, Int32, CancellationToken)
+  modifiers.csharp:
+  - public
+  - override
+  - async
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: CoreWCF.Channels.Framing.RawStream.WriteAsync(System.Byte(), System.Int32, System.Int32, CancellationToken)
+  name.vb: WriteAsync(Byte(), Int32, Int32, CancellationToken)
+- uid: CoreWCF.Channels.Framing.RawStream.Flush
+  commentId: M:CoreWCF.Channels.Framing.RawStream.Flush
+  id: Flush
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: Flush()
+  nameWithType: RawStream.Flush()
+  fullName: CoreWCF.Channels.Framing.RawStream.Flush()
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Flush
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 123
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public override void Flush()
+    content.vb: Public Overrides Sub Flush
+  overload: CoreWCF.Channels.Framing.RawStream.Flush*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CoreWCF.Channels.Framing.RawStream.FlushAsync(CancellationToken)
+  commentId: M:CoreWCF.Channels.Framing.RawStream.FlushAsync(CancellationToken)
+  id: FlushAsync(CancellationToken)
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: FlushAsync(CancellationToken)
+  nameWithType: RawStream.FlushAsync(CancellationToken)
+  fullName: CoreWCF.Channels.Framing.RawStream.FlushAsync(CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: FlushAsync
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 128
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public override Task FlushAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: CancellationToken
+    return:
+      type: Task
+    content.vb: Public Overrides Function FlushAsync(cancellationToken As CancellationToken) As Task
+  overload: CoreWCF.Channels.Framing.RawStream.FlushAsync*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CoreWCF.Channels.Framing.RawStream.BeginRead(System.Byte[],System.Int32,System.Int32,AsyncCallback,System.Object)
+  commentId: M:CoreWCF.Channels.Framing.RawStream.BeginRead(System.Byte[],System.Int32,System.Int32,AsyncCallback,System.Object)
+  id: BeginRead(System.Byte[],System.Int32,System.Int32,AsyncCallback,System.Object)
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: BeginRead(Byte[], Int32, Int32, AsyncCallback, Object)
+  nameWithType: RawStream.BeginRead(Byte[], Int32, Int32, AsyncCallback, Object)
+  fullName: CoreWCF.Channels.Framing.RawStream.BeginRead(System.Byte[], System.Int32, System.Int32, AsyncCallback, System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: BeginRead
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 179
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public override IAsyncResult BeginRead(byte[] buffer, int offset, int count, AsyncCallback callback, object state)
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+    - id: offset
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    - id: callback
+      type: AsyncCallback
+    - id: state
+      type: System.Object
+    return:
+      type: IAsyncResult
+    content.vb: Public Overrides Function BeginRead(buffer As Byte(), offset As Integer, count As Integer, callback As AsyncCallback, state As Object) As IAsyncResult
+  overload: CoreWCF.Channels.Framing.RawStream.BeginRead*
+  nameWithType.vb: RawStream.BeginRead(Byte(), Int32, Int32, AsyncCallback, Object)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: CoreWCF.Channels.Framing.RawStream.BeginRead(System.Byte(), System.Int32, System.Int32, AsyncCallback, System.Object)
+  name.vb: BeginRead(Byte(), Int32, Int32, AsyncCallback, Object)
+- uid: CoreWCF.Channels.Framing.RawStream.EndRead(IAsyncResult)
+  commentId: M:CoreWCF.Channels.Framing.RawStream.EndRead(IAsyncResult)
+  id: EndRead(IAsyncResult)
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: EndRead(IAsyncResult)
+  nameWithType: RawStream.EndRead(IAsyncResult)
+  fullName: CoreWCF.Channels.Framing.RawStream.EndRead(IAsyncResult)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: EndRead
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 189
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public override int EndRead(IAsyncResult asyncResult)
+    parameters:
+    - id: asyncResult
+      type: IAsyncResult
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function EndRead(asyncResult As IAsyncResult) As Integer
+  overload: CoreWCF.Channels.Framing.RawStream.EndRead*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CoreWCF.Channels.Framing.RawStream.BeginWrite(System.Byte[],System.Int32,System.Int32,AsyncCallback,System.Object)
+  commentId: M:CoreWCF.Channels.Framing.RawStream.BeginWrite(System.Byte[],System.Int32,System.Int32,AsyncCallback,System.Object)
+  id: BeginWrite(System.Byte[],System.Int32,System.Int32,AsyncCallback,System.Object)
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: BeginWrite(Byte[], Int32, Int32, AsyncCallback, Object)
+  nameWithType: RawStream.BeginWrite(Byte[], Int32, Int32, AsyncCallback, Object)
+  fullName: CoreWCF.Channels.Framing.RawStream.BeginWrite(System.Byte[], System.Int32, System.Int32, AsyncCallback, System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: BeginWrite
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 217
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public override IAsyncResult BeginWrite(byte[] buffer, int offset, int count, AsyncCallback callback, object state)
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+    - id: offset
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    - id: callback
+      type: AsyncCallback
+    - id: state
+      type: System.Object
+    return:
+      type: IAsyncResult
+    content.vb: Public Overrides Function BeginWrite(buffer As Byte(), offset As Integer, count As Integer, callback As AsyncCallback, state As Object) As IAsyncResult
+  overload: CoreWCF.Channels.Framing.RawStream.BeginWrite*
+  nameWithType.vb: RawStream.BeginWrite(Byte(), Int32, Int32, AsyncCallback, Object)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: CoreWCF.Channels.Framing.RawStream.BeginWrite(System.Byte(), System.Int32, System.Int32, AsyncCallback, System.Object)
+  name.vb: BeginWrite(Byte(), Int32, Int32, AsyncCallback, Object)
+- uid: CoreWCF.Channels.Framing.RawStream.EndWrite(IAsyncResult)
+  commentId: M:CoreWCF.Channels.Framing.RawStream.EndWrite(IAsyncResult)
+  id: EndWrite(IAsyncResult)
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: EndWrite(IAsyncResult)
+  nameWithType: RawStream.EndWrite(IAsyncResult)
+  fullName: CoreWCF.Channels.Framing.RawStream.EndWrite(IAsyncResult)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: EndWrite
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 227
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public override void EndWrite(IAsyncResult asyncResult)
+    parameters:
+    - id: asyncResult
+      type: IAsyncResult
+    content.vb: Public Overrides Sub EndWrite(asyncResult As IAsyncResult)
+  overload: CoreWCF.Channels.Framing.RawStream.EndWrite*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CoreWCF.Channels.Framing.RawStream.StartUnwrapRead
+  commentId: M:CoreWCF.Channels.Framing.RawStream.StartUnwrapRead
+  id: StartUnwrapRead
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: StartUnwrapRead()
+  nameWithType: RawStream.StartUnwrapRead()
+  fullName: CoreWCF.Channels.Framing.RawStream.StartUnwrapRead()
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: StartUnwrapRead
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 255
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public void StartUnwrapRead()
+    content.vb: Public Sub StartUnwrapRead
+  overload: CoreWCF.Channels.Framing.RawStream.StartUnwrapRead*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.Framing.RawStream.FinishUnwrapReadAsync
+  commentId: M:CoreWCF.Channels.Framing.RawStream.FinishUnwrapReadAsync
+  id: FinishUnwrapReadAsync
+  parent: CoreWCF.Channels.Framing.RawStream
+  langs:
+  - csharp
+  - vb
+  name: FinishUnwrapReadAsync()
+  nameWithType: RawStream.FinishUnwrapReadAsync()
+  fullName: CoreWCF.Channels.Framing.RawStream.FinishUnwrapReadAsync()
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: FinishUnwrapReadAsync
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Channels/Framing/RawStream.cs
+    startLine: 285
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Channels.Framing
+  syntax:
+    content: public async Task FinishUnwrapReadAsync()
+    return:
+      type: Task
+    content.vb: Public Function FinishUnwrapReadAsync As Task
+  overload: CoreWCF.Channels.Framing.RawStream.FinishUnwrapReadAsync*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+references:
+- uid: CoreWCF.Channels.Framing
+  commentId: N:CoreWCF.Channels.Framing
+  name: CoreWCF.Channels.Framing
+  nameWithType: CoreWCF.Channels.Framing
+  fullName: CoreWCF.Channels.Framing
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Channels.Framing.RawStream.#ctor*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.#ctor
+  name: RawStream
+  nameWithType: RawStream.RawStream
+  fullName: CoreWCF.Channels.Framing.RawStream.RawStream
+- uid: CoreWCF.Channels.Framing.FramingConnection
+  commentId: T:CoreWCF.Channels.Framing.FramingConnection
+  parent: CoreWCF.Channels.Framing
+  name: FramingConnection
+  nameWithType: FramingConnection
+  fullName: CoreWCF.Channels.Framing.FramingConnection
+- uid: CoreWCF.Channels.Framing.RawStream.CanRead*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.CanRead
+  name: CanRead
+  nameWithType: RawStream.CanRead
+  fullName: CoreWCF.Channels.Framing.RawStream.CanRead
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CoreWCF.Channels.Framing.RawStream.CanSeek*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.CanSeek
+  name: CanSeek
+  nameWithType: RawStream.CanSeek
+  fullName: CoreWCF.Channels.Framing.RawStream.CanSeek
+- uid: CoreWCF.Channels.Framing.RawStream.CanWrite*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.CanWrite
+  name: CanWrite
+  nameWithType: RawStream.CanWrite
+  fullName: CoreWCF.Channels.Framing.RawStream.CanWrite
+- uid: CoreWCF.Channels.Framing.RawStream.Length*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.Length
+  name: Length
+  nameWithType: RawStream.Length
+  fullName: CoreWCF.Channels.Framing.RawStream.Length
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: CoreWCF.Channels.Framing.RawStream.Position*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.Position
+  name: Position
+  nameWithType: RawStream.Position
+  fullName: CoreWCF.Channels.Framing.RawStream.Position
+- uid: CoreWCF.Channels.Framing.RawStream.Seek*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.Seek
+  name: Seek
+  nameWithType: RawStream.Seek
+  fullName: CoreWCF.Channels.Framing.RawStream.Seek
+- uid: SeekOrigin
+  commentId: '!:SeekOrigin'
+  isExternal: true
+  name: SeekOrigin
+  nameWithType: SeekOrigin
+  fullName: SeekOrigin
+- uid: CoreWCF.Channels.Framing.RawStream.SetLength*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.SetLength
+  name: SetLength
+  nameWithType: RawStream.SetLength
+  fullName: CoreWCF.Channels.Framing.RawStream.SetLength
+- uid: CoreWCF.Channels.Framing.RawStream.Read*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.Read
+  name: Read
+  nameWithType: RawStream.Read
+  fullName: CoreWCF.Channels.Framing.RawStream.Read
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CoreWCF.Channels.Framing.RawStream.ReadAsync*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.ReadAsync
+  name: ReadAsync
+  nameWithType: RawStream.ReadAsync
+  fullName: CoreWCF.Channels.Framing.RawStream.ReadAsync
+- uid: CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: CancellationToken
+- uid: Task{System.Int32}
+  commentId: '!:Task{System.Int32}'
+  definition: Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  commentId: '!:Task`1'
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Channels.Framing.RawStream.Write*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.Write
+  name: Write
+  nameWithType: RawStream.Write
+  fullName: CoreWCF.Channels.Framing.RawStream.Write
+- uid: CoreWCF.Channels.Framing.RawStream.WriteAsync*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.WriteAsync
+  name: WriteAsync
+  nameWithType: RawStream.WriteAsync
+  fullName: CoreWCF.Channels.Framing.RawStream.WriteAsync
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task
+- uid: CoreWCF.Channels.Framing.RawStream.Flush*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.Flush
+  name: Flush
+  nameWithType: RawStream.Flush
+  fullName: CoreWCF.Channels.Framing.RawStream.Flush
+- uid: CoreWCF.Channels.Framing.RawStream.FlushAsync*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.FlushAsync
+  name: FlushAsync
+  nameWithType: RawStream.FlushAsync
+  fullName: CoreWCF.Channels.Framing.RawStream.FlushAsync
+- uid: CoreWCF.Channels.Framing.RawStream.BeginRead*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.BeginRead
+  name: BeginRead
+  nameWithType: RawStream.BeginRead
+  fullName: CoreWCF.Channels.Framing.RawStream.BeginRead
+- uid: AsyncCallback
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: AsyncCallback
+- uid: IAsyncResult
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: IAsyncResult
+- uid: CoreWCF.Channels.Framing.RawStream.EndRead*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.EndRead
+  name: EndRead
+  nameWithType: RawStream.EndRead
+  fullName: CoreWCF.Channels.Framing.RawStream.EndRead
+- uid: CoreWCF.Channels.Framing.RawStream.BeginWrite*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.BeginWrite
+  name: BeginWrite
+  nameWithType: RawStream.BeginWrite
+  fullName: CoreWCF.Channels.Framing.RawStream.BeginWrite
+- uid: CoreWCF.Channels.Framing.RawStream.EndWrite*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.EndWrite
+  name: EndWrite
+  nameWithType: RawStream.EndWrite
+  fullName: CoreWCF.Channels.Framing.RawStream.EndWrite
+- uid: CoreWCF.Channels.Framing.RawStream.StartUnwrapRead*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.StartUnwrapRead
+  name: StartUnwrapRead
+  nameWithType: RawStream.StartUnwrapRead
+  fullName: CoreWCF.Channels.Framing.RawStream.StartUnwrapRead
+- uid: CoreWCF.Channels.Framing.RawStream.FinishUnwrapReadAsync*
+  commentId: Overload:CoreWCF.Channels.Framing.RawStream.FinishUnwrapReadAsync
+  name: FinishUnwrapReadAsync
+  nameWithType: RawStream.FinishUnwrapReadAsync
+  fullName: CoreWCF.Channels.Framing.RawStream.FinishUnwrapReadAsync

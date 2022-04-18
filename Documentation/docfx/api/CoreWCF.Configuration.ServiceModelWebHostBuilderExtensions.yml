@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions
+  commentId: T:CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions
+  id: ServiceModelWebHostBuilderExtensions
+  parent: CoreWCF.Configuration
+  children:
+  - CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder)
+  - CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder,IPAddress)
+  - CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder,IPAddress,System.Int32)
+  - CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ServiceModelWebHostBuilderExtensions
+  nameWithType: ServiceModelWebHostBuilderExtensions
+  fullName: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/ServiceModelWebHostBuilderExtensions.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ServiceModelWebHostBuilderExtensions
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/ServiceModelWebHostBuilderExtensions.cs
+    startLine: 17
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: 'public static class ServiceModelWebHostBuilderExtensions : object'
+    content.vb: >-
+      Public Module ServiceModelWebHostBuilderExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder)
+  commentId: M:CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder)
+  id: UseNetTcp(IWebHostBuilder)
+  isExtensionMethod: true
+  parent: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: UseNetTcp(IWebHostBuilder)
+  nameWithType: ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder)
+  fullName: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/ServiceModelWebHostBuilderExtensions.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: UseNetTcp
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/ServiceModelWebHostBuilderExtensions.cs
+    startLine: 19
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public static IWebHostBuilder UseNetTcp(this IWebHostBuilder webHostBuilder)
+    parameters:
+    - id: webHostBuilder
+      type: IWebHostBuilder
+    return:
+      type: IWebHostBuilder
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UseNetTcp(webHostBuilder As IWebHostBuilder) As IWebHostBuilder
+  overload: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder,System.Int32)
+  commentId: M:CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder,System.Int32)
+  id: UseNetTcp(IWebHostBuilder,System.Int32)
+  isExtensionMethod: true
+  parent: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: UseNetTcp(IWebHostBuilder, Int32)
+  nameWithType: ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder, Int32)
+  fullName: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/ServiceModelWebHostBuilderExtensions.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: UseNetTcp
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/ServiceModelWebHostBuilderExtensions.cs
+    startLine: 25
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public static IWebHostBuilder UseNetTcp(this IWebHostBuilder webHostBuilder, int port)
+    parameters:
+    - id: webHostBuilder
+      type: IWebHostBuilder
+    - id: port
+      type: System.Int32
+    return:
+      type: IWebHostBuilder
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UseNetTcp(webHostBuilder As IWebHostBuilder, port As Integer) As IWebHostBuilder
+  overload: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder,IPAddress)
+  commentId: M:CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder,IPAddress)
+  id: UseNetTcp(IWebHostBuilder,IPAddress)
+  isExtensionMethod: true
+  parent: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: UseNetTcp(IWebHostBuilder, IPAddress)
+  nameWithType: ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder, IPAddress)
+  fullName: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder, IPAddress)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/ServiceModelWebHostBuilderExtensions.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: UseNetTcp
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/ServiceModelWebHostBuilderExtensions.cs
+    startLine: 30
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public static IWebHostBuilder UseNetTcp(this IWebHostBuilder webHostBuilder, IPAddress ipAddress)
+    parameters:
+    - id: webHostBuilder
+      type: IWebHostBuilder
+    - id: ipAddress
+      type: IPAddress
+    return:
+      type: IWebHostBuilder
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UseNetTcp(webHostBuilder As IWebHostBuilder, ipAddress As IPAddress) As IWebHostBuilder
+  overload: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder,IPAddress,System.Int32)
+  commentId: M:CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder,IPAddress,System.Int32)
+  id: UseNetTcp(IWebHostBuilder,IPAddress,System.Int32)
+  isExtensionMethod: true
+  parent: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: UseNetTcp(IWebHostBuilder, IPAddress, Int32)
+  nameWithType: ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder, IPAddress, Int32)
+  fullName: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp(IWebHostBuilder, IPAddress, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/ServiceModelWebHostBuilderExtensions.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: UseNetTcp
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/ServiceModelWebHostBuilderExtensions.cs
+    startLine: 35
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public static IWebHostBuilder UseNetTcp(this IWebHostBuilder webHostBuilder, IPAddress ipAddress, int port)
+    parameters:
+    - id: webHostBuilder
+      type: IWebHostBuilder
+    - id: ipAddress
+      type: IPAddress
+    - id: port
+      type: System.Int32
+    return:
+      type: IWebHostBuilder
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UseNetTcp(webHostBuilder As IWebHostBuilder, ipAddress As IPAddress, port As Integer) As IWebHostBuilder
+  overload: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp*
+  commentId: Overload:CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp
+  name: UseNetTcp
+  nameWithType: ServiceModelWebHostBuilderExtensions.UseNetTcp
+  fullName: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.UseNetTcp
+- uid: IWebHostBuilder
+  isExternal: true
+  name: IWebHostBuilder
+  nameWithType: IWebHostBuilder
+  fullName: IWebHostBuilder
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: IPAddress
+  isExternal: true
+  name: IPAddress
+  nameWithType: IPAddress
+  fullName: IPAddress

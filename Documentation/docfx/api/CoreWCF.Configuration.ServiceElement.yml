@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.ServiceElement
+  commentId: T:CoreWCF.Configuration.ServiceElement
+  id: ServiceElement
+  parent: CoreWCF.Configuration
+  children:
+  - CoreWCF.Configuration.ServiceElement.BehaviorConfiguration
+  - CoreWCF.Configuration.ServiceElement.Endpoints
+  - CoreWCF.Configuration.ServiceElement.Name
+  langs:
+  - csharp
+  - vb
+  name: ServiceElement
+  nameWithType: ServiceElement
+  fullName: CoreWCF.Configuration.ServiceElement
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ServiceElement
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceElement.cs
+    startLine: 8
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: 'public class ServiceElement : ConfigurationElement'
+    content.vb: >-
+      Public Class ServiceElement
+
+          Inherits ConfigurationElement
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CoreWCF.Configuration.ServiceElement.BehaviorConfiguration
+  commentId: P:CoreWCF.Configuration.ServiceElement.BehaviorConfiguration
+  id: BehaviorConfiguration
+  parent: CoreWCF.Configuration.ServiceElement
+  langs:
+  - csharp
+  - vb
+  name: BehaviorConfiguration
+  nameWithType: ServiceElement.BehaviorConfiguration
+  fullName: CoreWCF.Configuration.ServiceElement.BehaviorConfiguration
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: BehaviorConfiguration
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceElement.cs
+    startLine: 10
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public string BehaviorConfiguration { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BehaviorConfiguration As String
+  overload: CoreWCF.Configuration.ServiceElement.BehaviorConfiguration*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Configuration.ServiceElement.Endpoints
+  commentId: P:CoreWCF.Configuration.ServiceElement.Endpoints
+  id: Endpoints
+  parent: CoreWCF.Configuration.ServiceElement
+  langs:
+  - csharp
+  - vb
+  name: Endpoints
+  nameWithType: ServiceElement.Endpoints
+  fullName: CoreWCF.Configuration.ServiceElement.Endpoints
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Endpoints
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceElement.cs
+    startLine: 25
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public ServiceEndpointElementCollection Endpoints { get; }
+    parameters: []
+    return:
+      type: CoreWCF.Configuration.ServiceEndpointElementCollection
+    content.vb: Public ReadOnly Property Endpoints As ServiceEndpointElementCollection
+  overload: CoreWCF.Configuration.ServiceElement.Endpoints*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CoreWCF.Configuration.ServiceElement.Name
+  commentId: P:CoreWCF.Configuration.ServiceElement.Name
+  id: Name
+  parent: CoreWCF.Configuration.ServiceElement
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ServiceElement.Name
+  fullName: CoreWCF.Configuration.ServiceElement.Name
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Name
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceElement.cs
+    startLine: 31
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: CoreWCF.Configuration.ServiceElement.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Configuration.ServiceElement.BehaviorConfiguration*
+  commentId: Overload:CoreWCF.Configuration.ServiceElement.BehaviorConfiguration
+  name: BehaviorConfiguration
+  nameWithType: ServiceElement.BehaviorConfiguration
+  fullName: CoreWCF.Configuration.ServiceElement.BehaviorConfiguration
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CoreWCF.Configuration.ServiceElement.Endpoints*
+  commentId: Overload:CoreWCF.Configuration.ServiceElement.Endpoints
+  name: Endpoints
+  nameWithType: ServiceElement.Endpoints
+  fullName: CoreWCF.Configuration.ServiceElement.Endpoints
+- uid: CoreWCF.Configuration.ServiceEndpointElementCollection
+  commentId: T:CoreWCF.Configuration.ServiceEndpointElementCollection
+  parent: CoreWCF.Configuration
+  name: ServiceEndpointElementCollection
+  nameWithType: ServiceEndpointElementCollection
+  fullName: CoreWCF.Configuration.ServiceEndpointElementCollection
+- uid: CoreWCF.Configuration.ServiceElement.Name*
+  commentId: Overload:CoreWCF.Configuration.ServiceElement.Name
+  name: Name
+  nameWithType: ServiceElement.Name
+  fullName: CoreWCF.Configuration.ServiceElement.Name

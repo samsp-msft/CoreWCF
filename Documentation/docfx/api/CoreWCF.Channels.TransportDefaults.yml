@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Channels.TransportDefaults
+  commentId: T:CoreWCF.Channels.TransportDefaults
+  id: TransportDefaults
+  parent: CoreWCF.Channels
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TransportDefaults
+  nameWithType: TransportDefaults
+  fullName: CoreWCF.Channels.TransportDefaults
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/TransportDefaults.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: TransportDefaults
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/TransportDefaults.cs
+    startLine: 9
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: 'public static class TransportDefaults : object'
+    content.vb: >-
+      Public Module TransportDefaults
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+references:
+- uid: CoreWCF.Channels
+  commentId: N:CoreWCF.Channels
+  name: CoreWCF.Channels
+  nameWithType: CoreWCF.Channels
+  fullName: CoreWCF.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object

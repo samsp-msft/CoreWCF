@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElement
+  commentId: T:CoreWCF.Configuration.ServiceModelConfigurationElement
+  id: ServiceModelConfigurationElement
+  parent: CoreWCF.Configuration
+  children:
+  - CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  langs:
+  - csharp
+  - vb
+  name: ServiceModelConfigurationElement
+  nameWithType: ServiceModelConfigurationElement
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElement
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceModelConfigurationElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ServiceModelConfigurationElement
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceModelConfigurationElement.cs
+    startLine: 11
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  summary: "\nBinding-related Configuration elements use this base class for WCF-wide commonalities\n"
+  example: []
+  syntax:
+    content: 'public abstract class ServiceModelConfigurationElement : ConfigurationElement'
+    content.vb: >-
+      Public MustInherit Class ServiceModelConfigurationElement
+
+          Inherits ConfigurationElement
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - CoreWCF.Configuration.BasicHttpMessageSecurityElement
+  - CoreWCF.Configuration.BasicHttpSecurityElement
+  - CoreWCF.Configuration.HttpTransportSecurityElement
+  - CoreWCF.Configuration.MessageSecurityOverHttpElement
+  - CoreWCF.Configuration.MessageSecurityOverTcpElement
+  - CoreWCF.Configuration.NetTcpSecurityElement
+  - CoreWCF.Configuration.StandardBindingElement
+  - CoreWCF.Configuration.TcpTransportSecurityElement
+  - CoreWCF.Configuration.WSHttpSecurityElement
+  - CoreWCF.Configuration.WSHttpTransportSecurityElement
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  commentId: M:CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  id: SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  parent: CoreWCF.Configuration.ServiceModelConfigurationElement
+  langs:
+  - csharp
+  - vb
+  name: SetPropertyValueIfNotDefaultValue<T>(String, T)
+  nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>(String, T)
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>(System.String, T)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceModelConfigurationElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: SetPropertyValueIfNotDefaultValue
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceModelConfigurationElement.cs
+    startLine: 19
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  summary: "\nUsed by InitializeFrom() pattern to avoid writing default values to generated .config files.\n"
+  example: []
+  syntax:
+    content: protected void SetPropertyValueIfNotDefaultValue<T>(string propertyName, T value)
+    parameters:
+    - id: propertyName
+      type: System.String
+      description: ConfigurationProperty.Name for the configuration property to set
+    - id: value
+      type: '{T}'
+      description: Value to set
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: Protected Sub SetPropertyValueIfNotDefaultValue(Of T)(propertyName As String, value As T)
+  overload: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue*
+  nameWithType.vb: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)(String, T)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)(System.String, T)
+  name.vb: SetPropertyValueIfNotDefaultValue(Of T)(String, T)
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue*
+  commentId: Overload:CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue
+  name: SetPropertyValueIfNotDefaultValue
+  nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

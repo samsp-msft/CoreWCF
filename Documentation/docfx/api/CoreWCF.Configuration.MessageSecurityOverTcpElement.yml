@@ -1,0 +1,270 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.MessageSecurityOverTcpElement
+  commentId: T:CoreWCF.Configuration.MessageSecurityOverTcpElement
+  id: MessageSecurityOverTcpElement
+  parent: CoreWCF.Configuration
+  children:
+  - CoreWCF.Configuration.MessageSecurityOverTcpElement.AlgorithmSuite
+  - CoreWCF.Configuration.MessageSecurityOverTcpElement.ClientCredentialType
+  langs:
+  - csharp
+  - vb
+  name: MessageSecurityOverTcpElement
+  nameWithType: MessageSecurityOverTcpElement
+  fullName: CoreWCF.Configuration.MessageSecurityOverTcpElement
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/MessageSecurityOverTcpElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: MessageSecurityOverTcpElement
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/MessageSecurityOverTcpElement.cs
+    startLine: 9
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: 'public class MessageSecurityOverTcpElement : ServiceModelConfigurationElement'
+    content.vb: >-
+      Public Class MessageSecurityOverTcpElement
+
+          Inherits ServiceModelConfigurationElement
+  inheritance:
+  - System.Object
+  - CoreWCF.Configuration.ServiceModelConfigurationElement
+  inheritedMembers:
+  - CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,{T})
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CoreWCF.Configuration.MessageSecurityOverTcpElement.ClientCredentialType
+  commentId: P:CoreWCF.Configuration.MessageSecurityOverTcpElement.ClientCredentialType
+  id: ClientCredentialType
+  parent: CoreWCF.Configuration.MessageSecurityOverTcpElement
+  langs:
+  - csharp
+  - vb
+  name: ClientCredentialType
+  nameWithType: MessageSecurityOverTcpElement.ClientCredentialType
+  fullName: CoreWCF.Configuration.MessageSecurityOverTcpElement.ClientCredentialType
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/MessageSecurityOverTcpElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ClientCredentialType
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/MessageSecurityOverTcpElement.cs
+    startLine: 11
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public MessageCredentialType ClientCredentialType { get; set; }
+    parameters: []
+    return:
+      type: CoreWCF.MessageCredentialType
+    content.vb: Public Property ClientCredentialType As MessageCredentialType
+  overload: CoreWCF.Configuration.MessageSecurityOverTcpElement.ClientCredentialType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Configuration.MessageSecurityOverTcpElement.AlgorithmSuite
+  commentId: P:CoreWCF.Configuration.MessageSecurityOverTcpElement.AlgorithmSuite
+  id: AlgorithmSuite
+  parent: CoreWCF.Configuration.MessageSecurityOverTcpElement
+  langs:
+  - csharp
+  - vb
+  name: AlgorithmSuite
+  nameWithType: MessageSecurityOverTcpElement.AlgorithmSuite
+  fullName: CoreWCF.Configuration.MessageSecurityOverTcpElement.AlgorithmSuite
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/MessageSecurityOverTcpElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: AlgorithmSuite
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/MessageSecurityOverTcpElement.cs
+    startLine: 18
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public SecurityAlgorithmSuite AlgorithmSuite { get; set; }
+    parameters: []
+    return:
+      type: CoreWCF.Security.SecurityAlgorithmSuite
+    content.vb: Public Property AlgorithmSuite As SecurityAlgorithmSuite
+  overload: CoreWCF.Configuration.MessageSecurityOverTcpElement.AlgorithmSuite*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElement
+  commentId: T:CoreWCF.Configuration.ServiceModelConfigurationElement
+  parent: CoreWCF.Configuration
+  name: ServiceModelConfigurationElement
+  nameWithType: ServiceModelConfigurationElement
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElement
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,{T})
+  commentId: M:CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  parent: CoreWCF.Configuration.ServiceModelConfigurationElement
+  definition: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  name: SetPropertyValueIfNotDefaultValue<T>(String, T)
+  nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>(String, T)
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>(System.String, T)
+  nameWithType.vb: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)(String, T)
+  fullName.vb: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)(System.String, T)
+  name.vb: SetPropertyValueIfNotDefaultValue(Of T)(String, T)
+  spec.csharp:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+    name: SetPropertyValueIfNotDefaultValue<T>
+    nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+    name: SetPropertyValueIfNotDefaultValue(Of T)
+    nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  commentId: M:CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  isExternal: true
+  name: SetPropertyValueIfNotDefaultValue<T>(String, T)
+  nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>(String, T)
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>(System.String, T)
+  nameWithType.vb: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)(String, T)
+  fullName.vb: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)(System.String, T)
+  name.vb: SetPropertyValueIfNotDefaultValue(Of T)(String, T)
+  spec.csharp:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+    name: SetPropertyValueIfNotDefaultValue<T>
+    nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+    name: SetPropertyValueIfNotDefaultValue(Of T)
+    nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.MessageSecurityOverTcpElement.ClientCredentialType*
+  commentId: Overload:CoreWCF.Configuration.MessageSecurityOverTcpElement.ClientCredentialType
+  name: ClientCredentialType
+  nameWithType: MessageSecurityOverTcpElement.ClientCredentialType
+  fullName: CoreWCF.Configuration.MessageSecurityOverTcpElement.ClientCredentialType
+- uid: CoreWCF.MessageCredentialType
+  commentId: T:CoreWCF.MessageCredentialType
+  parent: CoreWCF
+  name: MessageCredentialType
+  nameWithType: MessageCredentialType
+  fullName: CoreWCF.MessageCredentialType
+- uid: CoreWCF
+  commentId: N:CoreWCF
+  name: CoreWCF
+  nameWithType: CoreWCF
+  fullName: CoreWCF
+- uid: CoreWCF.Configuration.MessageSecurityOverTcpElement.AlgorithmSuite*
+  commentId: Overload:CoreWCF.Configuration.MessageSecurityOverTcpElement.AlgorithmSuite
+  name: AlgorithmSuite
+  nameWithType: MessageSecurityOverTcpElement.AlgorithmSuite
+  fullName: CoreWCF.Configuration.MessageSecurityOverTcpElement.AlgorithmSuite
+- uid: CoreWCF.Security.SecurityAlgorithmSuite
+  commentId: T:CoreWCF.Security.SecurityAlgorithmSuite
+  parent: CoreWCF.Security
+  name: SecurityAlgorithmSuite
+  nameWithType: SecurityAlgorithmSuite
+  fullName: CoreWCF.Security.SecurityAlgorithmSuite
+- uid: CoreWCF.Security
+  commentId: N:CoreWCF.Security
+  name: CoreWCF.Security
+  nameWithType: CoreWCF.Security
+  fullName: CoreWCF.Security

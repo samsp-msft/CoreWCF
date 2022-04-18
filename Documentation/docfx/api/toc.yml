@@ -1,0 +1,188 @@
+### YamlMime:TableOfContent
+- uid: CoreWCF
+  name: CoreWCF
+  items:
+  - uid: CoreWCF.BasicHttpBinding
+    name: BasicHttpBinding
+  - uid: CoreWCF.BasicHttpMessageCredentialType
+    name: BasicHttpMessageCredentialType
+  - uid: CoreWCF.BasicHttpMessageSecurity
+    name: BasicHttpMessageSecurity
+  - uid: CoreWCF.BasicHttpSecurity
+    name: BasicHttpSecurity
+  - uid: CoreWCF.HttpBindingBase
+    name: HttpBindingBase
+  - uid: CoreWCF.HttpClientCredentialType
+    name: HttpClientCredentialType
+  - uid: CoreWCF.HttpTransportSecurity
+    name: HttpTransportSecurity
+  - uid: CoreWCF.NetHttpBinding
+    name: NetHttpBinding
+  - uid: CoreWCF.NetHttpMessageEncoding
+    name: NetHttpMessageEncoding
+  - uid: CoreWCF.NetTcpBinding
+    name: NetTcpBinding
+  - uid: CoreWCF.NetTcpSecurity
+    name: NetTcpSecurity
+  - uid: CoreWCF.TcpClientCredentialType
+    name: TcpClientCredentialType
+  - uid: CoreWCF.TcpTransportSecurity
+    name: TcpTransportSecurity
+  - uid: CoreWCF.WSHttpBinding
+    name: WSHttpBinding
+  - uid: CoreWCF.WSHttpBindingBase
+    name: WSHttpBindingBase
+  - uid: CoreWCF.WSHTTPSecurity
+    name: WSHTTPSecurity
+  - uid: CoreWCF.WSMessageEncoding
+    name: WSMessageEncoding
+- uid: CoreWCF.Channels
+  name: CoreWCF.Channels
+  items:
+  - uid: CoreWCF.Channels.BasicHttpBindingDefaults
+    name: BasicHttpBindingDefaults
+  - uid: CoreWCF.Channels.BasicHttpSecurityMode
+    name: BasicHttpSecurityMode
+  - uid: CoreWCF.Channels.ConnectionOrientedTransportBindingElement
+    name: ConnectionOrientedTransportBindingElement
+  - uid: CoreWCF.Channels.HttpRequestMessageProperty
+    name: HttpRequestMessageProperty
+  - uid: CoreWCF.Channels.HttpResponseMessageProperty
+    name: HttpResponseMessageProperty
+  - uid: CoreWCF.Channels.HttpsTransportBindingElement
+    name: HttpsTransportBindingElement
+  - uid: CoreWCF.Channels.HttpTransportBindingElement
+    name: HttpTransportBindingElement
+  - uid: CoreWCF.Channels.IWebSocketCloseDetails
+    name: IWebSocketCloseDetails
+  - uid: CoreWCF.Channels.ServiceModelHttpMiddleware
+    name: ServiceModelHttpMiddleware
+  - uid: CoreWCF.Channels.TcpConnectionPoolSettings
+    name: TcpConnectionPoolSettings
+  - uid: CoreWCF.Channels.TcpTransportBindingElement
+    name: TcpTransportBindingElement
+  - uid: CoreWCF.Channels.TransportDefaults
+    name: TransportDefaults
+  - uid: CoreWCF.Channels.WebSocketMessageProperty
+    name: WebSocketMessageProperty
+  - uid: CoreWCF.Channels.WebSocketTransportSettings
+    name: WebSocketTransportSettings
+  - uid: CoreWCF.Channels.WebSocketTransportUsage
+    name: WebSocketTransportUsage
+- uid: CoreWCF.Channels.Framing
+  name: CoreWCF.Channels.Framing
+  items:
+  - uid: CoreWCF.Channels.Framing.FramingConnection
+    name: FramingConnection
+  - uid: CoreWCF.Channels.Framing.RawStream
+    name: RawStream
+- uid: CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  items:
+  - uid: CoreWCF.Configuration.BasicHttpBindingCollectionElement
+    name: BasicHttpBindingCollectionElement
+  - uid: CoreWCF.Configuration.BasicHttpBindingElement
+    name: BasicHttpBindingElement
+  - uid: CoreWCF.Configuration.BasicHttpMessageSecurityElement
+    name: BasicHttpMessageSecurityElement
+  - uid: CoreWCF.Configuration.BasicHttpSecurityElement
+    name: BasicHttpSecurityElement
+  - uid: CoreWCF.Configuration.BindingCollectionElement
+    name: BindingCollectionElement
+  - uid: CoreWCF.Configuration.BindingNotFoundException
+    name: BindingNotFoundException
+  - uid: CoreWCF.Configuration.BindingsSection
+    name: BindingsSection
+  - uid: CoreWCF.Configuration.ConfigurationManagerExtensions
+    name: ConfigurationManagerExtensions
+  - uid: CoreWCF.Configuration.FramingConnectionHandshakeBuilder
+    name: FramingConnectionHandshakeBuilder
+  - uid: CoreWCF.Configuration.HandshakeDelegate
+    name: HandshakeDelegate
+  - uid: CoreWCF.Configuration.HttpBindingBaseElement
+    name: HttpBindingBaseElement
+  - uid: CoreWCF.Configuration.HttpTransportSecurityElement
+    name: HttpTransportSecurityElement
+  - uid: CoreWCF.Configuration.IBindingFactory
+    name: IBindingFactory
+  - uid: CoreWCF.Configuration.IConfigurationHolder
+    name: IConfigurationHolder
+  - uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+    name: IFramingConnectionHandshakeBuilder
+  - uid: CoreWCF.Configuration.MapExtensions
+    name: MapExtensions
+  - uid: CoreWCF.Configuration.MapMiddleware
+    name: MapMiddleware
+  - uid: CoreWCF.Configuration.MapOptions
+    name: MapOptions
+  - uid: CoreWCF.Configuration.MessageSecurityOverHttpElement
+    name: MessageSecurityOverHttpElement
+  - uid: CoreWCF.Configuration.MessageSecurityOverTcpElement
+    name: MessageSecurityOverTcpElement
+  - uid: CoreWCF.Configuration.NetHttpBindingCollectionElement
+    name: NetHttpBindingCollectionElement
+  - uid: CoreWCF.Configuration.NetHttpBindingElement
+    name: NetHttpBindingElement
+  - uid: CoreWCF.Configuration.NetHttpWebSocketTransportSettingsElement
+    name: NetHttpWebSocketTransportSettingsElement
+  - uid: CoreWCF.Configuration.NetTcpBindingCollectionElement
+    name: NetTcpBindingCollectionElement
+  - uid: CoreWCF.Configuration.NetTcpBindingElement
+    name: NetTcpBindingElement
+  - uid: CoreWCF.Configuration.NetTcpSecurityElement
+    name: NetTcpSecurityElement
+  - uid: CoreWCF.Configuration.NonDualMessageSecurityOverHttpElement
+    name: NonDualMessageSecurityOverHttpElement
+  - uid: CoreWCF.Configuration.ServiceElement
+    name: ServiceElement
+  - uid: CoreWCF.Configuration.ServiceElementCollection
+    name: ServiceElementCollection
+  - uid: CoreWCF.Configuration.ServiceEndpoint
+    name: ServiceEndpoint
+  - uid: CoreWCF.Configuration.ServiceEndpointElement
+    name: ServiceEndpointElement
+  - uid: CoreWCF.Configuration.ServiceEndpointElementCollection
+    name: ServiceEndpointElementCollection
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElement
+    name: ServiceModelConfigurationElement
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1
+    name: ServiceModelConfigurationElementCollection<ConfigurationElementType>
+    name.vb: ServiceModelConfigurationElementCollection(Of ConfigurationElementType)
+  - uid: CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection`1
+    name: ServiceModelEnhancedConfigurationElementCollection<TConfigurationElement>
+    name.vb: ServiceModelEnhancedConfigurationElementCollection(Of TConfigurationElement)
+  - uid: CoreWCF.Configuration.ServiceModelSectionGroup
+    name: ServiceModelSectionGroup
+  - uid: CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions
+    name: ServiceModelWebHostBuilderExtensions
+  - uid: CoreWCF.Configuration.ServicesSection
+    name: ServicesSection
+  - uid: CoreWCF.Configuration.StandardBindingCollectionElement`2
+    name: StandardBindingCollectionElement<TStandardBinding, TBindingConfiguration>
+    name.vb: StandardBindingCollectionElement(Of TStandardBinding, TBindingConfiguration)
+  - uid: CoreWCF.Configuration.StandardBindingElement
+    name: StandardBindingElement
+  - uid: CoreWCF.Configuration.StandardBindingElementCollection`1
+    name: StandardBindingElementCollection<TBindingConfiguration>
+    name.vb: StandardBindingElementCollection(Of TBindingConfiguration)
+  - uid: CoreWCF.Configuration.TcpTransportSecurityElement
+    name: TcpTransportSecurityElement
+  - uid: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions
+    name: UseMiddlewareFramingConnectionHandshakeExtensions
+  - uid: CoreWCF.Configuration.WSHttpBindingBaseElement
+    name: WSHttpBindingBaseElement
+  - uid: CoreWCF.Configuration.WSHttpBindingCollectionElement
+    name: WSHttpBindingCollectionElement
+  - uid: CoreWCF.Configuration.WSHttpBindingElement
+    name: WSHttpBindingElement
+  - uid: CoreWCF.Configuration.WSHttpSecurityElement
+    name: WSHttpSecurityElement
+  - uid: CoreWCF.Configuration.WSHttpTransportSecurityElement
+    name: WSHttpTransportSecurityElement
+  - uid: CoreWCF.Configuration.XmlDictionaryReaderQuotasElement
+    name: XmlDictionaryReaderQuotasElement
+- uid: CoreWCF.Security
+  name: CoreWCF.Security
+  items:
+  - uid: CoreWCF.Security.MessageSecurityOverTcp
+    name: MessageSecurityOverTcp

@@ -1,0 +1,1188 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/samsp/Source/Repos/CoreWCF/Documentation/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.BasicHttpBinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.BasicHttpBinding.html",
+          "hash": "8SYzHFiWj4w0mJuIg8MMNaHK5oWQD9/DhaYo9hJMy3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.BasicHttpMessageCredentialType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.BasicHttpMessageCredentialType.html",
+          "hash": "KqdZ2YiS/lfAr5XGVP9qyoidgYvKsSpeygFkGTvzwIk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.BasicHttpMessageSecurity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.BasicHttpMessageSecurity.html",
+          "hash": "lx63khesEmk/nu10WvZm7Re1nlCesBqeaX3ebnKOZ1I="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.BasicHttpSecurity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.BasicHttpSecurity.html",
+          "hash": "I5LqEtXc90Cy8JMSMAbDAa6ysylfYHkxJEhH/vRkK1M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.BasicHttpBindingDefaults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.BasicHttpBindingDefaults.html",
+          "hash": "b4cBoUM6PpRe4b9I+6fpF2dDukJ/796g/8aOSbC/F+k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.BasicHttpSecurityMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.BasicHttpSecurityMode.html",
+          "hash": "v30QmL3l8n2vvwzRmbX9bmHg2qj5zZ9ugEMVajQTzm8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.ConnectionOrientedTransportBindingElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.ConnectionOrientedTransportBindingElement.html",
+          "hash": "ToQWXYq4GhnoPlWNXsOaKtigCTAMYVosLNeDO5bFzKo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.Framing.FramingConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.Framing.FramingConnection.html",
+          "hash": "P2Z3THZFvofjWZ2+eBeeAiW9fQaV5FOMR0MHgzpl79I="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.Framing.RawStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.Framing.RawStream.html",
+          "hash": "cmXXQ8dJYiBzNb9SiaV0v38XF6tnkLDSzZmQPWiN/r0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.Framing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.Framing.html",
+          "hash": "W3mwa+NekvXyai/cfpj9ndKUs4vEn640SpdhMKulPyk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.HttpRequestMessageProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.HttpRequestMessageProperty.html",
+          "hash": "hShwvCgr5IgCX52PARvYA28l39bz7+lFe2/Rcd2YqgI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.HttpResponseMessageProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.HttpResponseMessageProperty.html",
+          "hash": "JmlW2QzAlCjB1/EGuN4mXq5cSNX4xSXR+5/z8C8s5Bw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.HttpTransportBindingElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.HttpTransportBindingElement.html",
+          "hash": "COfA1PaEAd90+Nr3vw8Sbfrn9FGqpWQR523fj1j83nA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.HttpsTransportBindingElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.HttpsTransportBindingElement.html",
+          "hash": "X7mBXT7p2pbay9sEI0AK/Dpt5y7j7+GMp947AaslaSI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.IWebSocketCloseDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.IWebSocketCloseDetails.html",
+          "hash": "g7gf8cRB8kZ+sjz1VZHsg9akcLk2gpQ7X51DUFrKQdM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.ServiceModelHttpMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.ServiceModelHttpMiddleware.html",
+          "hash": "/aY4SaQuw1uQMtTSzWxEjiiM8WqdR+GZXbdbWY8nGvU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.TcpConnectionPoolSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.TcpConnectionPoolSettings.html",
+          "hash": "akvgGXE1fYKj01uVRKrTCaMqv1QkT7xoSm69QT6aymc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.TcpTransportBindingElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.TcpTransportBindingElement.html",
+          "hash": "N1NKATbGlYRmcxU/w4x63ekQYiQmiX7mcKH4dJ2YGIY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.TransportDefaults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.TransportDefaults.html",
+          "hash": "GNIeTyKTVFhdLCAmnxIdoErNPH4lxpG33i5yTFWbqEw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.WebSocketMessageProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.WebSocketMessageProperty.html",
+          "hash": "S2Qywz3XTNG3kC/bqXTktuT5Ae3dUQZAf6nHoDDyQA8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.WebSocketTransportSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.WebSocketTransportSettings.html",
+          "hash": "QayvBIWcQHu9m9+K7wJ9L+wCZCCWPC5xNwdWQmNend8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.WebSocketTransportUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.WebSocketTransportUsage.html",
+          "hash": "/2ZHWe31eSjlHUVQN+o4CWjNWKBPBYKzolTzn+Qluaw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Channels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Channels.html",
+          "hash": "bXy0WJ8N9icspO1AyI8C63MWV7UF72QfEGwppKnPoO4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.BasicHttpBindingCollectionElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.BasicHttpBindingCollectionElement.html",
+          "hash": "sQyWQscixp99qVt0VzY7rqcO0n93RaAkNXEL9di9cos="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.BasicHttpBindingElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.BasicHttpBindingElement.html",
+          "hash": "lndgozofMWGWhOWVG569kTD3maTIa9KIUkARM57VVgY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.BasicHttpMessageSecurityElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.BasicHttpMessageSecurityElement.html",
+          "hash": "HE2tfI6tljpBalH5VnFi2nvycpOXNo28q/mH5LFhzeQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.BasicHttpSecurityElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.BasicHttpSecurityElement.html",
+          "hash": "FXyLcPe7B1gSBnhm9JKq1n5AsOcS++z7Nwcsq9Jzzmg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.BindingCollectionElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.BindingCollectionElement.html",
+          "hash": "wxN6uDAFr+SQh+n9vB/0moqPxwDFWXCSr9LZBmi27MU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.BindingNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.BindingNotFoundException.html",
+          "hash": "YTaxBhLYrss9ATpQ7aFBAnSgB9hWct3SP8Z6HvwqpwA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.BindingsSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.BindingsSection.html",
+          "hash": "whMQeaMA1zurDSszk+oK0XgTEdFgszqtax36C8UffNc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.ConfigurationManagerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.ConfigurationManagerExtensions.html",
+          "hash": "cTG9J95A2ei7xD2ayjhTXZYk7f8OW+ns5rvkPlaLZu4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.FramingConnectionHandshakeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.FramingConnectionHandshakeBuilder.html",
+          "hash": "7O7GeE8ebiPSZKlfKXwcbFgOql96+g0clzn4Har02p0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.HandshakeDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.HandshakeDelegate.html",
+          "hash": "zr8EP9y2CCdQ8D2CzANKk7YGYP9aokRgRFv4ik3bU9M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.HttpBindingBaseElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.HttpBindingBaseElement.html",
+          "hash": "RBJrmTu12RYy9ZDim0X1VLfPltKR5UO7LcyVWuKvVEI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.HttpTransportSecurityElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.HttpTransportSecurityElement.html",
+          "hash": "nRFOzXfwpi9xr2VNVZuQtH4XVbeh4Iq+U9aYuE8Yuok="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.IBindingFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.IBindingFactory.html",
+          "hash": "wJgu1wvtkkM4ZKM16NYd92juKCvrreL87FFM4/8zCtU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.IConfigurationHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.IConfigurationHolder.html",
+          "hash": "O3ZMUTbVkxUwvQciugXaVNeCBDQayEU6NJZZA7Ngsiw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.html",
+          "hash": "DxJpSg09+8+lu2/uKv3pJDSKOy/CwcpRQUqpnhUd3wE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.MapExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.MapExtensions.html",
+          "hash": "WepdJUV2r2FWbJGmGLS47nBEy6hIgRtpTg+/Nw8L8Lo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.MapMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.MapMiddleware.html",
+          "hash": "k4lMkbE2nblWYOCCUEKicIVA86lLw64krVq0IN4+oBU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.MapOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.MapOptions.html",
+          "hash": "TcmB3k0vkN0PoiIsX/+go6Xd5eXfg/htuABG1l8stPc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.MessageSecurityOverHttpElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.MessageSecurityOverHttpElement.html",
+          "hash": "a3/10aCu5D8Glz8J09XwvQsD42M8BiOg3YUFUiFVdPA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.MessageSecurityOverTcpElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.MessageSecurityOverTcpElement.html",
+          "hash": "C85fw9cRISmCdxGVWop+40w6ab+OeoT24TuZ1Ev6TKk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.NetHttpBindingCollectionElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.NetHttpBindingCollectionElement.html",
+          "hash": "bcydkr/vdnKwaXlWfi5loGGRcVP9azqkwuHqT+Fk3QQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.NetHttpBindingElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.NetHttpBindingElement.html",
+          "hash": "5YZ/dz3TFU9CaHK/dsV12d6/3vKGAVuRapVdxY74RZ8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.NetHttpWebSocketTransportSettingsElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.NetHttpWebSocketTransportSettingsElement.html",
+          "hash": "AAvCI96BWkp4NWNRPAfPivlRKnuwVmwyxLj46BUkrzU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.NetTcpBindingCollectionElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.NetTcpBindingCollectionElement.html",
+          "hash": "3vEaSivN6ynVsZebmW4P/lmuKuCvqNmUtuuvmlBOmh0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.NetTcpBindingElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.NetTcpBindingElement.html",
+          "hash": "vOkLgBAz7UVwNHcbhU433mT8nv/51TlBcFdlXxm3Q1Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.NetTcpSecurityElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.NetTcpSecurityElement.html",
+          "hash": "kRImBrh2EW6ctzxwgkyjAQMUdALL5mNqe2Nt4ol3TlA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.NonDualMessageSecurityOverHttpElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.NonDualMessageSecurityOverHttpElement.html",
+          "hash": "kYtXM5BtKy7t3bgVuPBP3UimtqK+GXecMnZue2OE8I0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.ServiceElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.ServiceElement.html",
+          "hash": "wfvYAApVWSYc72/iK+YVTmQRMS4+d3cT1yhZyVVMMkA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.ServiceElementCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.ServiceElementCollection.html",
+          "hash": "zg6lH3/znXrdRp5nmIRDcLez0FDZgx+5Qu9l4K2ehkY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.ServiceEndpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.ServiceEndpoint.html",
+          "hash": "hyZPT2ENvA1NjlaWGE52qDmC7vMeROsLtWlldKl+3wM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.ServiceEndpointElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.ServiceEndpointElement.html",
+          "hash": "e2PtxxSfwUvSiad6ZIMC0Toh4N0nsBoIoen3jdfJ4+0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.ServiceEndpointElementCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.ServiceEndpointElementCollection.html",
+          "hash": "MKu3rIuwuQsAg0SvFtWL/oU/YY6RXexODdRBTxHbXTo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.ServiceModelConfigurationElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.ServiceModelConfigurationElement.html",
+          "hash": "BYYy7RRcvgiKWaWc24gcjz/qo5yYkBRxjQRCBbNPbzc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.ServiceModelConfigurationElementCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.ServiceModelConfigurationElementCollection-1.html",
+          "hash": "h+f5q9OlBInxuStu8OlncQPKrcG2gMPyou8H1POlmZY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection-1.html",
+          "hash": "l+Q5vkadXISIWkzs1+msGkxjI+1NhWpoZ1jmWNx1o34="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.ServiceModelSectionGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.ServiceModelSectionGroup.html",
+          "hash": "lnKcfR6OsrrYR5popvXLSqYmGMOxeHowniT0Dpo2qCM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.ServiceModelWebHostBuilderExtensions.html",
+          "hash": "mkFoNzZiecF44+m2FoKtf0Sj4ZG3NIOTh/eBFV8xuWQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.ServicesSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.ServicesSection.html",
+          "hash": "OYiqWBWfq9onRrGJPT9tdN4+59nL0JE1/39FsJCZf3M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.StandardBindingCollectionElement-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.StandardBindingCollectionElement-2.html",
+          "hash": "G4vXDtlyiKi+puaUacDIW9z1gVVlcl6cVY2YLMi9qpI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.StandardBindingElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.StandardBindingElement.html",
+          "hash": "rEtE83mo3Rqg/w6Nc1xAjjz/hh4QK5sdOOMSXFGzINs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.StandardBindingElementCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.StandardBindingElementCollection-1.html",
+          "hash": "LcB+AFTzI2ydTaZbvSUvdsmX8QSgET3Ju1697J1zGk4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.TcpTransportSecurityElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.TcpTransportSecurityElement.html",
+          "hash": "BYzjvjQb0fK/vyZw3iU7uIFYNUR3vz3/fGlwmsfpM/A="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.html",
+          "hash": "kStU8nX/OULDFExM1NoTJGpS6f+BXylM+nTzWUaUAvQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.WSHttpBindingBaseElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.WSHttpBindingBaseElement.html",
+          "hash": "IFeTuHEeU71GX2uv1McD868m+5DNGV7uOP5SzfDyBIw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.WSHttpBindingCollectionElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.WSHttpBindingCollectionElement.html",
+          "hash": "AwQR/zsaG/1yPomM6OwYSJYvJsGV5k5sQseh+1UQJQg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.WSHttpBindingElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.WSHttpBindingElement.html",
+          "hash": "QTcx6T0xarGW/LI0uEIpG023i2veIRCa8Z7nvwbSgsw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.WSHttpSecurityElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.WSHttpSecurityElement.html",
+          "hash": "0YcEpkBf3YCecGymzV8oVIUZaR0dMzck2icAboeiYFI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.WSHttpTransportSecurityElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.WSHttpTransportSecurityElement.html",
+          "hash": "GLjGFaBmP2md5vXzCUk9wBBUduUUXnxQoyrtLqW5RqA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.XmlDictionaryReaderQuotasElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.XmlDictionaryReaderQuotasElement.html",
+          "hash": "p50IdmYGKVILWK3SzBZj7IkzuZ0i2J2+GwlflPgRG/c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Configuration.html",
+          "hash": "k6ovL7Kiky62yVSzhrdDVUPyj9Sh/j6M6kr9bm1RVHI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.HttpBindingBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.HttpBindingBase.html",
+          "hash": "Rj0dNqqLhQNjDiMHPeKbdpiMXf90SbDS1xDGcCwWmVg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.HttpClientCredentialType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.HttpClientCredentialType.html",
+          "hash": "Smb9PRxhuPLzd9XqKFhZ6w9R46BW7eIcgHFVgsF82As="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.HttpTransportSecurity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.HttpTransportSecurity.html",
+          "hash": "QMQFhpV/aJNsoh6msz5bMnxmkZVxWibGhV+l+oyKZP0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.NetHttpBinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.NetHttpBinding.html",
+          "hash": "HZPArvXlCkkLawfx1s43hwLZKcdJmoJBH9lk+I/b6PQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.NetHttpMessageEncoding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.NetHttpMessageEncoding.html",
+          "hash": "cQaq0QZ33nQ500AKUXGrB2uS77dNBrCGl1T0Smz9Z2o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.NetTcpBinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.NetTcpBinding.html",
+          "hash": "ML/sIzIKs6nVHKFGPxrOQCn9y57nOvELD3dErAaO+Bw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.NetTcpSecurity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.NetTcpSecurity.html",
+          "hash": "Fw9sF5X69iT3d0Q/mfPFlvmT62GFA86gevEYmAsXL0k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Security.MessageSecurityOverTcp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Security.MessageSecurityOverTcp.html",
+          "hash": "aGSIeftyZ7gFMxW9qd98b1rZXM5g+khERouFzTByqb8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.Security.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.Security.html",
+          "hash": "bvQeyF0zHlr82JOOvOZj9TMWVQuB8KDtgb6H4e7tLIk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.TcpClientCredentialType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.TcpClientCredentialType.html",
+          "hash": "43lmSkjsc4/VXLWpVtW+kik9zumeWExRgW+Sxbkq/nU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.TcpTransportSecurity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.TcpTransportSecurity.html",
+          "hash": "GgRA+1rmbkmn7YdFZCPk9w6y6xRWib9SLfMrtv2FQy0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.WSHTTPSecurity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.WSHTTPSecurity.html",
+          "hash": "LxEz017gTwX/cAyB0tER0zGNQv1amNuTW9gEitS/hBM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.WSHttpBinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.WSHttpBinding.html",
+          "hash": "hzalw+O/cnMAiSn86HpGhbgHRv1ChqhKyMWlKdU2y2w="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.WSHttpBindingBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.WSHttpBindingBase.html",
+          "hash": "yG6faI8HOd+haMonJjYcOyY+JHIdxz0fLJpFHci0hwM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.WSMessageEncoding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.WSMessageEncoding.html",
+          "hash": "9dJdBMZjqxqtKMVeN0upRWvcOwPZ4KebDJrtEJf8sVQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreWCF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreWCF.html",
+          "hash": "yRKCMHlWlVFO/bfXnA0BGmfErzUPFVn2JIzxiBal9b4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "XqVBW5qojwqtWdk1ASIhwerRYo3qHbe8SBa65E5ITn4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "gtTBxBFoPxKYZVPRroEwpUALHlP+mXPZ1B7+hvon1Sk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "yHG9BJkrifQiBHiq0HJ9tbD9hSvLAIvaUl/H1GXf5iY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "SIGSHIA/3BvpDI/kB4EBi8CwXBPquKKAPqeF9Wh7wx8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 2
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 91,
+          "skipped_file_count": 89
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

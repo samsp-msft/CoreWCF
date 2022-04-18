@@ -1,0 +1,984 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  commentId: T:CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  id: IFramingConnectionHandshakeBuilder
+  parent: CoreWCF.Configuration
+  children:
+  - CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Build
+  - CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.HandshakeServices
+  - CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.New
+  - CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Properties
+  - CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Use(Func{CoreWCF.Configuration.HandshakeDelegate,CoreWCF.Configuration.HandshakeDelegate})
+  langs:
+  - csharp
+  - vb
+  name: IFramingConnectionHandshakeBuilder
+  nameWithType: IFramingConnectionHandshakeBuilder
+  fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  type: Interface
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/IFramingConnectionHandshakeBuilder.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: IFramingConnectionHandshakeBuilder
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/IFramingConnectionHandshakeBuilder.cs
+    startLine: 15
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Configuration
+  summary: "\nDefines a class that provides the mechanisms to configure a connection handshake pipeline.\n"
+  example: []
+  syntax:
+    content: public interface IFramingConnectionHandshakeBuilder
+    content.vb: Public Interface IFramingConnectionHandshakeBuilder
+  extensionMethods:
+  - CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.CoreWCF.Configuration.MapExtensions.Map(Func{CoreWCF.Channels.Framing.FramingConnection,System.Boolean},Action{CoreWCF.Configuration.IFramingConnectionHandshakeBuilder})
+  - CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware``1(System.Object[])
+  - CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(Type,System.Object[])
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.HandshakeServices
+  commentId: P:CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.HandshakeServices
+  id: HandshakeServices
+  parent: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  langs:
+  - csharp
+  - vb
+  name: HandshakeServices
+  nameWithType: IFramingConnectionHandshakeBuilder.HandshakeServices
+  fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.HandshakeServices
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/IFramingConnectionHandshakeBuilder.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: HandshakeServices
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/IFramingConnectionHandshakeBuilder.cs
+    startLine: 20
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Configuration
+  summary: "\nGets or sets the <see cref=\"!:IServiceProvider\"></see> that provides access to the application&apos;s service container.\n"
+  example: []
+  syntax:
+    content: IServiceProvider HandshakeServices { get; set; }
+    parameters: []
+    return:
+      type: IServiceProvider
+    content.vb: Property HandshakeServices As IServiceProvider
+  overload: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.HandshakeServices*
+  modifiers.csharp:
+  - get
+  - set
+- uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Properties
+  commentId: P:CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Properties
+  id: Properties
+  parent: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  langs:
+  - csharp
+  - vb
+  name: Properties
+  nameWithType: IFramingConnectionHandshakeBuilder.Properties
+  fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Properties
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/IFramingConnectionHandshakeBuilder.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Properties
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/IFramingConnectionHandshakeBuilder.cs
+    startLine: 25
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Configuration
+  summary: "\nGets a key/value collection that can be used to share data between middleware.\n"
+  example: []
+  syntax:
+    content: IDictionary<string, object> Properties { get; }
+    parameters: []
+    return:
+      type: IDictionary{System.String,System.Object}
+    content.vb: ReadOnly Property Properties As IDictionary(Of String, Object)
+  overload: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Properties*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Use(Func{CoreWCF.Configuration.HandshakeDelegate,CoreWCF.Configuration.HandshakeDelegate})
+  commentId: M:CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Use(Func{CoreWCF.Configuration.HandshakeDelegate,CoreWCF.Configuration.HandshakeDelegate})
+  id: Use(Func{CoreWCF.Configuration.HandshakeDelegate,CoreWCF.Configuration.HandshakeDelegate})
+  parent: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  langs:
+  - csharp
+  - vb
+  name: Use(Func<HandshakeDelegate, HandshakeDelegate>)
+  nameWithType: IFramingConnectionHandshakeBuilder.Use(Func<HandshakeDelegate, HandshakeDelegate>)
+  fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Use(Func<CoreWCF.Configuration.HandshakeDelegate, CoreWCF.Configuration.HandshakeDelegate>)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/IFramingConnectionHandshakeBuilder.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Use
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/IFramingConnectionHandshakeBuilder.cs
+    startLine: 32
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Configuration
+  summary: "\nAdds a middleware delegate to the connection handshake pipeline.\n"
+  example: []
+  syntax:
+    content: IFramingConnectionHandshakeBuilder Use(Func<HandshakeDelegate, HandshakeDelegate> middleware)
+    parameters:
+    - id: middleware
+      type: Func{CoreWCF.Configuration.HandshakeDelegate,CoreWCF.Configuration.HandshakeDelegate}
+    return:
+      type: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+      description: The <xref href="CoreWCF.Configuration.IFramingConnectionHandshakeBuilder" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Function Use(middleware As Func(Of HandshakeDelegate, HandshakeDelegate)) As IFramingConnectionHandshakeBuilder
+  overload: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Use*
+  nameWithType.vb: IFramingConnectionHandshakeBuilder.Use(Func(Of HandshakeDelegate, HandshakeDelegate))
+  fullName.vb: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Use(Func(Of CoreWCF.Configuration.HandshakeDelegate, CoreWCF.Configuration.HandshakeDelegate))
+  name.vb: Use(Func(Of HandshakeDelegate, HandshakeDelegate))
+- uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.New
+  commentId: M:CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.New
+  id: New
+  parent: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  langs:
+  - csharp
+  - vb
+  name: New()
+  nameWithType: IFramingConnectionHandshakeBuilder.New()
+  fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.New()
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/IFramingConnectionHandshakeBuilder.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: New
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/IFramingConnectionHandshakeBuilder.cs
+    startLine: 39
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Configuration
+  summary: "\nCreates a new <xref href=\"CoreWCF.Configuration.IFramingConnectionHandshakeBuilder\" data-throw-if-not-resolved=\"false\"></xref> that shares the <xref href=\"CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Properties\" data-throw-if-not-resolved=\"false\"></xref> of this\n<xref href=\"CoreWCF.Configuration.IFramingConnectionHandshakeBuilder\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: IFramingConnectionHandshakeBuilder New()
+    return:
+      type: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+      description: The new <xref href="CoreWCF.Configuration.IFramingConnectionHandshakeBuilder" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Function New As IFramingConnectionHandshakeBuilder
+  overload: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.New*
+- uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Build
+  commentId: M:CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Build
+  id: Build
+  parent: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  langs:
+  - csharp
+  - vb
+  name: Build()
+  nameWithType: IFramingConnectionHandshakeBuilder.Build()
+  fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Build()
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/IFramingConnectionHandshakeBuilder.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Build
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/IFramingConnectionHandshakeBuilder.cs
+    startLine: 45
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Configuration
+  summary: "\nBuilds the delegate used by this application to process ServiceModel Framed requests.\n"
+  example: []
+  syntax:
+    content: HandshakeDelegate Build()
+    return:
+      type: CoreWCF.Configuration.HandshakeDelegate
+      description: The request handling delegate.
+    content.vb: Function Build As HandshakeDelegate
+  overload: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Build*
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.CoreWCF.Configuration.MapExtensions.Map(Func{CoreWCF.Channels.Framing.FramingConnection,System.Boolean},Action{CoreWCF.Configuration.IFramingConnectionHandshakeBuilder})
+  commentId: M:CoreWCF.Configuration.MapExtensions.Map(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,Func{CoreWCF.Channels.Framing.FramingConnection,System.Boolean},Action{CoreWCF.Configuration.IFramingConnectionHandshakeBuilder})
+  parent: CoreWCF.Configuration.MapExtensions
+  definition: CoreWCF.Configuration.MapExtensions.Map(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,Func{CoreWCF.Channels.Framing.FramingConnection,System.Boolean},Action{CoreWCF.Configuration.IFramingConnectionHandshakeBuilder})
+  name: Map(Func<FramingConnection, Boolean>, Action<IFramingConnectionHandshakeBuilder>)
+  nameWithType: MapExtensions.Map(Func<FramingConnection, Boolean>, Action<IFramingConnectionHandshakeBuilder>)
+  fullName: CoreWCF.Configuration.MapExtensions.Map(Func<CoreWCF.Channels.Framing.FramingConnection, System.Boolean>, Action<CoreWCF.Configuration.IFramingConnectionHandshakeBuilder>)
+  nameWithType.vb: MapExtensions.Map(Func(Of FramingConnection, Boolean), Action(Of IFramingConnectionHandshakeBuilder))
+  fullName.vb: CoreWCF.Configuration.MapExtensions.Map(Func(Of CoreWCF.Channels.Framing.FramingConnection, System.Boolean), Action(Of CoreWCF.Configuration.IFramingConnectionHandshakeBuilder))
+  name.vb: Map(Func(Of FramingConnection, Boolean), Action(Of IFramingConnectionHandshakeBuilder))
+  spec.csharp:
+  - uid: CoreWCF.Configuration.MapExtensions.Map(Func{CoreWCF.Channels.Framing.FramingConnection,System.Boolean},Action{CoreWCF.Configuration.IFramingConnectionHandshakeBuilder})
+    name: Map
+    nameWithType: MapExtensions.Map
+    fullName: CoreWCF.Configuration.MapExtensions.Map
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CoreWCF.Channels.Framing.FramingConnection
+    name: FramingConnection
+    nameWithType: FramingConnection
+    fullName: CoreWCF.Channels.Framing.FramingConnection
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+    name: IFramingConnectionHandshakeBuilder
+    nameWithType: IFramingConnectionHandshakeBuilder
+    fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Configuration.MapExtensions.Map(Func{CoreWCF.Channels.Framing.FramingConnection,System.Boolean},Action{CoreWCF.Configuration.IFramingConnectionHandshakeBuilder})
+    name: Map
+    nameWithType: MapExtensions.Map
+    fullName: CoreWCF.Configuration.MapExtensions.Map
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CoreWCF.Channels.Framing.FramingConnection
+    name: FramingConnection
+    nameWithType: FramingConnection
+    fullName: CoreWCF.Channels.Framing.FramingConnection
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+    name: IFramingConnectionHandshakeBuilder
+    nameWithType: IFramingConnectionHandshakeBuilder
+    fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware``1(System.Object[])
+  commentId: M:CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware``1(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,System.Object[])
+  parent: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions
+  definition: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware``1(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,System.Object[])
+  name: UseMiddleware<TMiddleware>(Object[])
+  nameWithType: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware<TMiddleware>(Object[])
+  fullName: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware<TMiddleware>(System.Object[])
+  nameWithType.vb: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(Of TMiddleware)(Object())
+  fullName.vb: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(Of TMiddleware)(System.Object())
+  name.vb: UseMiddleware(Of TMiddleware)(Object())
+  spec.csharp:
+  - uid: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware``1(System.Object[])
+    name: UseMiddleware<TMiddleware>
+    nameWithType: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware<TMiddleware>
+    fullName: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware<TMiddleware>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware``1(System.Object[])
+    name: UseMiddleware(Of TMiddleware)
+    nameWithType: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(Of TMiddleware)
+    fullName: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(Of TMiddleware)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(Type,System.Object[])
+  commentId: M:CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,Type,System.Object[])
+  parent: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions
+  definition: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,Type,System.Object[])
+  name: UseMiddleware(Type, Object[])
+  nameWithType: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(Type, Object[])
+  fullName: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(Type, System.Object[])
+  nameWithType.vb: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(Type, Object())
+  fullName.vb: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(Type, System.Object())
+  name.vb: UseMiddleware(Type, Object())
+  spec.csharp:
+  - uid: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(Type,System.Object[])
+    name: UseMiddleware
+    nameWithType: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware
+    fullName: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Type
+    name: Type
+    nameWithType: Type
+    fullName: Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(Type,System.Object[])
+    name: UseMiddleware
+    nameWithType: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware
+    fullName: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Type
+    name: Type
+    nameWithType: Type
+    fullName: Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.MapExtensions.Map(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,Func{CoreWCF.Channels.Framing.FramingConnection,System.Boolean},Action{CoreWCF.Configuration.IFramingConnectionHandshakeBuilder})
+  commentId: M:CoreWCF.Configuration.MapExtensions.Map(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,Func{CoreWCF.Channels.Framing.FramingConnection,System.Boolean},Action{CoreWCF.Configuration.IFramingConnectionHandshakeBuilder})
+  isExternal: true
+  name: Map(IFramingConnectionHandshakeBuilder, Func<FramingConnection, Boolean>, Action<IFramingConnectionHandshakeBuilder>)
+  nameWithType: MapExtensions.Map(IFramingConnectionHandshakeBuilder, Func<FramingConnection, Boolean>, Action<IFramingConnectionHandshakeBuilder>)
+  fullName: CoreWCF.Configuration.MapExtensions.Map(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder, Func<CoreWCF.Channels.Framing.FramingConnection, System.Boolean>, Action<CoreWCF.Configuration.IFramingConnectionHandshakeBuilder>)
+  nameWithType.vb: MapExtensions.Map(IFramingConnectionHandshakeBuilder, Func(Of FramingConnection, Boolean), Action(Of IFramingConnectionHandshakeBuilder))
+  fullName.vb: CoreWCF.Configuration.MapExtensions.Map(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder, Func(Of CoreWCF.Channels.Framing.FramingConnection, System.Boolean), Action(Of CoreWCF.Configuration.IFramingConnectionHandshakeBuilder))
+  name.vb: Map(IFramingConnectionHandshakeBuilder, Func(Of FramingConnection, Boolean), Action(Of IFramingConnectionHandshakeBuilder))
+  spec.csharp:
+  - uid: CoreWCF.Configuration.MapExtensions.Map(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,Func{CoreWCF.Channels.Framing.FramingConnection,System.Boolean},Action{CoreWCF.Configuration.IFramingConnectionHandshakeBuilder})
+    name: Map
+    nameWithType: MapExtensions.Map
+    fullName: CoreWCF.Configuration.MapExtensions.Map
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+    name: IFramingConnectionHandshakeBuilder
+    nameWithType: IFramingConnectionHandshakeBuilder
+    fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CoreWCF.Channels.Framing.FramingConnection
+    name: FramingConnection
+    nameWithType: FramingConnection
+    fullName: CoreWCF.Channels.Framing.FramingConnection
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+    name: IFramingConnectionHandshakeBuilder
+    nameWithType: IFramingConnectionHandshakeBuilder
+    fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Configuration.MapExtensions.Map(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,Func{CoreWCF.Channels.Framing.FramingConnection,System.Boolean},Action{CoreWCF.Configuration.IFramingConnectionHandshakeBuilder})
+    name: Map
+    nameWithType: MapExtensions.Map
+    fullName: CoreWCF.Configuration.MapExtensions.Map
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+    name: IFramingConnectionHandshakeBuilder
+    nameWithType: IFramingConnectionHandshakeBuilder
+    fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CoreWCF.Channels.Framing.FramingConnection
+    name: FramingConnection
+    nameWithType: FramingConnection
+    fullName: CoreWCF.Channels.Framing.FramingConnection
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+    name: IFramingConnectionHandshakeBuilder
+    nameWithType: IFramingConnectionHandshakeBuilder
+    fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.MapExtensions
+  commentId: T:CoreWCF.Configuration.MapExtensions
+  parent: CoreWCF.Configuration
+  name: MapExtensions
+  nameWithType: MapExtensions
+  fullName: CoreWCF.Configuration.MapExtensions
+- uid: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware``1(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,System.Object[])
+  commentId: M:CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware``1(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,System.Object[])
+  isExternal: true
+  name: UseMiddleware<TMiddleware>(IFramingConnectionHandshakeBuilder, Object[])
+  nameWithType: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware<TMiddleware>(IFramingConnectionHandshakeBuilder, Object[])
+  fullName: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware<TMiddleware>(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder, System.Object[])
+  nameWithType.vb: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(Of TMiddleware)(IFramingConnectionHandshakeBuilder, Object())
+  fullName.vb: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(Of TMiddleware)(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder, System.Object())
+  name.vb: UseMiddleware(Of TMiddleware)(IFramingConnectionHandshakeBuilder, Object())
+  spec.csharp:
+  - uid: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware``1(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,System.Object[])
+    name: UseMiddleware<TMiddleware>
+    nameWithType: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware<TMiddleware>
+    fullName: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware<TMiddleware>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+    name: IFramingConnectionHandshakeBuilder
+    nameWithType: IFramingConnectionHandshakeBuilder
+    fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware``1(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,System.Object[])
+    name: UseMiddleware(Of TMiddleware)
+    nameWithType: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(Of TMiddleware)
+    fullName: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(Of TMiddleware)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+    name: IFramingConnectionHandshakeBuilder
+    nameWithType: IFramingConnectionHandshakeBuilder
+    fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions
+  commentId: T:CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions
+  parent: CoreWCF.Configuration
+  name: UseMiddlewareFramingConnectionHandshakeExtensions
+  nameWithType: UseMiddlewareFramingConnectionHandshakeExtensions
+  fullName: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions
+- uid: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,Type,System.Object[])
+  commentId: M:CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,Type,System.Object[])
+  isExternal: true
+  name: UseMiddleware(IFramingConnectionHandshakeBuilder, Type, Object[])
+  nameWithType: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(IFramingConnectionHandshakeBuilder, Type, Object[])
+  fullName: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder, Type, System.Object[])
+  nameWithType.vb: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(IFramingConnectionHandshakeBuilder, Type, Object())
+  fullName.vb: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder, Type, System.Object())
+  name.vb: UseMiddleware(IFramingConnectionHandshakeBuilder, Type, Object())
+  spec.csharp:
+  - uid: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,Type,System.Object[])
+    name: UseMiddleware
+    nameWithType: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware
+    fullName: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+    name: IFramingConnectionHandshakeBuilder
+    nameWithType: IFramingConnectionHandshakeBuilder
+    fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Type
+    name: Type
+    nameWithType: Type
+    fullName: Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware(CoreWCF.Configuration.IFramingConnectionHandshakeBuilder,Type,System.Object[])
+    name: UseMiddleware
+    nameWithType: UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware
+    fullName: CoreWCF.Configuration.UseMiddlewareFramingConnectionHandshakeExtensions.UseMiddleware
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+    name: IFramingConnectionHandshakeBuilder
+    nameWithType: IFramingConnectionHandshakeBuilder
+    fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Type
+    name: Type
+    nameWithType: Type
+    fullName: Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.HandshakeServices*
+  commentId: Overload:CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.HandshakeServices
+  name: HandshakeServices
+  nameWithType: IFramingConnectionHandshakeBuilder.HandshakeServices
+  fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.HandshakeServices
+- uid: IServiceProvider
+  isExternal: true
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: IServiceProvider
+- uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Properties*
+  commentId: Overload:CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Properties
+  name: Properties
+  nameWithType: IFramingConnectionHandshakeBuilder.Properties
+  fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Properties
+- uid: IDictionary{System.String,System.Object}
+  commentId: '!:IDictionary{System.String,System.Object}'
+  definition: IDictionary`2
+  name: IDictionary<String, Object>
+  nameWithType: IDictionary<String, Object>
+  fullName: IDictionary<System.String, System.Object>
+  nameWithType.vb: IDictionary(Of String, Object)
+  fullName.vb: IDictionary(Of System.String, System.Object)
+  name.vb: IDictionary(Of String, Object)
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IDictionary`2
+  isExternal: true
+  name: IDictionary<, >
+  nameWithType: IDictionary<, >
+  fullName: IDictionary<, >
+  nameWithType.vb: IDictionary(Of , )
+  fullName.vb: IDictionary(Of , )
+  name.vb: IDictionary(Of , )
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  commentId: T:CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  parent: CoreWCF.Configuration
+  name: IFramingConnectionHandshakeBuilder
+  nameWithType: IFramingConnectionHandshakeBuilder
+  fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+- uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Use*
+  commentId: Overload:CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Use
+  name: Use
+  nameWithType: IFramingConnectionHandshakeBuilder.Use
+  fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Use
+- uid: Func{CoreWCF.Configuration.HandshakeDelegate,CoreWCF.Configuration.HandshakeDelegate}
+  commentId: '!:Func{CoreWCF.Configuration.HandshakeDelegate,CoreWCF.Configuration.HandshakeDelegate}'
+  definition: Func`2
+  name: Func<HandshakeDelegate, HandshakeDelegate>
+  nameWithType: Func<HandshakeDelegate, HandshakeDelegate>
+  fullName: Func<CoreWCF.Configuration.HandshakeDelegate, CoreWCF.Configuration.HandshakeDelegate>
+  nameWithType.vb: Func(Of HandshakeDelegate, HandshakeDelegate)
+  fullName.vb: Func(Of CoreWCF.Configuration.HandshakeDelegate, CoreWCF.Configuration.HandshakeDelegate)
+  name.vb: Func(Of HandshakeDelegate, HandshakeDelegate)
+  spec.csharp:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CoreWCF.Configuration.HandshakeDelegate
+    name: HandshakeDelegate
+    nameWithType: HandshakeDelegate
+    fullName: CoreWCF.Configuration.HandshakeDelegate
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CoreWCF.Configuration.HandshakeDelegate
+    name: HandshakeDelegate
+    nameWithType: HandshakeDelegate
+    fullName: CoreWCF.Configuration.HandshakeDelegate
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CoreWCF.Configuration.HandshakeDelegate
+    name: HandshakeDelegate
+    nameWithType: HandshakeDelegate
+    fullName: CoreWCF.Configuration.HandshakeDelegate
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CoreWCF.Configuration.HandshakeDelegate
+    name: HandshakeDelegate
+    nameWithType: HandshakeDelegate
+    fullName: CoreWCF.Configuration.HandshakeDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Func`2
+  isExternal: true
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: Func(Of , )
+  name.vb: Func(Of , )
+  spec.csharp:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Properties
+  commentId: P:CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Properties
+  parent: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder
+  name: Properties
+  nameWithType: IFramingConnectionHandshakeBuilder.Properties
+  fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Properties
+- uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.New*
+  commentId: Overload:CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.New
+  name: New
+  nameWithType: IFramingConnectionHandshakeBuilder.New
+  fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.New
+- uid: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Build*
+  commentId: Overload:CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Build
+  name: Build
+  nameWithType: IFramingConnectionHandshakeBuilder.Build
+  fullName: CoreWCF.Configuration.IFramingConnectionHandshakeBuilder.Build
+- uid: CoreWCF.Configuration.HandshakeDelegate
+  commentId: T:CoreWCF.Configuration.HandshakeDelegate
+  parent: CoreWCF.Configuration
+  name: HandshakeDelegate
+  nameWithType: HandshakeDelegate
+  fullName: CoreWCF.Configuration.HandshakeDelegate

@@ -1,0 +1,50 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.NetHttpWebSocketTransportSettingsElement
+  commentId: T:CoreWCF.Configuration.NetHttpWebSocketTransportSettingsElement
+  id: NetHttpWebSocketTransportSettingsElement
+  parent: CoreWCF.Configuration
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: NetHttpWebSocketTransportSettingsElement
+  nameWithType: NetHttpWebSocketTransportSettingsElement
+  fullName: CoreWCF.Configuration.NetHttpWebSocketTransportSettingsElement
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/NetHttpWebSocketTransportSettingsElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: NetHttpWebSocketTransportSettingsElement
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/NetHttpWebSocketTransportSettingsElement.cs
+    startLine: 5
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: 'public class NetHttpWebSocketTransportSettingsElement : object'
+    content.vb: >-
+      Public Class NetHttpWebSocketTransportSettingsElement
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object

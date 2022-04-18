@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.BindingsSection
+  commentId: T:CoreWCF.Configuration.BindingsSection
+  id: BindingsSection
+  parent: CoreWCF.Configuration
+  children:
+  - CoreWCF.Configuration.BindingsSection.BasicHttpBinding
+  - CoreWCF.Configuration.BindingsSection.NetHttpBinding
+  - CoreWCF.Configuration.BindingsSection.NetTcpBinding
+  - CoreWCF.Configuration.BindingsSection.WSHttpBinding
+  langs:
+  - csharp
+  - vb
+  name: BindingsSection
+  nameWithType: BindingsSection
+  fullName: CoreWCF.Configuration.BindingsSection
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingsSection.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: BindingsSection
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingsSection.cs
+    startLine: 7
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: 'public sealed class BindingsSection : ConfigurationSection'
+    content.vb: >-
+      Public NotInheritable Class BindingsSection
+
+          Inherits ConfigurationSection
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: CoreWCF.Configuration.BindingsSection.BasicHttpBinding
+  commentId: P:CoreWCF.Configuration.BindingsSection.BasicHttpBinding
+  id: BasicHttpBinding
+  parent: CoreWCF.Configuration.BindingsSection
+  langs:
+  - csharp
+  - vb
+  name: BasicHttpBinding
+  nameWithType: BindingsSection.BasicHttpBinding
+  fullName: CoreWCF.Configuration.BindingsSection.BasicHttpBinding
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingsSection.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: BasicHttpBinding
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingsSection.cs
+    startLine: 9
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public BasicHttpBindingCollectionElement BasicHttpBinding { get; }
+    parameters: []
+    return:
+      type: CoreWCF.Configuration.BasicHttpBindingCollectionElement
+    content.vb: Public ReadOnly Property BasicHttpBinding As BasicHttpBindingCollectionElement
+  overload: CoreWCF.Configuration.BindingsSection.BasicHttpBinding*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CoreWCF.Configuration.BindingsSection.NetTcpBinding
+  commentId: P:CoreWCF.Configuration.BindingsSection.NetTcpBinding
+  id: NetTcpBinding
+  parent: CoreWCF.Configuration.BindingsSection
+  langs:
+  - csharp
+  - vb
+  name: NetTcpBinding
+  nameWithType: BindingsSection.NetTcpBinding
+  fullName: CoreWCF.Configuration.BindingsSection.NetTcpBinding
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingsSection.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: NetTcpBinding
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingsSection.cs
+    startLine: 15
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public NetTcpBindingCollectionElement NetTcpBinding { get; }
+    parameters: []
+    return:
+      type: CoreWCF.Configuration.NetTcpBindingCollectionElement
+    content.vb: Public ReadOnly Property NetTcpBinding As NetTcpBindingCollectionElement
+  overload: CoreWCF.Configuration.BindingsSection.NetTcpBinding*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CoreWCF.Configuration.BindingsSection.NetHttpBinding
+  commentId: P:CoreWCF.Configuration.BindingsSection.NetHttpBinding
+  id: NetHttpBinding
+  parent: CoreWCF.Configuration.BindingsSection
+  langs:
+  - csharp
+  - vb
+  name: NetHttpBinding
+  nameWithType: BindingsSection.NetHttpBinding
+  fullName: CoreWCF.Configuration.BindingsSection.NetHttpBinding
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingsSection.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: NetHttpBinding
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingsSection.cs
+    startLine: 21
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public NetHttpBindingCollectionElement NetHttpBinding { get; }
+    parameters: []
+    return:
+      type: CoreWCF.Configuration.NetHttpBindingCollectionElement
+    content.vb: Public ReadOnly Property NetHttpBinding As NetHttpBindingCollectionElement
+  overload: CoreWCF.Configuration.BindingsSection.NetHttpBinding*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CoreWCF.Configuration.BindingsSection.WSHttpBinding
+  commentId: P:CoreWCF.Configuration.BindingsSection.WSHttpBinding
+  id: WSHttpBinding
+  parent: CoreWCF.Configuration.BindingsSection
+  langs:
+  - csharp
+  - vb
+  name: WSHttpBinding
+  nameWithType: BindingsSection.WSHttpBinding
+  fullName: CoreWCF.Configuration.BindingsSection.WSHttpBinding
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingsSection.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: WSHttpBinding
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingsSection.cs
+    startLine: 27
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public WSHttpBindingCollectionElement WSHttpBinding { get; }
+    parameters: []
+    return:
+      type: CoreWCF.Configuration.WSHttpBindingCollectionElement
+    content.vb: Public ReadOnly Property WSHttpBinding As WSHttpBindingCollectionElement
+  overload: CoreWCF.Configuration.BindingsSection.WSHttpBinding*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Configuration.BindingsSection.BasicHttpBinding*
+  commentId: Overload:CoreWCF.Configuration.BindingsSection.BasicHttpBinding
+  name: BasicHttpBinding
+  nameWithType: BindingsSection.BasicHttpBinding
+  fullName: CoreWCF.Configuration.BindingsSection.BasicHttpBinding
+- uid: CoreWCF.Configuration.BasicHttpBindingCollectionElement
+  commentId: T:CoreWCF.Configuration.BasicHttpBindingCollectionElement
+  parent: CoreWCF.Configuration
+  name: BasicHttpBindingCollectionElement
+  nameWithType: BasicHttpBindingCollectionElement
+  fullName: CoreWCF.Configuration.BasicHttpBindingCollectionElement
+- uid: CoreWCF.Configuration.BindingsSection.NetTcpBinding*
+  commentId: Overload:CoreWCF.Configuration.BindingsSection.NetTcpBinding
+  name: NetTcpBinding
+  nameWithType: BindingsSection.NetTcpBinding
+  fullName: CoreWCF.Configuration.BindingsSection.NetTcpBinding
+- uid: CoreWCF.Configuration.NetTcpBindingCollectionElement
+  commentId: T:CoreWCF.Configuration.NetTcpBindingCollectionElement
+  parent: CoreWCF.Configuration
+  name: NetTcpBindingCollectionElement
+  nameWithType: NetTcpBindingCollectionElement
+  fullName: CoreWCF.Configuration.NetTcpBindingCollectionElement
+- uid: CoreWCF.Configuration.BindingsSection.NetHttpBinding*
+  commentId: Overload:CoreWCF.Configuration.BindingsSection.NetHttpBinding
+  name: NetHttpBinding
+  nameWithType: BindingsSection.NetHttpBinding
+  fullName: CoreWCF.Configuration.BindingsSection.NetHttpBinding
+- uid: CoreWCF.Configuration.NetHttpBindingCollectionElement
+  commentId: T:CoreWCF.Configuration.NetHttpBindingCollectionElement
+  parent: CoreWCF.Configuration
+  name: NetHttpBindingCollectionElement
+  nameWithType: NetHttpBindingCollectionElement
+  fullName: CoreWCF.Configuration.NetHttpBindingCollectionElement
+- uid: CoreWCF.Configuration.BindingsSection.WSHttpBinding*
+  commentId: Overload:CoreWCF.Configuration.BindingsSection.WSHttpBinding
+  name: WSHttpBinding
+  nameWithType: BindingsSection.WSHttpBinding
+  fullName: CoreWCF.Configuration.BindingsSection.WSHttpBinding
+- uid: CoreWCF.Configuration.WSHttpBindingCollectionElement
+  commentId: T:CoreWCF.Configuration.WSHttpBindingCollectionElement
+  parent: CoreWCF.Configuration
+  name: WSHttpBindingCollectionElement
+  nameWithType: WSHttpBindingCollectionElement
+  fullName: CoreWCF.Configuration.WSHttpBindingCollectionElement

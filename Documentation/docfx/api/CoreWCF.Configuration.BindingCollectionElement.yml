@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.BindingCollectionElement
+  commentId: T:CoreWCF.Configuration.BindingCollectionElement
+  id: BindingCollectionElement
+  parent: CoreWCF.Configuration
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: BindingCollectionElement
+  nameWithType: BindingCollectionElement
+  fullName: CoreWCF.Configuration.BindingCollectionElement
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingCollectionElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: BindingCollectionElement
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/BindingCollectionElement.cs
+    startLine: 7
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: 'public abstract class BindingCollectionElement : ConfigurationElement'
+    content.vb: >-
+      Public MustInherit Class BindingCollectionElement
+
+          Inherits ConfigurationElement
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - CoreWCF.Configuration.StandardBindingCollectionElement`2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object

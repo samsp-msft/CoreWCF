@@ -1,0 +1,991 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Channels.HttpTransportBindingElement
+  commentId: T:CoreWCF.Channels.HttpTransportBindingElement
+  id: HttpTransportBindingElement
+  parent: CoreWCF.Channels
+  children:
+  - CoreWCF.Channels.HttpTransportBindingElement.#ctor
+  - CoreWCF.Channels.HttpTransportBindingElement.#ctor(CoreWCF.Channels.HttpTransportBindingElement)
+  - CoreWCF.Channels.HttpTransportBindingElement.AuthenticationScheme
+  - CoreWCF.Channels.HttpTransportBindingElement.BuildServiceDispatcher``1(CoreWCF.Channels.BindingContext,CoreWCF.Configuration.IServiceDispatcher)
+  - CoreWCF.Channels.HttpTransportBindingElement.CanBuildServiceDispatcher``1(CoreWCF.Channels.BindingContext)
+  - CoreWCF.Channels.HttpTransportBindingElement.Clone
+  - CoreWCF.Channels.HttpTransportBindingElement.ExtendedProtectionPolicy
+  - CoreWCF.Channels.HttpTransportBindingElement.GetProperty``1(CoreWCF.Channels.BindingContext)
+  - CoreWCF.Channels.HttpTransportBindingElement.KeepAliveEnabled
+  - CoreWCF.Channels.HttpTransportBindingElement.MaxBufferSize
+  - CoreWCF.Channels.HttpTransportBindingElement.Realm
+  - CoreWCF.Channels.HttpTransportBindingElement.Scheme
+  - CoreWCF.Channels.HttpTransportBindingElement.TransferMode
+  - CoreWCF.Channels.HttpTransportBindingElement.WebSocketSettings
+  langs:
+  - csharp
+  - vb
+  name: HttpTransportBindingElement
+  nameWithType: HttpTransportBindingElement
+  fullName: CoreWCF.Channels.HttpTransportBindingElement
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: HttpTransportBindingElement
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+    startLine: 15
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nThis TransportBindingElement is used to specify an HTTP transport for transmitting messages.\n"
+  remarks: HttpTransportBindingElement is also used as a starting point for creating a custom bindings using HTTP.
+  example: []
+  syntax:
+    content: 'public class HttpTransportBindingElement : TransportBindingElement'
+    content.vb: >-
+      Public Class HttpTransportBindingElement
+
+          Inherits TransportBindingElement
+  inheritance:
+  - System.Object
+  - CoreWCF.Channels.BindingElement
+  - CoreWCF.Channels.TransportBindingElement
+  derivedClasses:
+  - CoreWCF.Channels.HttpsTransportBindingElement
+  inheritedMembers:
+  - CoreWCF.Channels.TransportBindingElement.ManualAddressing
+  - CoreWCF.Channels.TransportBindingElement.MaxBufferPoolSize
+  - CoreWCF.Channels.TransportBindingElement.MaxReceivedMessageSize
+  - CoreWCF.Channels.TransportBindingElement.IsMatch(CoreWCF.Channels.BindingElement)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CoreWCF.Channels.HttpTransportBindingElement.#ctor
+  commentId: M:CoreWCF.Channels.HttpTransportBindingElement.#ctor
+  id: '#ctor'
+  parent: CoreWCF.Channels.HttpTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: HttpTransportBindingElement()
+  nameWithType: HttpTransportBindingElement.HttpTransportBindingElement()
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.HttpTransportBindingElement()
+  type: Constructor
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: .ctor
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+    startLine: 30
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nInitializes a new instance of the HttpTransportBindingElement class.\n"
+  remarks: The defaults are AuthenticationSchemes.Anonymous, TransferMode.Buffered, MaxBufferSize = 65536, and KeepAliveEnabled.
+  example: []
+  syntax:
+    content: public HttpTransportBindingElement()
+    content.vb: Public Sub New
+  overload: CoreWCF.Channels.HttpTransportBindingElement.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.HttpTransportBindingElement.#ctor(CoreWCF.Channels.HttpTransportBindingElement)
+  commentId: M:CoreWCF.Channels.HttpTransportBindingElement.#ctor(CoreWCF.Channels.HttpTransportBindingElement)
+  id: '#ctor(CoreWCF.Channels.HttpTransportBindingElement)'
+  parent: CoreWCF.Channels.HttpTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: HttpTransportBindingElement(HttpTransportBindingElement)
+  nameWithType: HttpTransportBindingElement.HttpTransportBindingElement(HttpTransportBindingElement)
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.HttpTransportBindingElement(CoreWCF.Channels.HttpTransportBindingElement)
+  type: Constructor
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: .ctor
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+    startLine: 39
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: protected HttpTransportBindingElement(HttpTransportBindingElement elementToBeCloned)
+    parameters:
+    - id: elementToBeCloned
+      type: CoreWCF.Channels.HttpTransportBindingElement
+    content.vb: Protected Sub New(elementToBeCloned As HttpTransportBindingElement)
+  overload: CoreWCF.Channels.HttpTransportBindingElement.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: CoreWCF.Channels.HttpTransportBindingElement.AuthenticationScheme
+  commentId: P:CoreWCF.Channels.HttpTransportBindingElement.AuthenticationScheme
+  id: AuthenticationScheme
+  parent: CoreWCF.Channels.HttpTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: AuthenticationScheme
+  nameWithType: HttpTransportBindingElement.AuthenticationScheme
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.AuthenticationScheme
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: AuthenticationScheme
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+    startLine: 55
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nGets or sets the authentication scheme.\n"
+  example: []
+  syntax:
+    content: public AuthenticationSchemes AuthenticationScheme { get; set; }
+    parameters: []
+    return:
+      type: AuthenticationSchemes
+      description: The authentication scheme.
+    content.vb: Public Property AuthenticationScheme As AuthenticationSchemes
+  overload: CoreWCF.Channels.HttpTransportBindingElement.AuthenticationScheme*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.HttpTransportBindingElement.MaxBufferSize
+  commentId: P:CoreWCF.Channels.HttpTransportBindingElement.MaxBufferSize
+  id: MaxBufferSize
+  parent: CoreWCF.Channels.HttpTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: MaxBufferSize
+  nameWithType: HttpTransportBindingElement.MaxBufferSize
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.MaxBufferSize
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: MaxBufferSize
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+    startLine: 65
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nGets or sets the maximum size of the buffer.\n"
+  remarks: If not set, this defaults the to lessor of MaxReceivedMessageSize and Int32.MaxValue.
+  example: []
+  syntax:
+    content: public int MaxBufferSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: The maximum size of the buffer.
+    content.vb: Public Property MaxBufferSize As Integer
+  overload: CoreWCF.Channels.HttpTransportBindingElement.MaxBufferSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.HttpTransportBindingElement.KeepAliveEnabled
+  commentId: P:CoreWCF.Channels.HttpTransportBindingElement.KeepAliveEnabled
+  id: KeepAliveEnabled
+  parent: CoreWCF.Channels.HttpTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: KeepAliveEnabled
+  nameWithType: HttpTransportBindingElement.KeepAliveEnabled
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.KeepAliveEnabled
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: KeepAliveEnabled
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+    startLine: 97
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public bool KeepAliveEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property KeepAliveEnabled As Boolean
+  overload: CoreWCF.Channels.HttpTransportBindingElement.KeepAliveEnabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.HttpTransportBindingElement.Realm
+  commentId: P:CoreWCF.Channels.HttpTransportBindingElement.Realm
+  id: Realm
+  parent: CoreWCF.Channels.HttpTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: Realm
+  nameWithType: HttpTransportBindingElement.Realm
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.Realm
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Realm
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+    startLine: 99
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public string Realm { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Realm As String
+  overload: CoreWCF.Channels.HttpTransportBindingElement.Realm*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.HttpTransportBindingElement.Scheme
+  commentId: P:CoreWCF.Channels.HttpTransportBindingElement.Scheme
+  id: Scheme
+  parent: CoreWCF.Channels.HttpTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: Scheme
+  nameWithType: HttpTransportBindingElement.Scheme
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.Scheme
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Scheme
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+    startLine: 116
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nGets the HTTP scheme.\n"
+  remarks: This will be &apos;http&apos; unless overridden in a subclass.
+  example: []
+  syntax:
+    content: public override string Scheme { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: The HTTP scheme.
+    content.vb: Public Overrides ReadOnly Property Scheme As String
+  overridden: CoreWCF.Channels.TransportBindingElement.Scheme
+  overload: CoreWCF.Channels.HttpTransportBindingElement.Scheme*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: CoreWCF.Channels.HttpTransportBindingElement.TransferMode
+  commentId: P:CoreWCF.Channels.HttpTransportBindingElement.TransferMode
+  id: TransferMode
+  parent: CoreWCF.Channels.HttpTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: TransferMode
+  nameWithType: HttpTransportBindingElement.TransferMode
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.TransferMode
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: TransferMode
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+    startLine: 122
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nGets or sets the transfer mode.\n"
+  example: []
+  syntax:
+    content: public TransferMode TransferMode { get; set; }
+    parameters: []
+    return:
+      type: CoreWCF.TransferMode
+      description: The transfer mode.
+    content.vb: Public Property TransferMode As TransferMode
+  overload: CoreWCF.Channels.HttpTransportBindingElement.TransferMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.HttpTransportBindingElement.WebSocketSettings
+  commentId: P:CoreWCF.Channels.HttpTransportBindingElement.WebSocketSettings
+  id: WebSocketSettings
+  parent: CoreWCF.Channels.HttpTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: WebSocketSettings
+  nameWithType: HttpTransportBindingElement.WebSocketSettings
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.WebSocketSettings
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: WebSocketSettings
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+    startLine: 139
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nGets or sets the web socket settings.\n"
+  example: []
+  syntax:
+    content: public WebSocketTransportSettings WebSocketSettings { get; set; }
+    parameters: []
+    return:
+      type: CoreWCF.Channels.WebSocketTransportSettings
+      description: The web socket settings. This may not be null.
+    content.vb: Public Property WebSocketSettings As WebSocketTransportSettings
+  overload: CoreWCF.Channels.HttpTransportBindingElement.WebSocketSettings*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Channels.HttpTransportBindingElement.Clone
+  commentId: M:CoreWCF.Channels.HttpTransportBindingElement.Clone
+  id: Clone
+  parent: CoreWCF.Channels.HttpTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: HttpTransportBindingElement.Clone()
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.Clone()
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Clone
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+    startLine: 166
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  summary: "\nClones this instance.\n"
+  example: []
+  syntax:
+    content: public override BindingElement Clone()
+    return:
+      type: CoreWCF.Channels.BindingElement
+    content.vb: Public Overrides Function Clone As BindingElement
+  overridden: CoreWCF.Channels.BindingElement.Clone
+  overload: CoreWCF.Channels.HttpTransportBindingElement.Clone*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CoreWCF.Channels.HttpTransportBindingElement.BuildServiceDispatcher``1(CoreWCF.Channels.BindingContext,CoreWCF.Configuration.IServiceDispatcher)
+  commentId: M:CoreWCF.Channels.HttpTransportBindingElement.BuildServiceDispatcher``1(CoreWCF.Channels.BindingContext,CoreWCF.Configuration.IServiceDispatcher)
+  id: BuildServiceDispatcher``1(CoreWCF.Channels.BindingContext,CoreWCF.Configuration.IServiceDispatcher)
+  parent: CoreWCF.Channels.HttpTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: BuildServiceDispatcher<TChannel>(BindingContext, IServiceDispatcher)
+  nameWithType: HttpTransportBindingElement.BuildServiceDispatcher<TChannel>(BindingContext, IServiceDispatcher)
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.BuildServiceDispatcher<TChannel>(CoreWCF.Channels.BindingContext, CoreWCF.Configuration.IServiceDispatcher)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: BuildServiceDispatcher
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+    startLine: 171
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: >-
+      public override IServiceDispatcher BuildServiceDispatcher<TChannel>(BindingContext context, IServiceDispatcher innerDispatcher)
+
+          where TChannel : class, IChannel
+    parameters:
+    - id: context
+      type: CoreWCF.Channels.BindingContext
+    - id: innerDispatcher
+      type: CoreWCF.Configuration.IServiceDispatcher
+    typeParameters:
+    - id: TChannel
+    return:
+      type: CoreWCF.Configuration.IServiceDispatcher
+    content.vb: Public Overrides Function BuildServiceDispatcher(Of TChannel As {Class, IChannel})(context As BindingContext, innerDispatcher As IServiceDispatcher) As IServiceDispatcher
+  overridden: CoreWCF.Channels.BindingElement.BuildServiceDispatcher``1(CoreWCF.Channels.BindingContext,CoreWCF.Configuration.IServiceDispatcher)
+  overload: CoreWCF.Channels.HttpTransportBindingElement.BuildServiceDispatcher*
+  nameWithType.vb: HttpTransportBindingElement.BuildServiceDispatcher(Of TChannel)(BindingContext, IServiceDispatcher)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: CoreWCF.Channels.HttpTransportBindingElement.BuildServiceDispatcher(Of TChannel)(CoreWCF.Channels.BindingContext, CoreWCF.Configuration.IServiceDispatcher)
+  name.vb: BuildServiceDispatcher(Of TChannel)(BindingContext, IServiceDispatcher)
+- uid: CoreWCF.Channels.HttpTransportBindingElement.CanBuildServiceDispatcher``1(CoreWCF.Channels.BindingContext)
+  commentId: M:CoreWCF.Channels.HttpTransportBindingElement.CanBuildServiceDispatcher``1(CoreWCF.Channels.BindingContext)
+  id: CanBuildServiceDispatcher``1(CoreWCF.Channels.BindingContext)
+  parent: CoreWCF.Channels.HttpTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: CanBuildServiceDispatcher<TChannel>(BindingContext)
+  nameWithType: HttpTransportBindingElement.CanBuildServiceDispatcher<TChannel>(BindingContext)
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.CanBuildServiceDispatcher<TChannel>(CoreWCF.Channels.BindingContext)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: CanBuildServiceDispatcher
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+    startLine: 185
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: >-
+      public override bool CanBuildServiceDispatcher<TChannel>(BindingContext context)
+
+          where TChannel : class, IChannel
+    parameters:
+    - id: context
+      type: CoreWCF.Channels.BindingContext
+    typeParameters:
+    - id: TChannel
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function CanBuildServiceDispatcher(Of TChannel As {Class, IChannel})(context As BindingContext) As Boolean
+  overridden: CoreWCF.Channels.BindingElement.CanBuildServiceDispatcher``1(CoreWCF.Channels.BindingContext)
+  overload: CoreWCF.Channels.HttpTransportBindingElement.CanBuildServiceDispatcher*
+  nameWithType.vb: HttpTransportBindingElement.CanBuildServiceDispatcher(Of TChannel)(BindingContext)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: CoreWCF.Channels.HttpTransportBindingElement.CanBuildServiceDispatcher(Of TChannel)(CoreWCF.Channels.BindingContext)
+  name.vb: CanBuildServiceDispatcher(Of TChannel)(BindingContext)
+- uid: CoreWCF.Channels.HttpTransportBindingElement.GetProperty``1(CoreWCF.Channels.BindingContext)
+  commentId: M:CoreWCF.Channels.HttpTransportBindingElement.GetProperty``1(CoreWCF.Channels.BindingContext)
+  id: GetProperty``1(CoreWCF.Channels.BindingContext)
+  parent: CoreWCF.Channels.HttpTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: GetProperty<T>(BindingContext)
+  nameWithType: HttpTransportBindingElement.GetProperty<T>(BindingContext)
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.GetProperty<T>(CoreWCF.Channels.BindingContext)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: GetProperty
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+    startLine: 199
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: >-
+      public override T GetProperty<T>(BindingContext context)
+
+          where T : class
+    parameters:
+    - id: context
+      type: CoreWCF.Channels.BindingContext
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Overrides Function GetProperty(Of T As Class)(context As BindingContext) As T
+  overridden: CoreWCF.Channels.TransportBindingElement.GetProperty``1(CoreWCF.Channels.BindingContext)
+  overload: CoreWCF.Channels.HttpTransportBindingElement.GetProperty*
+  nameWithType.vb: HttpTransportBindingElement.GetProperty(Of T)(BindingContext)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: CoreWCF.Channels.HttpTransportBindingElement.GetProperty(Of T)(CoreWCF.Channels.BindingContext)
+  name.vb: GetProperty(Of T)(BindingContext)
+- uid: CoreWCF.Channels.HttpTransportBindingElement.ExtendedProtectionPolicy
+  commentId: P:CoreWCF.Channels.HttpTransportBindingElement.ExtendedProtectionPolicy
+  id: ExtendedProtectionPolicy
+  parent: CoreWCF.Channels.HttpTransportBindingElement
+  langs:
+  - csharp
+  - vb
+  name: ExtendedProtectionPolicy
+  nameWithType: HttpTransportBindingElement.ExtendedProtectionPolicy
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.ExtendedProtectionPolicy
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ExtendedProtectionPolicy
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/HttpTransportBindingElement.cs
+    startLine: 304
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public ExtendedProtectionPolicy ExtendedProtectionPolicy { get; set; }
+    parameters: []
+    return:
+      type: ExtendedProtectionPolicy
+    content.vb: Public Property ExtendedProtectionPolicy As ExtendedProtectionPolicy
+  overload: CoreWCF.Channels.HttpTransportBindingElement.ExtendedProtectionPolicy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CoreWCF.Channels
+  commentId: N:CoreWCF.Channels
+  name: CoreWCF.Channels
+  nameWithType: CoreWCF.Channels
+  fullName: CoreWCF.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Channels.BindingElement
+  commentId: T:CoreWCF.Channels.BindingElement
+  parent: CoreWCF.Channels
+  name: BindingElement
+  nameWithType: BindingElement
+  fullName: CoreWCF.Channels.BindingElement
+- uid: CoreWCF.Channels.TransportBindingElement
+  commentId: T:CoreWCF.Channels.TransportBindingElement
+  parent: CoreWCF.Channels
+  name: TransportBindingElement
+  nameWithType: TransportBindingElement
+  fullName: CoreWCF.Channels.TransportBindingElement
+- uid: CoreWCF.Channels.TransportBindingElement.ManualAddressing
+  commentId: P:CoreWCF.Channels.TransportBindingElement.ManualAddressing
+  parent: CoreWCF.Channels.TransportBindingElement
+  name: ManualAddressing
+  nameWithType: TransportBindingElement.ManualAddressing
+  fullName: CoreWCF.Channels.TransportBindingElement.ManualAddressing
+- uid: CoreWCF.Channels.TransportBindingElement.MaxBufferPoolSize
+  commentId: P:CoreWCF.Channels.TransportBindingElement.MaxBufferPoolSize
+  parent: CoreWCF.Channels.TransportBindingElement
+  name: MaxBufferPoolSize
+  nameWithType: TransportBindingElement.MaxBufferPoolSize
+  fullName: CoreWCF.Channels.TransportBindingElement.MaxBufferPoolSize
+- uid: CoreWCF.Channels.TransportBindingElement.MaxReceivedMessageSize
+  commentId: P:CoreWCF.Channels.TransportBindingElement.MaxReceivedMessageSize
+  parent: CoreWCF.Channels.TransportBindingElement
+  name: MaxReceivedMessageSize
+  nameWithType: TransportBindingElement.MaxReceivedMessageSize
+  fullName: CoreWCF.Channels.TransportBindingElement.MaxReceivedMessageSize
+- uid: CoreWCF.Channels.TransportBindingElement.IsMatch(CoreWCF.Channels.BindingElement)
+  commentId: M:CoreWCF.Channels.TransportBindingElement.IsMatch(CoreWCF.Channels.BindingElement)
+  parent: CoreWCF.Channels.TransportBindingElement
+  name: IsMatch(BindingElement)
+  nameWithType: TransportBindingElement.IsMatch(BindingElement)
+  fullName: CoreWCF.Channels.TransportBindingElement.IsMatch(CoreWCF.Channels.BindingElement)
+  spec.csharp:
+  - uid: CoreWCF.Channels.TransportBindingElement.IsMatch(CoreWCF.Channels.BindingElement)
+    name: IsMatch
+    nameWithType: TransportBindingElement.IsMatch
+    fullName: CoreWCF.Channels.TransportBindingElement.IsMatch
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Channels.BindingElement
+    name: BindingElement
+    nameWithType: BindingElement
+    fullName: CoreWCF.Channels.BindingElement
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Channels.TransportBindingElement.IsMatch(CoreWCF.Channels.BindingElement)
+    name: IsMatch
+    nameWithType: TransportBindingElement.IsMatch
+    fullName: CoreWCF.Channels.TransportBindingElement.IsMatch
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Channels.BindingElement
+    name: BindingElement
+    nameWithType: BindingElement
+    fullName: CoreWCF.Channels.BindingElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Channels.HttpTransportBindingElement.#ctor*
+  commentId: Overload:CoreWCF.Channels.HttpTransportBindingElement.#ctor
+  name: HttpTransportBindingElement
+  nameWithType: HttpTransportBindingElement.HttpTransportBindingElement
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.HttpTransportBindingElement
+- uid: CoreWCF.Channels.HttpTransportBindingElement
+  commentId: T:CoreWCF.Channels.HttpTransportBindingElement
+  parent: CoreWCF.Channels
+  name: HttpTransportBindingElement
+  nameWithType: HttpTransportBindingElement
+  fullName: CoreWCF.Channels.HttpTransportBindingElement
+- uid: CoreWCF.Channels.HttpTransportBindingElement.AuthenticationScheme*
+  commentId: Overload:CoreWCF.Channels.HttpTransportBindingElement.AuthenticationScheme
+  name: AuthenticationScheme
+  nameWithType: HttpTransportBindingElement.AuthenticationScheme
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.AuthenticationScheme
+- uid: AuthenticationSchemes
+  commentId: '!:AuthenticationSchemes'
+  isExternal: true
+  name: AuthenticationSchemes
+  nameWithType: AuthenticationSchemes
+  fullName: AuthenticationSchemes
+- uid: CoreWCF.Channels.HttpTransportBindingElement.MaxBufferSize*
+  commentId: Overload:CoreWCF.Channels.HttpTransportBindingElement.MaxBufferSize
+  name: MaxBufferSize
+  nameWithType: HttpTransportBindingElement.MaxBufferSize
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.MaxBufferSize
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CoreWCF.Channels.HttpTransportBindingElement.KeepAliveEnabled*
+  commentId: Overload:CoreWCF.Channels.HttpTransportBindingElement.KeepAliveEnabled
+  name: KeepAliveEnabled
+  nameWithType: HttpTransportBindingElement.KeepAliveEnabled
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.KeepAliveEnabled
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CoreWCF.Channels.HttpTransportBindingElement.Realm*
+  commentId: Overload:CoreWCF.Channels.HttpTransportBindingElement.Realm
+  name: Realm
+  nameWithType: HttpTransportBindingElement.Realm
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.Realm
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CoreWCF.Channels.TransportBindingElement.Scheme
+  commentId: P:CoreWCF.Channels.TransportBindingElement.Scheme
+  parent: CoreWCF.Channels.TransportBindingElement
+  name: Scheme
+  nameWithType: TransportBindingElement.Scheme
+  fullName: CoreWCF.Channels.TransportBindingElement.Scheme
+- uid: CoreWCF.Channels.HttpTransportBindingElement.Scheme*
+  commentId: Overload:CoreWCF.Channels.HttpTransportBindingElement.Scheme
+  name: Scheme
+  nameWithType: HttpTransportBindingElement.Scheme
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.Scheme
+- uid: CoreWCF.Channels.HttpTransportBindingElement.TransferMode*
+  commentId: Overload:CoreWCF.Channels.HttpTransportBindingElement.TransferMode
+  name: TransferMode
+  nameWithType: HttpTransportBindingElement.TransferMode
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.TransferMode
+- uid: CoreWCF.TransferMode
+  commentId: T:CoreWCF.TransferMode
+  parent: CoreWCF
+  name: TransferMode
+  nameWithType: TransferMode
+  fullName: CoreWCF.TransferMode
+- uid: CoreWCF
+  commentId: N:CoreWCF
+  name: CoreWCF
+  nameWithType: CoreWCF
+  fullName: CoreWCF
+- uid: CoreWCF.Channels.HttpTransportBindingElement.WebSocketSettings*
+  commentId: Overload:CoreWCF.Channels.HttpTransportBindingElement.WebSocketSettings
+  name: WebSocketSettings
+  nameWithType: HttpTransportBindingElement.WebSocketSettings
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.WebSocketSettings
+- uid: CoreWCF.Channels.WebSocketTransportSettings
+  commentId: T:CoreWCF.Channels.WebSocketTransportSettings
+  parent: CoreWCF.Channels
+  name: WebSocketTransportSettings
+  nameWithType: WebSocketTransportSettings
+  fullName: CoreWCF.Channels.WebSocketTransportSettings
+- uid: CoreWCF.Channels.BindingElement.Clone
+  commentId: M:CoreWCF.Channels.BindingElement.Clone
+  parent: CoreWCF.Channels.BindingElement
+  name: Clone()
+  nameWithType: BindingElement.Clone()
+  fullName: CoreWCF.Channels.BindingElement.Clone()
+  spec.csharp:
+  - uid: CoreWCF.Channels.BindingElement.Clone
+    name: Clone
+    nameWithType: BindingElement.Clone
+    fullName: CoreWCF.Channels.BindingElement.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Channels.BindingElement.Clone
+    name: Clone
+    nameWithType: BindingElement.Clone
+    fullName: CoreWCF.Channels.BindingElement.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Channels.HttpTransportBindingElement.Clone*
+  commentId: Overload:CoreWCF.Channels.HttpTransportBindingElement.Clone
+  name: Clone
+  nameWithType: HttpTransportBindingElement.Clone
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.Clone
+- uid: CoreWCF.Channels.BindingElement.BuildServiceDispatcher``1(CoreWCF.Channels.BindingContext,CoreWCF.Configuration.IServiceDispatcher)
+  commentId: M:CoreWCF.Channels.BindingElement.BuildServiceDispatcher``1(CoreWCF.Channels.BindingContext,CoreWCF.Configuration.IServiceDispatcher)
+  parent: CoreWCF.Channels.BindingElement
+  name: BuildServiceDispatcher<TChannel>(BindingContext, IServiceDispatcher)
+  nameWithType: BindingElement.BuildServiceDispatcher<TChannel>(BindingContext, IServiceDispatcher)
+  fullName: CoreWCF.Channels.BindingElement.BuildServiceDispatcher<TChannel>(CoreWCF.Channels.BindingContext, CoreWCF.Configuration.IServiceDispatcher)
+  nameWithType.vb: BindingElement.BuildServiceDispatcher(Of TChannel)(BindingContext, IServiceDispatcher)
+  fullName.vb: CoreWCF.Channels.BindingElement.BuildServiceDispatcher(Of TChannel)(CoreWCF.Channels.BindingContext, CoreWCF.Configuration.IServiceDispatcher)
+  name.vb: BuildServiceDispatcher(Of TChannel)(BindingContext, IServiceDispatcher)
+  spec.csharp:
+  - uid: CoreWCF.Channels.BindingElement.BuildServiceDispatcher``1(CoreWCF.Channels.BindingContext,CoreWCF.Configuration.IServiceDispatcher)
+    name: BuildServiceDispatcher<TChannel>
+    nameWithType: BindingElement.BuildServiceDispatcher<TChannel>
+    fullName: CoreWCF.Channels.BindingElement.BuildServiceDispatcher<TChannel>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Channels.BindingContext
+    name: BindingContext
+    nameWithType: BindingContext
+    fullName: CoreWCF.Channels.BindingContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CoreWCF.Configuration.IServiceDispatcher
+    name: IServiceDispatcher
+    nameWithType: IServiceDispatcher
+    fullName: CoreWCF.Configuration.IServiceDispatcher
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Channels.BindingElement.BuildServiceDispatcher``1(CoreWCF.Channels.BindingContext,CoreWCF.Configuration.IServiceDispatcher)
+    name: BuildServiceDispatcher(Of TChannel)
+    nameWithType: BindingElement.BuildServiceDispatcher(Of TChannel)
+    fullName: CoreWCF.Channels.BindingElement.BuildServiceDispatcher(Of TChannel)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Channels.BindingContext
+    name: BindingContext
+    nameWithType: BindingContext
+    fullName: CoreWCF.Channels.BindingContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CoreWCF.Configuration.IServiceDispatcher
+    name: IServiceDispatcher
+    nameWithType: IServiceDispatcher
+    fullName: CoreWCF.Configuration.IServiceDispatcher
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Channels.HttpTransportBindingElement.BuildServiceDispatcher*
+  commentId: Overload:CoreWCF.Channels.HttpTransportBindingElement.BuildServiceDispatcher
+  name: BuildServiceDispatcher
+  nameWithType: HttpTransportBindingElement.BuildServiceDispatcher
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.BuildServiceDispatcher
+- uid: CoreWCF.Channels.BindingContext
+  commentId: T:CoreWCF.Channels.BindingContext
+  parent: CoreWCF.Channels
+  name: BindingContext
+  nameWithType: BindingContext
+  fullName: CoreWCF.Channels.BindingContext
+- uid: CoreWCF.Configuration.IServiceDispatcher
+  commentId: T:CoreWCF.Configuration.IServiceDispatcher
+  parent: CoreWCF.Configuration
+  name: IServiceDispatcher
+  nameWithType: IServiceDispatcher
+  fullName: CoreWCF.Configuration.IServiceDispatcher
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: CoreWCF.Channels.BindingElement.CanBuildServiceDispatcher``1(CoreWCF.Channels.BindingContext)
+  commentId: M:CoreWCF.Channels.BindingElement.CanBuildServiceDispatcher``1(CoreWCF.Channels.BindingContext)
+  parent: CoreWCF.Channels.BindingElement
+  name: CanBuildServiceDispatcher<TChannel>(BindingContext)
+  nameWithType: BindingElement.CanBuildServiceDispatcher<TChannel>(BindingContext)
+  fullName: CoreWCF.Channels.BindingElement.CanBuildServiceDispatcher<TChannel>(CoreWCF.Channels.BindingContext)
+  nameWithType.vb: BindingElement.CanBuildServiceDispatcher(Of TChannel)(BindingContext)
+  fullName.vb: CoreWCF.Channels.BindingElement.CanBuildServiceDispatcher(Of TChannel)(CoreWCF.Channels.BindingContext)
+  name.vb: CanBuildServiceDispatcher(Of TChannel)(BindingContext)
+  spec.csharp:
+  - uid: CoreWCF.Channels.BindingElement.CanBuildServiceDispatcher``1(CoreWCF.Channels.BindingContext)
+    name: CanBuildServiceDispatcher<TChannel>
+    nameWithType: BindingElement.CanBuildServiceDispatcher<TChannel>
+    fullName: CoreWCF.Channels.BindingElement.CanBuildServiceDispatcher<TChannel>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Channels.BindingContext
+    name: BindingContext
+    nameWithType: BindingContext
+    fullName: CoreWCF.Channels.BindingContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Channels.BindingElement.CanBuildServiceDispatcher``1(CoreWCF.Channels.BindingContext)
+    name: CanBuildServiceDispatcher(Of TChannel)
+    nameWithType: BindingElement.CanBuildServiceDispatcher(Of TChannel)
+    fullName: CoreWCF.Channels.BindingElement.CanBuildServiceDispatcher(Of TChannel)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Channels.BindingContext
+    name: BindingContext
+    nameWithType: BindingContext
+    fullName: CoreWCF.Channels.BindingContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Channels.HttpTransportBindingElement.CanBuildServiceDispatcher*
+  commentId: Overload:CoreWCF.Channels.HttpTransportBindingElement.CanBuildServiceDispatcher
+  name: CanBuildServiceDispatcher
+  nameWithType: HttpTransportBindingElement.CanBuildServiceDispatcher
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.CanBuildServiceDispatcher
+- uid: CoreWCF.Channels.TransportBindingElement.GetProperty``1(CoreWCF.Channels.BindingContext)
+  commentId: M:CoreWCF.Channels.TransportBindingElement.GetProperty``1(CoreWCF.Channels.BindingContext)
+  parent: CoreWCF.Channels.TransportBindingElement
+  name: GetProperty<T>(BindingContext)
+  nameWithType: TransportBindingElement.GetProperty<T>(BindingContext)
+  fullName: CoreWCF.Channels.TransportBindingElement.GetProperty<T>(CoreWCF.Channels.BindingContext)
+  nameWithType.vb: TransportBindingElement.GetProperty(Of T)(BindingContext)
+  fullName.vb: CoreWCF.Channels.TransportBindingElement.GetProperty(Of T)(CoreWCF.Channels.BindingContext)
+  name.vb: GetProperty(Of T)(BindingContext)
+  spec.csharp:
+  - uid: CoreWCF.Channels.TransportBindingElement.GetProperty``1(CoreWCF.Channels.BindingContext)
+    name: GetProperty<T>
+    nameWithType: TransportBindingElement.GetProperty<T>
+    fullName: CoreWCF.Channels.TransportBindingElement.GetProperty<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Channels.BindingContext
+    name: BindingContext
+    nameWithType: BindingContext
+    fullName: CoreWCF.Channels.BindingContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Channels.TransportBindingElement.GetProperty``1(CoreWCF.Channels.BindingContext)
+    name: GetProperty(Of T)
+    nameWithType: TransportBindingElement.GetProperty(Of T)
+    fullName: CoreWCF.Channels.TransportBindingElement.GetProperty(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CoreWCF.Channels.BindingContext
+    name: BindingContext
+    nameWithType: BindingContext
+    fullName: CoreWCF.Channels.BindingContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Channels.HttpTransportBindingElement.GetProperty*
+  commentId: Overload:CoreWCF.Channels.HttpTransportBindingElement.GetProperty
+  name: GetProperty
+  nameWithType: HttpTransportBindingElement.GetProperty
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.GetProperty
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: CoreWCF.Channels.HttpTransportBindingElement.ExtendedProtectionPolicy*
+  commentId: Overload:CoreWCF.Channels.HttpTransportBindingElement.ExtendedProtectionPolicy
+  name: ExtendedProtectionPolicy
+  nameWithType: HttpTransportBindingElement.ExtendedProtectionPolicy
+  fullName: CoreWCF.Channels.HttpTransportBindingElement.ExtendedProtectionPolicy
+- uid: ExtendedProtectionPolicy
+  isExternal: true
+  name: ExtendedProtectionPolicy
+  nameWithType: ExtendedProtectionPolicy
+  fullName: ExtendedProtectionPolicy

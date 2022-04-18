@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.ServiceModelSectionGroup
+  commentId: T:CoreWCF.Configuration.ServiceModelSectionGroup
+  id: ServiceModelSectionGroup
+  parent: CoreWCF.Configuration
+  children:
+  - CoreWCF.Configuration.ServiceModelSectionGroup.#ctor
+  - CoreWCF.Configuration.ServiceModelSectionGroup.Bindings
+  - CoreWCF.Configuration.ServiceModelSectionGroup.GetSectionGroup(System.Configuration.Configuration)
+  - CoreWCF.Configuration.ServiceModelSectionGroup.Services
+  langs:
+  - csharp
+  - vb
+  name: ServiceModelSectionGroup
+  nameWithType: ServiceModelSectionGroup
+  fullName: CoreWCF.Configuration.ServiceModelSectionGroup
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceModelSectionGroup.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ServiceModelSectionGroup
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceModelSectionGroup.cs
+    startLine: 7
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: 'public sealed class ServiceModelSectionGroup : ConfigurationSectionGroup'
+    content.vb: >-
+      Public NotInheritable Class ServiceModelSectionGroup
+
+          Inherits ConfigurationSectionGroup
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: CoreWCF.Configuration.ServiceModelSectionGroup.#ctor
+  commentId: M:CoreWCF.Configuration.ServiceModelSectionGroup.#ctor
+  id: '#ctor'
+  parent: CoreWCF.Configuration.ServiceModelSectionGroup
+  langs:
+  - csharp
+  - vb
+  name: ServiceModelSectionGroup()
+  nameWithType: ServiceModelSectionGroup.ServiceModelSectionGroup()
+  fullName: CoreWCF.Configuration.ServiceModelSectionGroup.ServiceModelSectionGroup()
+  type: Constructor
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceModelSectionGroup.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: .ctor
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceModelSectionGroup.cs
+    startLine: 9
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public ServiceModelSectionGroup()
+    content.vb: Public Sub New
+  overload: CoreWCF.Configuration.ServiceModelSectionGroup.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Configuration.ServiceModelSectionGroup.Bindings
+  commentId: P:CoreWCF.Configuration.ServiceModelSectionGroup.Bindings
+  id: Bindings
+  parent: CoreWCF.Configuration.ServiceModelSectionGroup
+  langs:
+  - csharp
+  - vb
+  name: Bindings
+  nameWithType: ServiceModelSectionGroup.Bindings
+  fullName: CoreWCF.Configuration.ServiceModelSectionGroup.Bindings
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceModelSectionGroup.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Bindings
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceModelSectionGroup.cs
+    startLine: 13
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public BindingsSection Bindings { get; }
+    parameters: []
+    return:
+      type: CoreWCF.Configuration.BindingsSection
+    content.vb: Public ReadOnly Property Bindings As BindingsSection
+  overload: CoreWCF.Configuration.ServiceModelSectionGroup.Bindings*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CoreWCF.Configuration.ServiceModelSectionGroup.Services
+  commentId: P:CoreWCF.Configuration.ServiceModelSectionGroup.Services
+  id: Services
+  parent: CoreWCF.Configuration.ServiceModelSectionGroup
+  langs:
+  - csharp
+  - vb
+  name: Services
+  nameWithType: ServiceModelSectionGroup.Services
+  fullName: CoreWCF.Configuration.ServiceModelSectionGroup.Services
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceModelSectionGroup.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Services
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceModelSectionGroup.cs
+    startLine: 18
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public ServicesSection Services { get; }
+    parameters: []
+    return:
+      type: CoreWCF.Configuration.ServicesSection
+    content.vb: Public ReadOnly Property Services As ServicesSection
+  overload: CoreWCF.Configuration.ServiceModelSectionGroup.Services*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CoreWCF.Configuration.ServiceModelSectionGroup.GetSectionGroup(System.Configuration.Configuration)
+  commentId: M:CoreWCF.Configuration.ServiceModelSectionGroup.GetSectionGroup(System.Configuration.Configuration)
+  id: GetSectionGroup(System.Configuration.Configuration)
+  parent: CoreWCF.Configuration.ServiceModelSectionGroup
+  langs:
+  - csharp
+  - vb
+  name: GetSectionGroup(System.Configuration.Configuration)
+  nameWithType: ServiceModelSectionGroup.GetSectionGroup(System.Configuration.Configuration)
+  fullName: CoreWCF.Configuration.ServiceModelSectionGroup.GetSectionGroup(System.Configuration.Configuration)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceModelSectionGroup.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: GetSectionGroup
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceModelSectionGroup.cs
+    startLine: 24
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public static ServiceModelSectionGroup GetSectionGroup(System.Configuration.Configuration config)
+    parameters:
+    - id: config
+      type: System.Configuration.Configuration
+    return:
+      type: CoreWCF.Configuration.ServiceModelSectionGroup
+    content.vb: Public Shared Function GetSectionGroup(config As System.Configuration.Configuration) As ServiceModelSectionGroup
+  overload: CoreWCF.Configuration.ServiceModelSectionGroup.GetSectionGroup*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Configuration.ServiceModelSectionGroup.#ctor*
+  commentId: Overload:CoreWCF.Configuration.ServiceModelSectionGroup.#ctor
+  name: ServiceModelSectionGroup
+  nameWithType: ServiceModelSectionGroup.ServiceModelSectionGroup
+  fullName: CoreWCF.Configuration.ServiceModelSectionGroup.ServiceModelSectionGroup
+- uid: CoreWCF.Configuration.ServiceModelSectionGroup.Bindings*
+  commentId: Overload:CoreWCF.Configuration.ServiceModelSectionGroup.Bindings
+  name: Bindings
+  nameWithType: ServiceModelSectionGroup.Bindings
+  fullName: CoreWCF.Configuration.ServiceModelSectionGroup.Bindings
+- uid: CoreWCF.Configuration.BindingsSection
+  commentId: T:CoreWCF.Configuration.BindingsSection
+  parent: CoreWCF.Configuration
+  name: BindingsSection
+  nameWithType: BindingsSection
+  fullName: CoreWCF.Configuration.BindingsSection
+- uid: CoreWCF.Configuration.ServiceModelSectionGroup.Services*
+  commentId: Overload:CoreWCF.Configuration.ServiceModelSectionGroup.Services
+  name: Services
+  nameWithType: ServiceModelSectionGroup.Services
+  fullName: CoreWCF.Configuration.ServiceModelSectionGroup.Services
+- uid: CoreWCF.Configuration.ServicesSection
+  commentId: T:CoreWCF.Configuration.ServicesSection
+  parent: CoreWCF.Configuration
+  name: ServicesSection
+  nameWithType: ServicesSection
+  fullName: CoreWCF.Configuration.ServicesSection
+- uid: CoreWCF.Configuration.ServiceModelSectionGroup.GetSectionGroup*
+  commentId: Overload:CoreWCF.Configuration.ServiceModelSectionGroup.GetSectionGroup
+  name: GetSectionGroup
+  nameWithType: ServiceModelSectionGroup.GetSectionGroup
+  fullName: CoreWCF.Configuration.ServiceModelSectionGroup.GetSectionGroup
+- uid: System.Configuration.Configuration
+  commentId: '!:System.Configuration.Configuration'
+  isExternal: true
+  name: System.Configuration.Configuration
+  nameWithType: System.Configuration.Configuration
+  fullName: System.Configuration.Configuration
+- uid: CoreWCF.Configuration.ServiceModelSectionGroup
+  commentId: T:CoreWCF.Configuration.ServiceModelSectionGroup
+  parent: CoreWCF.Configuration
+  name: ServiceModelSectionGroup
+  nameWithType: ServiceModelSectionGroup
+  fullName: CoreWCF.Configuration.ServiceModelSectionGroup

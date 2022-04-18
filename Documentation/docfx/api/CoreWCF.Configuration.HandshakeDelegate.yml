@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.HandshakeDelegate
+  commentId: T:CoreWCF.Configuration.HandshakeDelegate
+  id: HandshakeDelegate
+  parent: CoreWCF.Configuration
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: HandshakeDelegate
+  nameWithType: HandshakeDelegate
+  fullName: CoreWCF.Configuration.HandshakeDelegate
+  type: Delegate
+  source:
+    remote:
+      path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/IFramingConnectionHandshakeBuilder.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: HandshakeDelegate
+    path: src/CoreWCF.NetTcp/src/CoreWCF/Configuration/IFramingConnectionHandshakeBuilder.cs
+    startLine: 10
+  assemblies:
+  - CoreWCF.NetTcp
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public delegate Task HandshakeDelegate(FramingConnection connection);
+    parameters:
+    - id: connection
+      type: CoreWCF.Channels.Framing.FramingConnection
+    return:
+      type: Task
+    content.vb: Public Delegate Function HandshakeDelegate(connection As FramingConnection) As Task
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: CoreWCF.Channels.Framing.FramingConnection
+  commentId: T:CoreWCF.Channels.Framing.FramingConnection
+  parent: CoreWCF.Channels.Framing
+  name: FramingConnection
+  nameWithType: FramingConnection
+  fullName: CoreWCF.Channels.Framing.FramingConnection
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task
+- uid: CoreWCF.Channels.Framing
+  commentId: N:CoreWCF.Channels.Framing
+  name: CoreWCF.Channels.Framing
+  nameWithType: CoreWCF.Channels.Framing
+  fullName: CoreWCF.Channels.Framing

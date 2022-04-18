@@ -1,0 +1,234 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.BasicHttpSecurity
+  commentId: T:CoreWCF.BasicHttpSecurity
+  id: BasicHttpSecurity
+  parent: CoreWCF
+  children:
+  - CoreWCF.BasicHttpSecurity.#ctor
+  - CoreWCF.BasicHttpSecurity.Message
+  - CoreWCF.BasicHttpSecurity.Mode
+  - CoreWCF.BasicHttpSecurity.Transport
+  langs:
+  - csharp
+  - vb
+  name: BasicHttpSecurity
+  nameWithType: BasicHttpSecurity
+  fullName: CoreWCF.BasicHttpSecurity
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/BasicHttpSecurity.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: BasicHttpSecurity
+    path: src/CoreWCF.Http/src/CoreWCF/BasicHttpSecurity.cs
+    startLine: 9
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF
+  syntax:
+    content: 'public sealed class BasicHttpSecurity : object'
+    content.vb: >-
+      Public NotInheritable Class BasicHttpSecurity
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: CoreWCF.BasicHttpSecurity.#ctor
+  commentId: M:CoreWCF.BasicHttpSecurity.#ctor
+  id: '#ctor'
+  parent: CoreWCF.BasicHttpSecurity
+  langs:
+  - csharp
+  - vb
+  name: BasicHttpSecurity()
+  nameWithType: BasicHttpSecurity.BasicHttpSecurity()
+  fullName: CoreWCF.BasicHttpSecurity.BasicHttpSecurity()
+  type: Constructor
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/BasicHttpSecurity.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: .ctor
+    path: src/CoreWCF.Http/src/CoreWCF/BasicHttpSecurity.cs
+    startLine: 16
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF
+  syntax:
+    content: public BasicHttpSecurity()
+    content.vb: Public Sub New
+  overload: CoreWCF.BasicHttpSecurity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.BasicHttpSecurity.Mode
+  commentId: P:CoreWCF.BasicHttpSecurity.Mode
+  id: Mode
+  parent: CoreWCF.BasicHttpSecurity
+  langs:
+  - csharp
+  - vb
+  name: Mode
+  nameWithType: BasicHttpSecurity.Mode
+  fullName: CoreWCF.BasicHttpSecurity.Mode
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/BasicHttpSecurity.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Mode
+    path: src/CoreWCF.Http/src/CoreWCF/BasicHttpSecurity.cs
+    startLine: 34
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF
+  syntax:
+    content: public BasicHttpSecurityMode Mode { get; set; }
+    parameters: []
+    return:
+      type: CoreWCF.Channels.BasicHttpSecurityMode
+    content.vb: Public Property Mode As BasicHttpSecurityMode
+  overload: CoreWCF.BasicHttpSecurity.Mode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.BasicHttpSecurity.Transport
+  commentId: P:CoreWCF.BasicHttpSecurity.Transport
+  id: Transport
+  parent: CoreWCF.BasicHttpSecurity
+  langs:
+  - csharp
+  - vb
+  name: Transport
+  nameWithType: BasicHttpSecurity.Transport
+  fullName: CoreWCF.BasicHttpSecurity.Transport
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/BasicHttpSecurity.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Transport
+    path: src/CoreWCF.Http/src/CoreWCF/BasicHttpSecurity.cs
+    startLine: 48
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF
+  syntax:
+    content: public HttpTransportSecurity Transport { get; set; }
+    parameters: []
+    return:
+      type: CoreWCF.HttpTransportSecurity
+    content.vb: Public Property Transport As HttpTransportSecurity
+  overload: CoreWCF.BasicHttpSecurity.Transport*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.BasicHttpSecurity.Message
+  commentId: P:CoreWCF.BasicHttpSecurity.Message
+  id: Message
+  parent: CoreWCF.BasicHttpSecurity
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: BasicHttpSecurity.Message
+  fullName: CoreWCF.BasicHttpSecurity.Message
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/BasicHttpSecurity.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Message
+    path: src/CoreWCF.Http/src/CoreWCF/BasicHttpSecurity.cs
+    startLine: 54
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF
+  syntax:
+    content: public BasicHttpMessageSecurity Message { get; set; }
+    parameters: []
+    return:
+      type: CoreWCF.BasicHttpMessageSecurity
+    content.vb: Public Property Message As BasicHttpMessageSecurity
+  overload: CoreWCF.BasicHttpSecurity.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CoreWCF
+  commentId: N:CoreWCF
+  name: CoreWCF
+  nameWithType: CoreWCF
+  fullName: CoreWCF
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.BasicHttpSecurity.#ctor*
+  commentId: Overload:CoreWCF.BasicHttpSecurity.#ctor
+  name: BasicHttpSecurity
+  nameWithType: BasicHttpSecurity.BasicHttpSecurity
+  fullName: CoreWCF.BasicHttpSecurity.BasicHttpSecurity
+- uid: CoreWCF.BasicHttpSecurity.Mode*
+  commentId: Overload:CoreWCF.BasicHttpSecurity.Mode
+  name: Mode
+  nameWithType: BasicHttpSecurity.Mode
+  fullName: CoreWCF.BasicHttpSecurity.Mode
+- uid: CoreWCF.Channels.BasicHttpSecurityMode
+  commentId: T:CoreWCF.Channels.BasicHttpSecurityMode
+  parent: CoreWCF.Channels
+  name: BasicHttpSecurityMode
+  nameWithType: BasicHttpSecurityMode
+  fullName: CoreWCF.Channels.BasicHttpSecurityMode
+- uid: CoreWCF.Channels
+  commentId: N:CoreWCF.Channels
+  name: CoreWCF.Channels
+  nameWithType: CoreWCF.Channels
+  fullName: CoreWCF.Channels
+- uid: CoreWCF.BasicHttpSecurity.Transport*
+  commentId: Overload:CoreWCF.BasicHttpSecurity.Transport
+  name: Transport
+  nameWithType: BasicHttpSecurity.Transport
+  fullName: CoreWCF.BasicHttpSecurity.Transport
+- uid: CoreWCF.HttpTransportSecurity
+  commentId: T:CoreWCF.HttpTransportSecurity
+  parent: CoreWCF
+  name: HttpTransportSecurity
+  nameWithType: HttpTransportSecurity
+  fullName: CoreWCF.HttpTransportSecurity
+- uid: CoreWCF.BasicHttpSecurity.Message*
+  commentId: Overload:CoreWCF.BasicHttpSecurity.Message
+  name: Message
+  nameWithType: BasicHttpSecurity.Message
+  fullName: CoreWCF.BasicHttpSecurity.Message
+- uid: CoreWCF.BasicHttpMessageSecurity
+  commentId: T:CoreWCF.BasicHttpMessageSecurity
+  parent: CoreWCF
+  name: BasicHttpMessageSecurity
+  nameWithType: BasicHttpMessageSecurity
+  fullName: CoreWCF.BasicHttpMessageSecurity

@@ -1,0 +1,523 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.StandardBindingElement
+  commentId: T:CoreWCF.Configuration.StandardBindingElement
+  id: StandardBindingElement
+  parent: CoreWCF.Configuration
+  children:
+  - CoreWCF.Configuration.StandardBindingElement.#ctor
+  - CoreWCF.Configuration.StandardBindingElement.#ctor(System.String)
+  - CoreWCF.Configuration.StandardBindingElement.CloseTimeout
+  - CoreWCF.Configuration.StandardBindingElement.CreateBinding
+  - CoreWCF.Configuration.StandardBindingElement.Name
+  - CoreWCF.Configuration.StandardBindingElement.OpenTimeout
+  - CoreWCF.Configuration.StandardBindingElement.ReceiveTimeout
+  - CoreWCF.Configuration.StandardBindingElement.SendTimeout
+  langs:
+  - csharp
+  - vb
+  name: StandardBindingElement
+  nameWithType: StandardBindingElement
+  fullName: CoreWCF.Configuration.StandardBindingElement
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: StandardBindingElement
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElement.cs
+    startLine: 9
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: 'public abstract class StandardBindingElement : ServiceModelConfigurationElement, IDefaultCommunicationTimeouts'
+    content.vb: >-
+      Public MustInherit Class StandardBindingElement
+
+          Inherits ServiceModelConfigurationElement
+
+          Implements IDefaultCommunicationTimeouts
+  inheritance:
+  - System.Object
+  - CoreWCF.Configuration.ServiceModelConfigurationElement
+  derivedClasses:
+  - CoreWCF.Configuration.HttpBindingBaseElement
+  - CoreWCF.Configuration.NetTcpBindingElement
+  - CoreWCF.Configuration.WSHttpBindingBaseElement
+  implements:
+  - CoreWCF.IDefaultCommunicationTimeouts
+  inheritedMembers:
+  - CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,{T})
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: CoreWCF.Configuration.StandardBindingElement.#ctor
+  commentId: M:CoreWCF.Configuration.StandardBindingElement.#ctor
+  id: '#ctor'
+  parent: CoreWCF.Configuration.StandardBindingElement
+  langs:
+  - csharp
+  - vb
+  name: StandardBindingElement()
+  nameWithType: StandardBindingElement.StandardBindingElement()
+  fullName: CoreWCF.Configuration.StandardBindingElement.StandardBindingElement()
+  type: Constructor
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: .ctor
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElement.cs
+    startLine: 11
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: protected StandardBindingElement()
+    content.vb: Protected Sub New
+  overload: CoreWCF.Configuration.StandardBindingElement.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: CoreWCF.Configuration.StandardBindingElement.#ctor(System.String)
+  commentId: M:CoreWCF.Configuration.StandardBindingElement.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: CoreWCF.Configuration.StandardBindingElement
+  langs:
+  - csharp
+  - vb
+  name: StandardBindingElement(String)
+  nameWithType: StandardBindingElement.StandardBindingElement(String)
+  fullName: CoreWCF.Configuration.StandardBindingElement.StandardBindingElement(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: .ctor
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElement.cs
+    startLine: 16
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: protected StandardBindingElement(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Protected Sub New(name As String)
+  overload: CoreWCF.Configuration.StandardBindingElement.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: CoreWCF.Configuration.StandardBindingElement.Name
+  commentId: P:CoreWCF.Configuration.StandardBindingElement.Name
+  id: Name
+  parent: CoreWCF.Configuration.StandardBindingElement
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: StandardBindingElement.Name
+  fullName: CoreWCF.Configuration.StandardBindingElement.Name
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Name
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElement.cs
+    startLine: 24
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: CoreWCF.Configuration.StandardBindingElement.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Configuration.StandardBindingElement.CloseTimeout
+  commentId: P:CoreWCF.Configuration.StandardBindingElement.CloseTimeout
+  id: CloseTimeout
+  parent: CoreWCF.Configuration.StandardBindingElement
+  langs:
+  - csharp
+  - vb
+  name: CloseTimeout
+  nameWithType: StandardBindingElement.CloseTimeout
+  fullName: CoreWCF.Configuration.StandardBindingElement.CloseTimeout
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: CloseTimeout
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElement.cs
+    startLine: 39
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public TimeSpan CloseTimeout { get; set; }
+    parameters: []
+    return:
+      type: TimeSpan
+    content.vb: Public Property CloseTimeout As TimeSpan
+  overload: CoreWCF.Configuration.StandardBindingElement.CloseTimeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Configuration.StandardBindingElement.OpenTimeout
+  commentId: P:CoreWCF.Configuration.StandardBindingElement.OpenTimeout
+  id: OpenTimeout
+  parent: CoreWCF.Configuration.StandardBindingElement
+  langs:
+  - csharp
+  - vb
+  name: OpenTimeout
+  nameWithType: StandardBindingElement.OpenTimeout
+  fullName: CoreWCF.Configuration.StandardBindingElement.OpenTimeout
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: OpenTimeout
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElement.cs
+    startLine: 46
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public TimeSpan OpenTimeout { get; set; }
+    parameters: []
+    return:
+      type: TimeSpan
+    content.vb: Public Property OpenTimeout As TimeSpan
+  overload: CoreWCF.Configuration.StandardBindingElement.OpenTimeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Configuration.StandardBindingElement.ReceiveTimeout
+  commentId: P:CoreWCF.Configuration.StandardBindingElement.ReceiveTimeout
+  id: ReceiveTimeout
+  parent: CoreWCF.Configuration.StandardBindingElement
+  langs:
+  - csharp
+  - vb
+  name: ReceiveTimeout
+  nameWithType: StandardBindingElement.ReceiveTimeout
+  fullName: CoreWCF.Configuration.StandardBindingElement.ReceiveTimeout
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ReceiveTimeout
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElement.cs
+    startLine: 53
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public TimeSpan ReceiveTimeout { get; set; }
+    parameters: []
+    return:
+      type: TimeSpan
+    content.vb: Public Property ReceiveTimeout As TimeSpan
+  overload: CoreWCF.Configuration.StandardBindingElement.ReceiveTimeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Configuration.StandardBindingElement.SendTimeout
+  commentId: P:CoreWCF.Configuration.StandardBindingElement.SendTimeout
+  id: SendTimeout
+  parent: CoreWCF.Configuration.StandardBindingElement
+  langs:
+  - csharp
+  - vb
+  name: SendTimeout
+  nameWithType: StandardBindingElement.SendTimeout
+  fullName: CoreWCF.Configuration.StandardBindingElement.SendTimeout
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: SendTimeout
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElement.cs
+    startLine: 60
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public TimeSpan SendTimeout { get; set; }
+    parameters: []
+    return:
+      type: TimeSpan
+    content.vb: Public Property SendTimeout As TimeSpan
+  overload: CoreWCF.Configuration.StandardBindingElement.SendTimeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.Configuration.StandardBindingElement.CreateBinding
+  commentId: M:CoreWCF.Configuration.StandardBindingElement.CreateBinding
+  id: CreateBinding
+  parent: CoreWCF.Configuration.StandardBindingElement
+  langs:
+  - csharp
+  - vb
+  name: CreateBinding()
+  nameWithType: StandardBindingElement.CreateBinding()
+  fullName: CoreWCF.Configuration.StandardBindingElement.CreateBinding()
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElement.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: CreateBinding
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/StandardBindingElement.cs
+    startLine: 67
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public abstract Binding CreateBinding()
+    return:
+      type: CoreWCF.Channels.Binding
+    content.vb: Public MustOverride Function CreateBinding As Binding
+  overload: CoreWCF.Configuration.StandardBindingElement.CreateBinding*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElement
+  commentId: T:CoreWCF.Configuration.ServiceModelConfigurationElement
+  parent: CoreWCF.Configuration
+  name: ServiceModelConfigurationElement
+  nameWithType: ServiceModelConfigurationElement
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElement
+- uid: CoreWCF.IDefaultCommunicationTimeouts
+  commentId: T:CoreWCF.IDefaultCommunicationTimeouts
+  parent: CoreWCF
+  name: IDefaultCommunicationTimeouts
+  nameWithType: IDefaultCommunicationTimeouts
+  fullName: CoreWCF.IDefaultCommunicationTimeouts
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,{T})
+  commentId: M:CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  parent: CoreWCF.Configuration.ServiceModelConfigurationElement
+  definition: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  name: SetPropertyValueIfNotDefaultValue<T>(String, T)
+  nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>(String, T)
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>(System.String, T)
+  nameWithType.vb: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)(String, T)
+  fullName.vb: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)(System.String, T)
+  name.vb: SetPropertyValueIfNotDefaultValue(Of T)(String, T)
+  spec.csharp:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+    name: SetPropertyValueIfNotDefaultValue<T>
+    nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+    name: SetPropertyValueIfNotDefaultValue(Of T)
+    nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF
+  commentId: N:CoreWCF
+  name: CoreWCF
+  nameWithType: CoreWCF
+  fullName: CoreWCF
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  commentId: M:CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+  isExternal: true
+  name: SetPropertyValueIfNotDefaultValue<T>(String, T)
+  nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>(String, T)
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>(System.String, T)
+  nameWithType.vb: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)(String, T)
+  fullName.vb: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)(System.String, T)
+  name.vb: SetPropertyValueIfNotDefaultValue(Of T)(String, T)
+  spec.csharp:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+    name: SetPropertyValueIfNotDefaultValue<T>
+    nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue``1(System.String,``0)
+    name: SetPropertyValueIfNotDefaultValue(Of T)
+    nameWithType: ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)
+    fullName: CoreWCF.Configuration.ServiceModelConfigurationElement.SetPropertyValueIfNotDefaultValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.StandardBindingElement.#ctor*
+  commentId: Overload:CoreWCF.Configuration.StandardBindingElement.#ctor
+  name: StandardBindingElement
+  nameWithType: StandardBindingElement.StandardBindingElement
+  fullName: CoreWCF.Configuration.StandardBindingElement.StandardBindingElement
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CoreWCF.Configuration.StandardBindingElement.Name*
+  commentId: Overload:CoreWCF.Configuration.StandardBindingElement.Name
+  name: Name
+  nameWithType: StandardBindingElement.Name
+  fullName: CoreWCF.Configuration.StandardBindingElement.Name
+- uid: CoreWCF.Configuration.StandardBindingElement.CloseTimeout*
+  commentId: Overload:CoreWCF.Configuration.StandardBindingElement.CloseTimeout
+  name: CloseTimeout
+  nameWithType: StandardBindingElement.CloseTimeout
+  fullName: CoreWCF.Configuration.StandardBindingElement.CloseTimeout
+- uid: TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: CoreWCF.Configuration.StandardBindingElement.OpenTimeout*
+  commentId: Overload:CoreWCF.Configuration.StandardBindingElement.OpenTimeout
+  name: OpenTimeout
+  nameWithType: StandardBindingElement.OpenTimeout
+  fullName: CoreWCF.Configuration.StandardBindingElement.OpenTimeout
+- uid: CoreWCF.Configuration.StandardBindingElement.ReceiveTimeout*
+  commentId: Overload:CoreWCF.Configuration.StandardBindingElement.ReceiveTimeout
+  name: ReceiveTimeout
+  nameWithType: StandardBindingElement.ReceiveTimeout
+  fullName: CoreWCF.Configuration.StandardBindingElement.ReceiveTimeout
+- uid: CoreWCF.Configuration.StandardBindingElement.SendTimeout*
+  commentId: Overload:CoreWCF.Configuration.StandardBindingElement.SendTimeout
+  name: SendTimeout
+  nameWithType: StandardBindingElement.SendTimeout
+  fullName: CoreWCF.Configuration.StandardBindingElement.SendTimeout
+- uid: CoreWCF.Configuration.StandardBindingElement.CreateBinding*
+  commentId: Overload:CoreWCF.Configuration.StandardBindingElement.CreateBinding
+  name: CreateBinding
+  nameWithType: StandardBindingElement.CreateBinding
+  fullName: CoreWCF.Configuration.StandardBindingElement.CreateBinding
+- uid: CoreWCF.Channels.Binding
+  commentId: T:CoreWCF.Channels.Binding
+  parent: CoreWCF.Channels
+  name: Binding
+  nameWithType: Binding
+  fullName: CoreWCF.Channels.Binding
+- uid: CoreWCF.Channels
+  commentId: N:CoreWCF.Channels
+  name: CoreWCF.Channels
+  nameWithType: CoreWCF.Channels
+  fullName: CoreWCF.Channels

@@ -1,0 +1,138 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.ServiceEndpointElementCollection
+  commentId: T:CoreWCF.Configuration.ServiceEndpointElementCollection
+  id: ServiceEndpointElementCollection
+  parent: CoreWCF.Configuration
+  children:
+  - CoreWCF.Configuration.ServiceEndpointElementCollection.CreateNewElement
+  - CoreWCF.Configuration.ServiceEndpointElementCollection.GetElementKey(ConfigurationElement)
+  langs:
+  - csharp
+  - vb
+  name: ServiceEndpointElementCollection
+  nameWithType: ServiceEndpointElementCollection
+  fullName: CoreWCF.Configuration.ServiceEndpointElementCollection
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceEndpointElementCollection.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ServiceEndpointElementCollection
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceEndpointElementCollection.cs
+    startLine: 7
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: 'public class ServiceEndpointElementCollection : ConfigurationElementCollection'
+    content.vb: >-
+      Public Class ServiceEndpointElementCollection
+
+          Inherits ConfigurationElementCollection
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CoreWCF.Configuration.ServiceEndpointElementCollection.CreateNewElement
+  commentId: M:CoreWCF.Configuration.ServiceEndpointElementCollection.CreateNewElement
+  id: CreateNewElement
+  parent: CoreWCF.Configuration.ServiceEndpointElementCollection
+  langs:
+  - csharp
+  - vb
+  name: CreateNewElement()
+  nameWithType: ServiceEndpointElementCollection.CreateNewElement()
+  fullName: CoreWCF.Configuration.ServiceEndpointElementCollection.CreateNewElement()
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceEndpointElementCollection.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: CreateNewElement
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceEndpointElementCollection.cs
+    startLine: 10
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: protected override ConfigurationElement CreateNewElement()
+    return:
+      type: ConfigurationElement
+    content.vb: Protected Overrides Function CreateNewElement As ConfigurationElement
+  overload: CoreWCF.Configuration.ServiceEndpointElementCollection.CreateNewElement*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: CoreWCF.Configuration.ServiceEndpointElementCollection.GetElementKey(ConfigurationElement)
+  commentId: M:CoreWCF.Configuration.ServiceEndpointElementCollection.GetElementKey(ConfigurationElement)
+  id: GetElementKey(ConfigurationElement)
+  parent: CoreWCF.Configuration.ServiceEndpointElementCollection
+  langs:
+  - csharp
+  - vb
+  name: GetElementKey(ConfigurationElement)
+  nameWithType: ServiceEndpointElementCollection.GetElementKey(ConfigurationElement)
+  fullName: CoreWCF.Configuration.ServiceEndpointElementCollection.GetElementKey(ConfigurationElement)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceEndpointElementCollection.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: GetElementKey
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceEndpointElementCollection.cs
+    startLine: 15
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: protected override object GetElementKey(ConfigurationElement element)
+    parameters:
+    - id: element
+      type: ConfigurationElement
+    return:
+      type: System.Object
+    content.vb: Protected Overrides Function GetElementKey(element As ConfigurationElement) As Object
+  overload: CoreWCF.Configuration.ServiceEndpointElementCollection.GetElementKey*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Configuration.ServiceEndpointElementCollection.CreateNewElement*
+  commentId: Overload:CoreWCF.Configuration.ServiceEndpointElementCollection.CreateNewElement
+  name: CreateNewElement
+  nameWithType: ServiceEndpointElementCollection.CreateNewElement
+  fullName: CoreWCF.Configuration.ServiceEndpointElementCollection.CreateNewElement
+- uid: ConfigurationElement
+  isExternal: true
+  name: ConfigurationElement
+  nameWithType: ConfigurationElement
+  fullName: ConfigurationElement
+- uid: CoreWCF.Configuration.ServiceEndpointElementCollection.GetElementKey*
+  commentId: Overload:CoreWCF.Configuration.ServiceEndpointElementCollection.GetElementKey
+  name: GetElementKey
+  nameWithType: ServiceEndpointElementCollection.GetElementKey
+  fullName: CoreWCF.Configuration.ServiceEndpointElementCollection.GetElementKey

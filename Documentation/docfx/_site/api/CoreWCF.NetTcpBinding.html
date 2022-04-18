@@ -1,0 +1,596 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class NetTcpBinding
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class NetTcpBinding
+   ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CoreWCF.NetTcpBinding">
+  
+  
+  <h1 id="CoreWCF_NetTcpBinding" data-uid="CoreWCF.NetTcpBinding" class="text-break">Class NetTcpBinding
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">CoreWCF.Channels.Binding</span></div>
+    <div class="level2"><span class="xref">NetTcpBinding</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">CoreWCF.IDefaultCommunicationTimeouts</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">CoreWCF.Channels.Binding.CloseTimeout</span>
+    </div>
+    <div>
+      <span class="xref">CoreWCF.Channels.Binding.Name</span>
+    </div>
+    <div>
+      <span class="xref">CoreWCF.Channels.Binding.Namespace</span>
+    </div>
+    <div>
+      <span class="xref">CoreWCF.Channels.Binding.OpenTimeout</span>
+    </div>
+    <div>
+      <span class="xref">CoreWCF.Channels.Binding.ReceiveTimeout</span>
+    </div>
+    <div>
+      <span class="xref">CoreWCF.Channels.Binding.MessageVersion</span>
+    </div>
+    <div>
+      <span class="xref">CoreWCF.Channels.Binding.SendTimeout</span>
+    </div>
+    <div>
+      <span class="xref">CoreWCF.Channels.Binding.CanBuildServiceDispatcher&lt;TChannel&gt;(CoreWCF.Channels.BindingParameterCollection)</span>
+    </div>
+    <div>
+      <span class="xref">CoreWCF.Channels.Binding.BuildServiceDispatcher&lt;TChannel&gt;(CoreWCF.Channels.BindingParameterCollection, CoreWCF.Configuration.IServiceDispatcher)</span>
+    </div>
+    <div>
+      <span class="xref">CoreWCF.Channels.Binding.BuildServiceDispatcher&lt;TChannel&gt;(Uri, CoreWCF.Channels.BindingParameterCollection, CoreWCF.Configuration.IServiceDispatcher)</span>
+    </div>
+    <div>
+      <span class="xref">CoreWCF.Channels.Binding.BuildServiceDispatcher&lt;TChannel&gt;(Uri, System.String, CoreWCF.Channels.BindingParameterCollection, CoreWCF.Configuration.IServiceDispatcher)</span>
+    </div>
+    <div>
+      <span class="xref">CoreWCF.Channels.Binding.GetProperty&lt;T&gt;(CoreWCF.Channels.BindingParameterCollection)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CoreWCF.html">CoreWCF</a></h6>
+  <h6><strong>Assembly</strong>: CoreWCF.NetTcp.dll</h6>
+  <h5 id="CoreWCF_NetTcpBinding_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class NetTcpBinding : Binding, IDefaultCommunicationTimeouts</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/samsp-msft/CoreWCF/new/main/apiSpec/new?filename=CoreWCF_NetTcpBinding__ctor.md&amp;value=---%0Auid%3A%20CoreWCF.NetTcpBinding.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/samsp-msft/CoreWCF/blob/main/src/CoreWCF.NetTcp/src/CoreWCF/NetTcpBinding.cs/#L19">View Source</a>
+  </span>
+  <a id="CoreWCF_NetTcpBinding__ctor_" data-uid="CoreWCF.NetTcpBinding.#ctor*"></a>
+  <h4 id="CoreWCF_NetTcpBinding__ctor" data-uid="CoreWCF.NetTcpBinding.#ctor">NetTcpBinding()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NetTcpBinding()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/samsp-msft/CoreWCF/new/main/apiSpec/new?filename=CoreWCF_NetTcpBinding__ctor_CoreWCF_SecurityMode_.md&amp;value=---%0Auid%3A%20CoreWCF.NetTcpBinding.%23ctor(CoreWCF.SecurityMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/samsp-msft/CoreWCF/blob/main/src/CoreWCF.NetTcp/src/CoreWCF/NetTcpBinding.cs/#L20">View Source</a>
+  </span>
+  <a id="CoreWCF_NetTcpBinding__ctor_" data-uid="CoreWCF.NetTcpBinding.#ctor*"></a>
+  <h4 id="CoreWCF_NetTcpBinding__ctor_CoreWCF_SecurityMode_" data-uid="CoreWCF.NetTcpBinding.#ctor(CoreWCF.SecurityMode)">NetTcpBinding(SecurityMode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NetTcpBinding(SecurityMode securityMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CoreWCF.SecurityMode</span></td>
+        <td><span class="parametername">securityMode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/samsp-msft/CoreWCF/new/main/apiSpec/new?filename=CoreWCF_NetTcpBinding_EnvelopeVersion.md&amp;value=---%0Auid%3A%20CoreWCF.NetTcpBinding.EnvelopeVersion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/samsp-msft/CoreWCF/blob/main/src/CoreWCF.NetTcp/src/CoreWCF/NetTcpBinding.cs/#L102">View Source</a>
+  </span>
+  <a id="CoreWCF_NetTcpBinding_EnvelopeVersion_" data-uid="CoreWCF.NetTcpBinding.EnvelopeVersion*"></a>
+  <h4 id="CoreWCF_NetTcpBinding_EnvelopeVersion" data-uid="CoreWCF.NetTcpBinding.EnvelopeVersion">EnvelopeVersion</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EnvelopeVersion EnvelopeVersion { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CoreWCF.EnvelopeVersion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/samsp-msft/CoreWCF/new/main/apiSpec/new?filename=CoreWCF_NetTcpBinding_HostNameComparisonMode.md&amp;value=---%0Auid%3A%20CoreWCF.NetTcpBinding.HostNameComparisonMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/samsp-msft/CoreWCF/blob/main/src/CoreWCF.NetTcp/src/CoreWCF/NetTcpBinding.cs/#L32">View Source</a>
+  </span>
+  <a id="CoreWCF_NetTcpBinding_HostNameComparisonMode_" data-uid="CoreWCF.NetTcpBinding.HostNameComparisonMode*"></a>
+  <h4 id="CoreWCF_NetTcpBinding_HostNameComparisonMode" data-uid="CoreWCF.NetTcpBinding.HostNameComparisonMode">HostNameComparisonMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HostNameComparisonMode HostNameComparisonMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CoreWCF.HostNameComparisonMode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/samsp-msft/CoreWCF/new/main/apiSpec/new?filename=CoreWCF_NetTcpBinding_ListenBacklog.md&amp;value=---%0Auid%3A%20CoreWCF.NetTcpBinding.ListenBacklog%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/samsp-msft/CoreWCF/blob/main/src/CoreWCF.NetTcp/src/CoreWCF/NetTcpBinding.cs/#L68">View Source</a>
+  </span>
+  <a id="CoreWCF_NetTcpBinding_ListenBacklog_" data-uid="CoreWCF.NetTcpBinding.ListenBacklog*"></a>
+  <h4 id="CoreWCF_NetTcpBinding_ListenBacklog" data-uid="CoreWCF.NetTcpBinding.ListenBacklog">ListenBacklog</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ListenBacklog { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/samsp-msft/CoreWCF/new/main/apiSpec/new?filename=CoreWCF_NetTcpBinding_MaxBufferPoolSize.md&amp;value=---%0Auid%3A%20CoreWCF.NetTcpBinding.MaxBufferPoolSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/samsp-msft/CoreWCF/blob/main/src/CoreWCF.NetTcp/src/CoreWCF/NetTcpBinding.cs/#L38">View Source</a>
+  </span>
+  <a id="CoreWCF_NetTcpBinding_MaxBufferPoolSize_" data-uid="CoreWCF.NetTcpBinding.MaxBufferPoolSize*"></a>
+  <h4 id="CoreWCF_NetTcpBinding_MaxBufferPoolSize" data-uid="CoreWCF.NetTcpBinding.MaxBufferPoolSize">MaxBufferPoolSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long MaxBufferPoolSize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/samsp-msft/CoreWCF/new/main/apiSpec/new?filename=CoreWCF_NetTcpBinding_MaxBufferSize.md&amp;value=---%0Auid%3A%20CoreWCF.NetTcpBinding.MaxBufferSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/samsp-msft/CoreWCF/blob/main/src/CoreWCF.NetTcp/src/CoreWCF/NetTcpBinding.cs/#L48">View Source</a>
+  </span>
+  <a id="CoreWCF_NetTcpBinding_MaxBufferSize_" data-uid="CoreWCF.NetTcpBinding.MaxBufferSize*"></a>
+  <h4 id="CoreWCF_NetTcpBinding_MaxBufferSize" data-uid="CoreWCF.NetTcpBinding.MaxBufferSize">MaxBufferSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MaxBufferSize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/samsp-msft/CoreWCF/new/main/apiSpec/new?filename=CoreWCF_NetTcpBinding_MaxConnections.md&amp;value=---%0Auid%3A%20CoreWCF.NetTcpBinding.MaxConnections%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/samsp-msft/CoreWCF/blob/main/src/CoreWCF.NetTcp/src/CoreWCF/NetTcpBinding.cs/#L54">View Source</a>
+  </span>
+  <a id="CoreWCF_NetTcpBinding_MaxConnections_" data-uid="CoreWCF.NetTcpBinding.MaxConnections*"></a>
+  <h4 id="CoreWCF_NetTcpBinding_MaxConnections" data-uid="CoreWCF.NetTcpBinding.MaxConnections">MaxConnections</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MaxConnections { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/samsp-msft/CoreWCF/new/main/apiSpec/new?filename=CoreWCF_NetTcpBinding_MaxReceivedMessageSize.md&amp;value=---%0Auid%3A%20CoreWCF.NetTcpBinding.MaxReceivedMessageSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/samsp-msft/CoreWCF/blob/main/src/CoreWCF.NetTcp/src/CoreWCF/NetTcpBinding.cs/#L74">View Source</a>
+  </span>
+  <a id="CoreWCF_NetTcpBinding_MaxReceivedMessageSize_" data-uid="CoreWCF.NetTcpBinding.MaxReceivedMessageSize*"></a>
+  <h4 id="CoreWCF_NetTcpBinding_MaxReceivedMessageSize" data-uid="CoreWCF.NetTcpBinding.MaxReceivedMessageSize">MaxReceivedMessageSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long MaxReceivedMessageSize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/samsp-msft/CoreWCF/new/main/apiSpec/new?filename=CoreWCF_NetTcpBinding_ReaderQuotas.md&amp;value=---%0Auid%3A%20CoreWCF.NetTcpBinding.ReaderQuotas%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/samsp-msft/CoreWCF/blob/main/src/CoreWCF.NetTcp/src/CoreWCF/NetTcpBinding.cs/#L80">View Source</a>
+  </span>
+  <a id="CoreWCF_NetTcpBinding_ReaderQuotas_" data-uid="CoreWCF.NetTcpBinding.ReaderQuotas*"></a>
+  <h4 id="CoreWCF_NetTcpBinding_ReaderQuotas" data-uid="CoreWCF.NetTcpBinding.ReaderQuotas">ReaderQuotas</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XmlDictionaryReaderQuotas ReaderQuotas { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XmlDictionaryReaderQuotas</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/samsp-msft/CoreWCF/new/main/apiSpec/new?filename=CoreWCF_NetTcpBinding_Scheme.md&amp;value=---%0Auid%3A%20CoreWCF.NetTcpBinding.Scheme%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/samsp-msft/CoreWCF/blob/main/src/CoreWCF.NetTcp/src/CoreWCF/NetTcpBinding.cs/#L100">View Source</a>
+  </span>
+  <a id="CoreWCF_NetTcpBinding_Scheme_" data-uid="CoreWCF.NetTcpBinding.Scheme*"></a>
+  <h4 id="CoreWCF_NetTcpBinding_Scheme" data-uid="CoreWCF.NetTcpBinding.Scheme">Scheme</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string Scheme { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">CoreWCF.Channels.Binding.Scheme</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/samsp-msft/CoreWCF/new/main/apiSpec/new?filename=CoreWCF_NetTcpBinding_Security.md&amp;value=---%0Auid%3A%20CoreWCF.NetTcpBinding.Security%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/samsp-msft/CoreWCF/blob/main/src/CoreWCF.NetTcp/src/CoreWCF/NetTcpBinding.cs/#L119">View Source</a>
+  </span>
+  <a id="CoreWCF_NetTcpBinding_Security_" data-uid="CoreWCF.NetTcpBinding.Security*"></a>
+  <h4 id="CoreWCF_NetTcpBinding_Security" data-uid="CoreWCF.NetTcpBinding.Security">Security</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NetTcpSecurity Security { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CoreWCF.NetTcpSecurity.html">NetTcpSecurity</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/samsp-msft/CoreWCF/new/main/apiSpec/new?filename=CoreWCF_NetTcpBinding_TransferMode.md&amp;value=---%0Auid%3A%20CoreWCF.NetTcpBinding.TransferMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/samsp-msft/CoreWCF/blob/main/src/CoreWCF.NetTcp/src/CoreWCF/NetTcpBinding.cs/#L26">View Source</a>
+  </span>
+  <a id="CoreWCF_NetTcpBinding_TransferMode_" data-uid="CoreWCF.NetTcpBinding.TransferMode*"></a>
+  <h4 id="CoreWCF_NetTcpBinding_TransferMode" data-uid="CoreWCF.NetTcpBinding.TransferMode">TransferMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TransferMode TransferMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CoreWCF.TransferMode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/samsp-msft/CoreWCF/new/main/apiSpec/new?filename=CoreWCF_NetTcpBinding_CreateBindingElements.md&amp;value=---%0Auid%3A%20CoreWCF.NetTcpBinding.CreateBindingElements%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/samsp-msft/CoreWCF/blob/main/src/CoreWCF.NetTcp/src/CoreWCF/NetTcpBinding.cs/#L134">View Source</a>
+  </span>
+  <a id="CoreWCF_NetTcpBinding_CreateBindingElements_" data-uid="CoreWCF.NetTcpBinding.CreateBindingElements*"></a>
+  <h4 id="CoreWCF_NetTcpBinding_CreateBindingElements" data-uid="CoreWCF.NetTcpBinding.CreateBindingElements">CreateBindingElements()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override BindingElementCollection CreateBindingElements()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CoreWCF.Channels.BindingElementCollection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">CoreWCF.Channels.Binding.CreateBindingElements()</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">CoreWCF.IDefaultCommunicationTimeouts</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/samsp-msft/CoreWCF/new/main/apiSpec/new?filename=CoreWCF_NetTcpBinding.md&amp;value=---%0Auid%3A%20CoreWCF.NetTcpBinding%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/samsp-msft/CoreWCF/blob/main/src/CoreWCF.NetTcp/src/CoreWCF/NetTcpBinding.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

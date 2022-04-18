@@ -1,0 +1,348 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.IConfigurationHolder
+  commentId: T:CoreWCF.Configuration.IConfigurationHolder
+  id: IConfigurationHolder
+  parent: CoreWCF.Configuration
+  children:
+  - CoreWCF.Configuration.IConfigurationHolder.AddBinding(CoreWCF.Channels.Binding)
+  - CoreWCF.Configuration.IConfigurationHolder.AddServiceEndpoint(System.String,System.String,Uri,System.String,System.String,System.String)
+  - CoreWCF.Configuration.IConfigurationHolder.Endpoints
+  - CoreWCF.Configuration.IConfigurationHolder.GetXmlConfigEndpoint(CoreWCF.Configuration.ServiceEndpoint)
+  - CoreWCF.Configuration.IConfigurationHolder.ResolveBinding(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IConfigurationHolder
+  nameWithType: IConfigurationHolder
+  fullName: CoreWCF.Configuration.IConfigurationHolder
+  type: Interface
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/IConfigurationHolder.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: IConfigurationHolder
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/IConfigurationHolder.cs
+    startLine: 10
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: public interface IConfigurationHolder
+    content.vb: Public Interface IConfigurationHolder
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CoreWCF.Configuration.IConfigurationHolder.Endpoints
+  commentId: P:CoreWCF.Configuration.IConfigurationHolder.Endpoints
+  id: Endpoints
+  parent: CoreWCF.Configuration.IConfigurationHolder
+  langs:
+  - csharp
+  - vb
+  name: Endpoints
+  nameWithType: IConfigurationHolder.Endpoints
+  fullName: CoreWCF.Configuration.IConfigurationHolder.Endpoints
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/IConfigurationHolder.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: Endpoints
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/IConfigurationHolder.cs
+    startLine: 12
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: ISet<ServiceEndpoint> Endpoints { get; }
+    parameters: []
+    return:
+      type: ISet{CoreWCF.Configuration.ServiceEndpoint}
+    content.vb: ReadOnly Property Endpoints As ISet(Of ServiceEndpoint)
+  overload: CoreWCF.Configuration.IConfigurationHolder.Endpoints*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: CoreWCF.Configuration.IConfigurationHolder.AddBinding(CoreWCF.Channels.Binding)
+  commentId: M:CoreWCF.Configuration.IConfigurationHolder.AddBinding(CoreWCF.Channels.Binding)
+  id: AddBinding(CoreWCF.Channels.Binding)
+  parent: CoreWCF.Configuration.IConfigurationHolder
+  langs:
+  - csharp
+  - vb
+  name: AddBinding(Binding)
+  nameWithType: IConfigurationHolder.AddBinding(Binding)
+  fullName: CoreWCF.Configuration.IConfigurationHolder.AddBinding(CoreWCF.Channels.Binding)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/IConfigurationHolder.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: AddBinding
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/IConfigurationHolder.cs
+    startLine: 13
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: void AddBinding(Binding binding)
+    parameters:
+    - id: binding
+      type: CoreWCF.Channels.Binding
+    content.vb: Sub AddBinding(binding As Binding)
+  overload: CoreWCF.Configuration.IConfigurationHolder.AddBinding*
+- uid: CoreWCF.Configuration.IConfigurationHolder.AddServiceEndpoint(System.String,System.String,Uri,System.String,System.String,System.String)
+  commentId: M:CoreWCF.Configuration.IConfigurationHolder.AddServiceEndpoint(System.String,System.String,Uri,System.String,System.String,System.String)
+  id: AddServiceEndpoint(System.String,System.String,Uri,System.String,System.String,System.String)
+  parent: CoreWCF.Configuration.IConfigurationHolder
+  langs:
+  - csharp
+  - vb
+  name: AddServiceEndpoint(String, String, Uri, String, String, String)
+  nameWithType: IConfigurationHolder.AddServiceEndpoint(String, String, Uri, String, String, String)
+  fullName: CoreWCF.Configuration.IConfigurationHolder.AddServiceEndpoint(System.String, System.String, Uri, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/IConfigurationHolder.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: AddServiceEndpoint
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/IConfigurationHolder.cs
+    startLine: 14
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: void AddServiceEndpoint(string name, string serviceName, Uri address, string contract, string bindingType, string bindingName)
+    parameters:
+    - id: name
+      type: System.String
+    - id: serviceName
+      type: System.String
+    - id: address
+      type: Uri
+    - id: contract
+      type: System.String
+    - id: bindingType
+      type: System.String
+    - id: bindingName
+      type: System.String
+    content.vb: Sub AddServiceEndpoint(name As String, serviceName As String, address As Uri, contract As String, bindingType As String, bindingName As String)
+  overload: CoreWCF.Configuration.IConfigurationHolder.AddServiceEndpoint*
+- uid: CoreWCF.Configuration.IConfigurationHolder.ResolveBinding(System.String,System.String)
+  commentId: M:CoreWCF.Configuration.IConfigurationHolder.ResolveBinding(System.String,System.String)
+  id: ResolveBinding(System.String,System.String)
+  parent: CoreWCF.Configuration.IConfigurationHolder
+  langs:
+  - csharp
+  - vb
+  name: ResolveBinding(String, String)
+  nameWithType: IConfigurationHolder.ResolveBinding(String, String)
+  fullName: CoreWCF.Configuration.IConfigurationHolder.ResolveBinding(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/IConfigurationHolder.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ResolveBinding
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/IConfigurationHolder.cs
+    startLine: 15
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: Binding ResolveBinding(string bindingType, string name)
+    parameters:
+    - id: bindingType
+      type: System.String
+    - id: name
+      type: System.String
+    return:
+      type: CoreWCF.Channels.Binding
+    content.vb: Function ResolveBinding(bindingType As String, name As String) As Binding
+  overload: CoreWCF.Configuration.IConfigurationHolder.ResolveBinding*
+- uid: CoreWCF.Configuration.IConfigurationHolder.GetXmlConfigEndpoint(CoreWCF.Configuration.ServiceEndpoint)
+  commentId: M:CoreWCF.Configuration.IConfigurationHolder.GetXmlConfigEndpoint(CoreWCF.Configuration.ServiceEndpoint)
+  id: GetXmlConfigEndpoint(CoreWCF.Configuration.ServiceEndpoint)
+  parent: CoreWCF.Configuration.IConfigurationHolder
+  langs:
+  - csharp
+  - vb
+  name: GetXmlConfigEndpoint(ServiceEndpoint)
+  nameWithType: IConfigurationHolder.GetXmlConfigEndpoint(ServiceEndpoint)
+  fullName: CoreWCF.Configuration.IConfigurationHolder.GetXmlConfigEndpoint(CoreWCF.Configuration.ServiceEndpoint)
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/IConfigurationHolder.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: GetXmlConfigEndpoint
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/IConfigurationHolder.cs
+    startLine: 16
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: IXmlConfigEndpoint GetXmlConfigEndpoint(ServiceEndpoint endPoint)
+    parameters:
+    - id: endPoint
+      type: CoreWCF.Configuration.ServiceEndpoint
+    return:
+      type: CoreWCF.Configuration.IXmlConfigEndpoint
+    content.vb: Function GetXmlConfigEndpoint(endPoint As ServiceEndpoint) As IXmlConfigEndpoint
+  overload: CoreWCF.Configuration.IConfigurationHolder.GetXmlConfigEndpoint*
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: CoreWCF.Configuration.IConfigurationHolder.Endpoints*
+  commentId: Overload:CoreWCF.Configuration.IConfigurationHolder.Endpoints
+  name: Endpoints
+  nameWithType: IConfigurationHolder.Endpoints
+  fullName: CoreWCF.Configuration.IConfigurationHolder.Endpoints
+- uid: ISet{CoreWCF.Configuration.ServiceEndpoint}
+  commentId: '!:ISet{CoreWCF.Configuration.ServiceEndpoint}'
+  definition: ISet`1
+  name: ISet<ServiceEndpoint>
+  nameWithType: ISet<ServiceEndpoint>
+  fullName: ISet<CoreWCF.Configuration.ServiceEndpoint>
+  nameWithType.vb: ISet(Of ServiceEndpoint)
+  fullName.vb: ISet(Of CoreWCF.Configuration.ServiceEndpoint)
+  name.vb: ISet(Of ServiceEndpoint)
+  spec.csharp:
+  - uid: ISet`1
+    name: ISet
+    nameWithType: ISet
+    fullName: ISet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CoreWCF.Configuration.ServiceEndpoint
+    name: ServiceEndpoint
+    nameWithType: ServiceEndpoint
+    fullName: CoreWCF.Configuration.ServiceEndpoint
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISet`1
+    name: ISet
+    nameWithType: ISet
+    fullName: ISet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CoreWCF.Configuration.ServiceEndpoint
+    name: ServiceEndpoint
+    nameWithType: ServiceEndpoint
+    fullName: CoreWCF.Configuration.ServiceEndpoint
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ISet`1
+  commentId: '!:ISet`1'
+  isExternal: true
+  name: ISet<>
+  nameWithType: ISet<>
+  fullName: ISet<>
+  nameWithType.vb: ISet(Of )
+  fullName.vb: ISet(Of )
+  name.vb: ISet(Of )
+  spec.csharp:
+  - uid: ISet`1
+    name: ISet
+    nameWithType: ISet
+    fullName: ISet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISet`1
+    name: ISet
+    nameWithType: ISet
+    fullName: ISet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CoreWCF.Configuration.IConfigurationHolder.AddBinding*
+  commentId: Overload:CoreWCF.Configuration.IConfigurationHolder.AddBinding
+  name: AddBinding
+  nameWithType: IConfigurationHolder.AddBinding
+  fullName: CoreWCF.Configuration.IConfigurationHolder.AddBinding
+- uid: CoreWCF.Channels.Binding
+  commentId: T:CoreWCF.Channels.Binding
+  parent: CoreWCF.Channels
+  name: Binding
+  nameWithType: Binding
+  fullName: CoreWCF.Channels.Binding
+- uid: CoreWCF.Channels
+  commentId: N:CoreWCF.Channels
+  name: CoreWCF.Channels
+  nameWithType: CoreWCF.Channels
+  fullName: CoreWCF.Channels
+- uid: CoreWCF.Configuration.IConfigurationHolder.AddServiceEndpoint*
+  commentId: Overload:CoreWCF.Configuration.IConfigurationHolder.AddServiceEndpoint
+  name: AddServiceEndpoint
+  nameWithType: IConfigurationHolder.AddServiceEndpoint
+  fullName: CoreWCF.Configuration.IConfigurationHolder.AddServiceEndpoint
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Uri
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: Uri
+- uid: CoreWCF.Configuration.IConfigurationHolder.ResolveBinding*
+  commentId: Overload:CoreWCF.Configuration.IConfigurationHolder.ResolveBinding
+  name: ResolveBinding
+  nameWithType: IConfigurationHolder.ResolveBinding
+  fullName: CoreWCF.Configuration.IConfigurationHolder.ResolveBinding
+- uid: CoreWCF.Configuration.IConfigurationHolder.GetXmlConfigEndpoint*
+  commentId: Overload:CoreWCF.Configuration.IConfigurationHolder.GetXmlConfigEndpoint
+  name: GetXmlConfigEndpoint
+  nameWithType: IConfigurationHolder.GetXmlConfigEndpoint
+  fullName: CoreWCF.Configuration.IConfigurationHolder.GetXmlConfigEndpoint
+- uid: CoreWCF.Configuration.ServiceEndpoint
+  commentId: T:CoreWCF.Configuration.ServiceEndpoint
+  parent: CoreWCF.Configuration
+  name: ServiceEndpoint
+  nameWithType: ServiceEndpoint
+  fullName: CoreWCF.Configuration.ServiceEndpoint
+- uid: CoreWCF.Configuration.IXmlConfigEndpoint
+  commentId: T:CoreWCF.Configuration.IXmlConfigEndpoint
+  parent: CoreWCF.Configuration
+  name: IXmlConfigEndpoint
+  nameWithType: IXmlConfigEndpoint
+  fullName: CoreWCF.Configuration.IXmlConfigEndpoint

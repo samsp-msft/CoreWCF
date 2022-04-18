@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1
+  commentId: T:CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1
+  id: ServiceModelConfigurationElementCollection`1
+  parent: CoreWCF.Configuration
+  children:
+  - CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1.CreateNewElement
+  langs:
+  - csharp
+  - vb
+  name: ServiceModelConfigurationElementCollection<ConfigurationElementType>
+  nameWithType: ServiceModelConfigurationElementCollection<ConfigurationElementType>
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElementCollection<ConfigurationElementType>
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceModelConfigurationElementCollection.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ServiceModelConfigurationElementCollection
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceModelConfigurationElementCollection.cs
+    startLine: 9
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: 'public abstract class ServiceModelConfigurationElementCollection<ConfigurationElementType> : ConfigurationElementCollection where ConfigurationElementType : ConfigurationElement, new()'
+    typeParameters:
+    - id: ConfigurationElementType
+    content.vb: >-
+      Public MustInherit Class ServiceModelConfigurationElementCollection(Of ConfigurationElementType As {ConfigurationElement, New})
+
+          Inherits ConfigurationElementCollection
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - CoreWCF.Configuration.ServiceModelEnhancedConfigurationElementCollection`1
+  nameWithType.vb: ServiceModelConfigurationElementCollection(Of ConfigurationElementType)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: CoreWCF.Configuration.ServiceModelConfigurationElementCollection(Of ConfigurationElementType)
+  name.vb: ServiceModelConfigurationElementCollection(Of ConfigurationElementType)
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1.CreateNewElement
+  commentId: M:CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1.CreateNewElement
+  id: CreateNewElement
+  parent: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1
+  langs:
+  - csharp
+  - vb
+  name: CreateNewElement()
+  nameWithType: ServiceModelConfigurationElementCollection<ConfigurationElementType>.CreateNewElement()
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElementCollection<ConfigurationElementType>.CreateNewElement()
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceModelConfigurationElementCollection.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: CreateNewElement
+    path: src/CoreWCF.ConfigurationManager/src/CoreWCF/Configuration/ServiceModelConfigurationElementCollection.cs
+    startLine: 30
+  assemblies:
+  - CoreWCF.ConfigurationManager
+  namespace: CoreWCF.Configuration
+  syntax:
+    content: protected override ConfigurationElement CreateNewElement()
+    return:
+      type: ConfigurationElement
+    content.vb: Protected Overrides Function CreateNewElement As ConfigurationElement
+  overload: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1.CreateNewElement*
+  nameWithType.vb: ServiceModelConfigurationElementCollection(Of ConfigurationElementType).CreateNewElement()
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+  fullName.vb: CoreWCF.Configuration.ServiceModelConfigurationElementCollection(Of ConfigurationElementType).CreateNewElement()
+references:
+- uid: CoreWCF.Configuration
+  commentId: N:CoreWCF.Configuration
+  name: CoreWCF.Configuration
+  nameWithType: CoreWCF.Configuration
+  fullName: CoreWCF.Configuration
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1.CreateNewElement*
+  commentId: Overload:CoreWCF.Configuration.ServiceModelConfigurationElementCollection`1.CreateNewElement
+  name: CreateNewElement
+  nameWithType: ServiceModelConfigurationElementCollection<ConfigurationElementType>.CreateNewElement
+  fullName: CoreWCF.Configuration.ServiceModelConfigurationElementCollection<ConfigurationElementType>.CreateNewElement
+  nameWithType.vb: ServiceModelConfigurationElementCollection(Of ConfigurationElementType).CreateNewElement
+  fullName.vb: CoreWCF.Configuration.ServiceModelConfigurationElementCollection(Of ConfigurationElementType).CreateNewElement
+- uid: ConfigurationElement
+  isExternal: true
+  name: ConfigurationElement
+  nameWithType: ConfigurationElement
+  fullName: ConfigurationElement

@@ -1,0 +1,96 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.Channels.BasicHttpBindingDefaults
+  commentId: T:CoreWCF.Channels.BasicHttpBindingDefaults
+  id: BasicHttpBindingDefaults
+  parent: CoreWCF.Channels
+  children:
+  - CoreWCF.Channels.BasicHttpBindingDefaults.MessageEncoding
+  langs:
+  - csharp
+  - vb
+  name: BasicHttpBindingDefaults
+  nameWithType: BasicHttpBindingDefaults
+  fullName: CoreWCF.Channels.BasicHttpBindingDefaults
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/TransportDefaults.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: BasicHttpBindingDefaults
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/TransportDefaults.cs
+    startLine: 16
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: 'public static class BasicHttpBindingDefaults : object'
+    content.vb: >-
+      Public Module BasicHttpBindingDefaults
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: CoreWCF.Channels.BasicHttpBindingDefaults.MessageEncoding
+  commentId: F:CoreWCF.Channels.BasicHttpBindingDefaults.MessageEncoding
+  id: MessageEncoding
+  parent: CoreWCF.Channels.BasicHttpBindingDefaults
+  langs:
+  - csharp
+  - vb
+  name: MessageEncoding
+  nameWithType: BasicHttpBindingDefaults.MessageEncoding
+  fullName: CoreWCF.Channels.BasicHttpBindingDefaults.MessageEncoding
+  type: Field
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/Channels/TransportDefaults.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: MessageEncoding
+    path: src/CoreWCF.Http/src/CoreWCF/Channels/TransportDefaults.cs
+    startLine: 18
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF.Channels
+  syntax:
+    content: public const WSMessageEncoding MessageEncoding = default(WSMessageEncoding)
+    return:
+      type: CoreWCF.WSMessageEncoding
+    content.vb: Public Const MessageEncoding As WSMessageEncoding = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CoreWCF.Channels
+  commentId: N:CoreWCF.Channels
+  name: CoreWCF.Channels
+  nameWithType: CoreWCF.Channels
+  fullName: CoreWCF.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.WSMessageEncoding
+  commentId: T:CoreWCF.WSMessageEncoding
+  parent: CoreWCF
+  name: WSMessageEncoding
+  nameWithType: WSMessageEncoding
+  fullName: CoreWCF.WSMessageEncoding
+- uid: CoreWCF
+  commentId: N:CoreWCF
+  name: CoreWCF
+  nameWithType: CoreWCF
+  fullName: CoreWCF

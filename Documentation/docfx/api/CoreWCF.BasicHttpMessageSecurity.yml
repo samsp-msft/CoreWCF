@@ -1,0 +1,268 @@
+### YamlMime:ManagedReference
+items:
+- uid: CoreWCF.BasicHttpMessageSecurity
+  commentId: T:CoreWCF.BasicHttpMessageSecurity
+  id: BasicHttpMessageSecurity
+  parent: CoreWCF
+  children:
+  - CoreWCF.BasicHttpMessageSecurity.#ctor
+  - CoreWCF.BasicHttpMessageSecurity.AlgorithmSuite
+  - CoreWCF.BasicHttpMessageSecurity.ClientCredentialType
+  - CoreWCF.BasicHttpMessageSecurity.ShouldSerializeAlgorithmSuite
+  - CoreWCF.BasicHttpMessageSecurity.ShouldSerializeClientCredentialType
+  langs:
+  - csharp
+  - vb
+  name: BasicHttpMessageSecurity
+  nameWithType: BasicHttpMessageSecurity
+  fullName: CoreWCF.BasicHttpMessageSecurity
+  type: Class
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/BasicHttpMessageSecurity.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: BasicHttpMessageSecurity
+    path: src/CoreWCF.Http/src/CoreWCF/BasicHttpMessageSecurity.cs
+    startLine: 12
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF
+  syntax:
+    content: 'public sealed class BasicHttpMessageSecurity : object'
+    content.vb: >-
+      Public NotInheritable Class BasicHttpMessageSecurity
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: CoreWCF.BasicHttpMessageSecurity.#ctor
+  commentId: M:CoreWCF.BasicHttpMessageSecurity.#ctor
+  id: '#ctor'
+  parent: CoreWCF.BasicHttpMessageSecurity
+  langs:
+  - csharp
+  - vb
+  name: BasicHttpMessageSecurity()
+  nameWithType: BasicHttpMessageSecurity.BasicHttpMessageSecurity()
+  fullName: CoreWCF.BasicHttpMessageSecurity.BasicHttpMessageSecurity()
+  type: Constructor
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/BasicHttpMessageSecurity.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: .ctor
+    path: src/CoreWCF.Http/src/CoreWCF/BasicHttpMessageSecurity.cs
+    startLine: 18
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF
+  syntax:
+    content: public BasicHttpMessageSecurity()
+    content.vb: Public Sub New
+  overload: CoreWCF.BasicHttpMessageSecurity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.BasicHttpMessageSecurity.ClientCredentialType
+  commentId: P:CoreWCF.BasicHttpMessageSecurity.ClientCredentialType
+  id: ClientCredentialType
+  parent: CoreWCF.BasicHttpMessageSecurity
+  langs:
+  - csharp
+  - vb
+  name: ClientCredentialType
+  nameWithType: BasicHttpMessageSecurity.ClientCredentialType
+  fullName: CoreWCF.BasicHttpMessageSecurity.ClientCredentialType
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/BasicHttpMessageSecurity.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ClientCredentialType
+    path: src/CoreWCF.Http/src/CoreWCF/BasicHttpMessageSecurity.cs
+    startLine: 24
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF
+  syntax:
+    content: public BasicHttpMessageCredentialType ClientCredentialType { get; set; }
+    parameters: []
+    return:
+      type: CoreWCF.BasicHttpMessageCredentialType
+    content.vb: Public Property ClientCredentialType As BasicHttpMessageCredentialType
+  overload: CoreWCF.BasicHttpMessageSecurity.ClientCredentialType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.BasicHttpMessageSecurity.AlgorithmSuite
+  commentId: P:CoreWCF.BasicHttpMessageSecurity.AlgorithmSuite
+  id: AlgorithmSuite
+  parent: CoreWCF.BasicHttpMessageSecurity
+  langs:
+  - csharp
+  - vb
+  name: AlgorithmSuite
+  nameWithType: BasicHttpMessageSecurity.AlgorithmSuite
+  fullName: CoreWCF.BasicHttpMessageSecurity.AlgorithmSuite
+  type: Property
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/BasicHttpMessageSecurity.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: AlgorithmSuite
+    path: src/CoreWCF.Http/src/CoreWCF/BasicHttpMessageSecurity.cs
+    startLine: 37
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF
+  syntax:
+    content: public SecurityAlgorithmSuite AlgorithmSuite { get; set; }
+    parameters: []
+    return:
+      type: CoreWCF.Security.SecurityAlgorithmSuite
+    content.vb: Public Property AlgorithmSuite As SecurityAlgorithmSuite
+  overload: CoreWCF.BasicHttpMessageSecurity.AlgorithmSuite*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.BasicHttpMessageSecurity.ShouldSerializeAlgorithmSuite
+  commentId: M:CoreWCF.BasicHttpMessageSecurity.ShouldSerializeAlgorithmSuite
+  id: ShouldSerializeAlgorithmSuite
+  parent: CoreWCF.BasicHttpMessageSecurity
+  langs:
+  - csharp
+  - vb
+  name: ShouldSerializeAlgorithmSuite()
+  nameWithType: BasicHttpMessageSecurity.ShouldSerializeAlgorithmSuite()
+  fullName: CoreWCF.BasicHttpMessageSecurity.ShouldSerializeAlgorithmSuite()
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/BasicHttpMessageSecurity.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ShouldSerializeAlgorithmSuite
+    path: src/CoreWCF.Http/src/CoreWCF/BasicHttpMessageSecurity.cs
+    startLine: 96
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF
+  syntax:
+    content: public bool ShouldSerializeAlgorithmSuite()
+    return:
+      type: System.Boolean
+    content.vb: Public Function ShouldSerializeAlgorithmSuite As Boolean
+  overload: CoreWCF.BasicHttpMessageSecurity.ShouldSerializeAlgorithmSuite*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CoreWCF.BasicHttpMessageSecurity.ShouldSerializeClientCredentialType
+  commentId: M:CoreWCF.BasicHttpMessageSecurity.ShouldSerializeClientCredentialType
+  id: ShouldSerializeClientCredentialType
+  parent: CoreWCF.BasicHttpMessageSecurity
+  langs:
+  - csharp
+  - vb
+  name: ShouldSerializeClientCredentialType()
+  nameWithType: BasicHttpMessageSecurity.ShouldSerializeClientCredentialType()
+  fullName: CoreWCF.BasicHttpMessageSecurity.ShouldSerializeClientCredentialType()
+  type: Method
+  source:
+    remote:
+      path: src/CoreWCF.Http/src/CoreWCF/BasicHttpMessageSecurity.cs
+      branch: main
+      repo: https://github.com/samsp-msft/CoreWCF.git
+    id: ShouldSerializeClientCredentialType
+    path: src/CoreWCF.Http/src/CoreWCF/BasicHttpMessageSecurity.cs
+    startLine: 102
+  assemblies:
+  - CoreWCF.Http
+  namespace: CoreWCF
+  syntax:
+    content: public bool ShouldSerializeClientCredentialType()
+    return:
+      type: System.Boolean
+    content.vb: Public Function ShouldSerializeClientCredentialType As Boolean
+  overload: CoreWCF.BasicHttpMessageSecurity.ShouldSerializeClientCredentialType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CoreWCF
+  commentId: N:CoreWCF
+  name: CoreWCF
+  nameWithType: CoreWCF
+  fullName: CoreWCF
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CoreWCF.BasicHttpMessageSecurity.#ctor*
+  commentId: Overload:CoreWCF.BasicHttpMessageSecurity.#ctor
+  name: BasicHttpMessageSecurity
+  nameWithType: BasicHttpMessageSecurity.BasicHttpMessageSecurity
+  fullName: CoreWCF.BasicHttpMessageSecurity.BasicHttpMessageSecurity
+- uid: CoreWCF.BasicHttpMessageSecurity.ClientCredentialType*
+  commentId: Overload:CoreWCF.BasicHttpMessageSecurity.ClientCredentialType
+  name: ClientCredentialType
+  nameWithType: BasicHttpMessageSecurity.ClientCredentialType
+  fullName: CoreWCF.BasicHttpMessageSecurity.ClientCredentialType
+- uid: CoreWCF.BasicHttpMessageCredentialType
+  commentId: T:CoreWCF.BasicHttpMessageCredentialType
+  parent: CoreWCF
+  name: BasicHttpMessageCredentialType
+  nameWithType: BasicHttpMessageCredentialType
+  fullName: CoreWCF.BasicHttpMessageCredentialType
+- uid: CoreWCF.BasicHttpMessageSecurity.AlgorithmSuite*
+  commentId: Overload:CoreWCF.BasicHttpMessageSecurity.AlgorithmSuite
+  name: AlgorithmSuite
+  nameWithType: BasicHttpMessageSecurity.AlgorithmSuite
+  fullName: CoreWCF.BasicHttpMessageSecurity.AlgorithmSuite
+- uid: CoreWCF.Security.SecurityAlgorithmSuite
+  commentId: T:CoreWCF.Security.SecurityAlgorithmSuite
+  parent: CoreWCF.Security
+  name: SecurityAlgorithmSuite
+  nameWithType: SecurityAlgorithmSuite
+  fullName: CoreWCF.Security.SecurityAlgorithmSuite
+- uid: CoreWCF.Security
+  commentId: N:CoreWCF.Security
+  name: CoreWCF.Security
+  nameWithType: CoreWCF.Security
+  fullName: CoreWCF.Security
+- uid: CoreWCF.BasicHttpMessageSecurity.ShouldSerializeAlgorithmSuite*
+  commentId: Overload:CoreWCF.BasicHttpMessageSecurity.ShouldSerializeAlgorithmSuite
+  name: ShouldSerializeAlgorithmSuite
+  nameWithType: BasicHttpMessageSecurity.ShouldSerializeAlgorithmSuite
+  fullName: CoreWCF.BasicHttpMessageSecurity.ShouldSerializeAlgorithmSuite
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CoreWCF.BasicHttpMessageSecurity.ShouldSerializeClientCredentialType*
+  commentId: Overload:CoreWCF.BasicHttpMessageSecurity.ShouldSerializeClientCredentialType
+  name: ShouldSerializeClientCredentialType
+  nameWithType: BasicHttpMessageSecurity.ShouldSerializeClientCredentialType
+  fullName: CoreWCF.BasicHttpMessageSecurity.ShouldSerializeClientCredentialType
